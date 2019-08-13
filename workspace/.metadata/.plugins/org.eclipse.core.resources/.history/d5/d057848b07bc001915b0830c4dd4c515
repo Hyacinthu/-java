@@ -1,0 +1,14 @@
+package drawpic;
+import java.awt.*;
+import java.awt.event.*;
+
+public class AllListener {
+	ActionListener[] action;
+	FocusListener[] focus;
+	KeyListener[] key;
+	MouseListener[] mouse;
+	MouseMotionListener[] mouseMotion;
+	public AllListener(AllButton b,AllMenu m,AllTool t) {
+		
+	}
+}

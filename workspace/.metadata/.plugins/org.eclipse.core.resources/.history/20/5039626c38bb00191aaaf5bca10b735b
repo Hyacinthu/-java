@@ -1,0 +1,32 @@
+package drawpic;
+import java.awt.*;
+import javax.swing.*;
+
+public class FontTool {
+	JComboBox<String> fontTool;
+	JComboBox<Integer> fontSizeTool;
+	public FontTool() {
+		fontTool = new JComboBox<String>();
+		//获取当前系统内所有可用字体
+		String[] g = GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames();
+		for(int i=0;i<g.length;i++) {
+			fontTool.addItem(g[i]);
+		}
+		for(int i=0;i<100;i++) {
+			fontSizeTool.addItem(2*i);
+		}
+	}
+	public static void main(String[] args) {//用来测试单个程序的代码段,不用时可注释
+		// TODO Auto-generated method stub
+		FontTool button = new FontTool();
+		JFrame frame = new JFrame();
+		Container c = frame.getContentPane();
+		c.setLayout(new BorderLayout());
+		//JPanel p1 = new JPanel(new GridLayout(5,2,5,5));
+		c.add(button.fontTool);
+		c.add(button.fontSizeTool);
+		frame.setSize(1200,700);
+		frame.setVisible(true);
+		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+	}
+}

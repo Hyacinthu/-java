@@ -1,0 +1,7 @@
+package drawpic;
+
+public class AllListener {
+	public AllListener(AllButton b,AllMenu m,AllTool t) {
+		
+	}
+}

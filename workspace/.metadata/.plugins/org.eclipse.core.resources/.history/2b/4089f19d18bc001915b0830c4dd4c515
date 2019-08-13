@@ -1,0 +1,61 @@
+package drawpic;
+import java.awt.*;
+import javax.swing.*;
+
+/**
+ * 
+ * @author ASUS
+ *
+ * @time 下午4:00:15
+ *
+ * @description 对combine进行处理，简化传入frame中的参数个数
+ *
+ */
+
+public class AllPanel {
+	JPanel westPanel,northPanel;
+	JScrollPane centerPanel;//定义三个区
+	public AllPanel() {
+		westPanel = new JPanel(new 	GridLayout(7,2));//七行两列
+		JMenuBar menu = new JMenuBar();
+		menu.setLayout(new FlowLayout(FlowLayout.LEFT));//设置菜单栏属性
+		northPanel = new JPanel(new GridLayout(2,1));
+		AllCombine allCombine = new AllCombine();
+		for(int i=0;i<allCombine.allPenButton.length;i++) {
+			westPanel.add(allCombine.allPenButton[i].button);//添加到西区面板上
+		}
+		for(int i=0;i<allCombine.allMenuMenu.length;i++) {
+			menu.add(allCombine.allMenuMenu[i]);
+		}
+		JPanel[] tools = new JPanel[3];//将北区分为三块
+		//添加字体栏组件
+		tools[0] = new JPanel(new GridLayout(3,2));
+		tools[0].add(allCombine.allToolLabel[3]);
+		tools[0].add(allCombine.allToolButton[3].button);
+		tools[0].add(allCombine.fontToolBox);
+		tools[0].add(allCombine.allToolButton[4].button);
+		tools[0].add(allCombine.fontSizeToolBox);
+		tools[0].add(allCombine.allToolButton[5].button);//为了让显示更舒服，但还没测试
+		//添加大小组件
+		tools[1] = new JPanel(new GridLayout(2,1));
+		tools[1].add(allCombine.allToolLabel[2]);
+		tools[1].add(allCombine.sizeToolBox);
+		//添加颜色组件
+		tools[2] = new JPanel(new GridLayout(1,4));
+		JPanel colorBox = new JPanel(new GridLayout(2,10));//用来装小颜色区
+		for(int i=0;i<20;i++) {
+			colorBox.add(allCombine.allToolColor[i]);
+		}
+		tools[2].add(allCombine.allToolButton[0].button);
+		tools[2].add(allCombine.allToolButton[1].button);
+		tools[2].add(colorBox);
+		tools[2].add(allCombine.allToolButton[2].button);
+		JPanel tool =new JPanel(new FlowLayout(FlowLayout.LEFT));
+		for(int i=0;i<3;i++) {
+			northPanel.add(tools[i]);
+		}
+		//添加画布区
+		centerPanel = new JScrollPane(allCombine.canvas);
+	}
+	
+}

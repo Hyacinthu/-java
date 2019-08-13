@@ -1,0 +1,23 @@
+package drawpic;
+import java.awt.*;
+import javax.swing.*;
+
+public class MyFrame {
+	JFrame frame;
+	public MyFrame() {
+		frame = new JFrame();
+		Container c = frame.getContentPane();
+		c.setLayout(new BorderLayout());
+		AllPanel all = new AllPanel();
+		c.add(all.westPanel,BorderLayout.WEST);
+		c.add(all.menu,BorderLayout.NORTH);
+		c.add(all.northPanel,BorderLayout.NORTH);
+		c.add(all.centerPanel,BorderLayout.CENTER);
+		frame.setSize(1200,700);
+		frame.setVisible(true);
+		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+	}
+	public static void main(String[] args) {
+		new MyFrame();
+	}
+}

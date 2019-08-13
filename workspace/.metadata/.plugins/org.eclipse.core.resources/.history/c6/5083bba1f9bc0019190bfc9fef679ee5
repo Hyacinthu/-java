@@ -1,0 +1,8 @@
+package drawpic;
+import java.awt.*;
+import javax.swing.*;
+
+public class MainWindow {
+	JFrame frame;
+	
+}

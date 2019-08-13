@@ -1,0 +1,20 @@
+package drawpic;
+import java.awt.*;
+import javax.swing.*;
+
+import drawpic.Button;
+
+public class AllCombine {
+	Button[] allPenButton;
+	JMenu[] allMenu;
+	JMenuItem[] allMenuItem;
+	JLabel[] allToolLabel;
+	JComboBox<String> sizeToolBox;
+	JComboBox<String> fontToolBox;
+	JComboBox<String> fontSizeToolBox;
+	Button[] allToolButton;
+	JButton[] allToolColor;
+	public AllCombine() {
+		
+	}
+}
