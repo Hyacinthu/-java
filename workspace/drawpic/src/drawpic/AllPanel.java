@@ -33,7 +33,6 @@ public class AllPanel {
 			westPanel.add(new JLabel(""));
 		}
 		for(int i=0;i<allCombine.allMenuMenu.length;i++) {
-			allCombine.allMenuMenu[i].addSeparator();
 			menu.add(allCombine.allMenuMenu[i]);
 		}
 		JPanel[] tools = new JPanel[3];//将北区分为三块
@@ -81,7 +80,11 @@ public class AllPanel {
 			northPanel.add(tools[i]);
 		}
 		//添加画布区
-		centerPanel = new JScrollPane(allCombine.canvas);
+		centerPanel = new JScrollPane();
+		JViewport contain =centerPanel.getViewport();
+		JPanel centre = new JPanel();
+		centre.add(allCombine.canvas);
+		contain.add(centre);
 		frame = allCombine.frame;
 	}
 	

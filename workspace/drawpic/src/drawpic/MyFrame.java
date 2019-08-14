@@ -10,7 +10,7 @@ import javax.swing.*;
  *
  * @time 下午7:20:39
  *
- * @description 创建主界面，主入口迁移到其他地方去了
+ * @description 创建主界面
  *
  */
 

@@ -1,5 +1,7 @@
 package drawpic;
-//import java.awt.*;
+import java.awt.Color;
+
+import java.awt.*;
 import javax.swing.*;
 /**
  * 
@@ -22,30 +24,34 @@ public class AllCombine {
 	JComboBox<String> fontSizeToolBox;
 	Button[] allToolButton;
 	JButton[] allToolColor;
-	AllCanvas canvas;
+	CanPaintLabel canvas; 
 	JFrame frame;
 	public AllCombine() {
 		AllButton allButton = new AllButton();
 		AllMenu allMenu = new AllMenu();
 		AllTool allTool = new AllTool();
-		AllCanvas allCanvas = new AllCanvas();
+		CanPaintLabel allCanvas = new CanPaintLabel();
 		MyFrame fram = new MyFrame();
+		/*allCanvas.setOpaque(true);
+		allCanvas.setBackground(Color.WHITE);
+		allCanvas.setPreferredSize(new Dimension(1200,700));
+		allCanvas.setBorder(BorderFactory.createLineBorder(new Color(220,220,220)));*/
 		AllListener allListener = new AllListener(allButton,allMenu,allTool,allCanvas,fram);
 		
 		for(int i=0;i<allButton.allButton.length;i++) {
 			allButton.allButton[i].button.addActionListener(allListener.action[i]);
 		}
-		for(int i=0;i<allMenu.allMenuItem.length;i++) {
+		/*for(int i=0;i<allMenu.allMenuItem.length;i++) {
 			allMenu.allMenuItem[i].addActionListener(allListener.action[i+allButton.allButton.length]);
-		}
+		}*/
 		//工具栏区域只需要实现颜色区的点击事件就可以,其他的参数等到canvas绘图时再提取
 		for(int i=0;i<allTool.allButton.length;i++) {
 			allTool.allButton[i].button.addActionListener(allListener.action[i+
-			                                allButton.allButton.length+allMenu.allMenuItem.length]);
+			                                allButton.allButton.length/*+allMenu.allMenuItem.length*/]);
 		}
 		for(int i=0;i<allTool.allColor.length;i++) {
 			allTool.allColor[i].addActionListener(allListener.action[i+allButton.allButton.length+
-			                                allMenu.allMenuItem.length+allTool.allButton.length]);
+			                                /*allMenu.allMenuItem.length+*/allTool.allButton.length]);
 		}
 		//此处添加监听器,要注意的是,该程序到现在为止,没有设置任何的初始状态,故监听器要考虑到
 		allCanvas.addMouseListener(allListener.mouse[0]);

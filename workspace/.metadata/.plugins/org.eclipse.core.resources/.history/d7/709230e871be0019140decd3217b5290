@@ -1,0 +1,23 @@
+package drawpic;
+import java.awt.*;
+import java.awt.image.*;
+import java.io.*;
+import javax.imageio.*;
+
+/**
+ * 
+ * @author ASUS
+ *
+ * @time 下午2:27:09
+ *
+ * @description 残次品，等待实现
+ *
+ */
+
+@SuppressWarnings("serial")
+public class AllCanvas extends Canvas{
+	public AllCanvas() {
+		this.setSize(new Dimension(1200,700));
+		BufferedImage bimg = ImageIO.read(new File(path));
+	}
+}

@@ -2,6 +2,16 @@ package drawpic;
 import java.awt.*;
 import javax.swing.*;
 
+/**
+ * 
+ * @author ASUS
+ *
+ * @time 下午5:42:45
+ *
+ * @description 字体工具栏里面的工具
+ *
+ */
+
 public class FontTool {
 	JLabel fontLabel;
 	JComboBox<String> fontTool;
