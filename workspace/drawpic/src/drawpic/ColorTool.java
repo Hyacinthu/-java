@@ -2,6 +2,16 @@ package drawpic;
 import java.awt.*;
 import javax.swing.*;
 
+/**
+ * 
+ * @author ASUS
+ *
+ * @time 下午5:39:18
+ *
+ * @description 工具栏的颜色工具
+ *
+ */
+
 public class ColorTool {
 	JLabel foreColorIcon;//前景色图标的显示，与监听器同步更改
 	JLabel backColorIcon;//背景色图标显示，与监听器同步
@@ -17,22 +27,30 @@ public class ColorTool {
 		foreColor.button.setPreferredSize(new Dimension(70,100));
 		backColor.button.setPreferredSize(new Dimension(70,100));
 		editColor.button.setPreferredSize(new Dimension(90,100));
-		foreColor.button.setBorder(BorderFactory.createLineBorder(new Color(0,162,232)));
+		/*foreColor.button.setBorder(BorderFactory.createLineBorder(new Color(0,162,232)));
 		backColor.button.setBorder(BorderFactory.createLineBorder(new Color(220,220,220)));
-		editColor.button.setBorder(BorderFactory.createLineBorder(new Color(220,220,220)));
+		editColor.button.setBorder(BorderFactory.createLineBorder(new Color(220,220,220)));*/
+		foreColor.button.setBackground(new Color(0,162,232));
+		backColor.button.setBackground(new Color(220,220,220));
+		editColor.button.setBackground(new Color(220,220,220));
 		JPanel temp1 = new JPanel(new GridLayout(2,1));
+		temp1.setOpaque(false);
 		JPanel temp2 = new JPanel(new GridLayout(2,1));
+		temp2.setOpaque(false);
 		JPanel temp3 = new JPanel(new GridLayout(2,1));
+		temp3.setOpaque(false);
 		foreColorIcon = new JLabel("",JLabel.CENTER);
 		foreColorIcon.setOpaque(true);//背景设置为不透明，才可以设置背景色
 		foreColorIcon.setBackground(Color.BLACK);//背景色设置为黑，用以代表当前选定的颜色
+		foreColorIcon.setBorder(BorderFactory.createLineBorder(new Color(220,220,220)));
 		backColorIcon = new JLabel("",JLabel.CENTER);
 		backColorIcon.setOpaque(true);//背景设置为不透明，才可以设置背景色
 		backColorIcon.setBackground(Color.WHITE);//背景色设置为黑，用以代表当前选定的颜色
+		backColorIcon.setBorder(BorderFactory.createLineBorder(new Color(220,220,220)));
 		JLabel[] temp = new JLabel[4];
 		for(int i=0;i<4;i++) {
 			temp[i] = new JLabel("",JLabel.CENTER);
-			temp[i].setOpaque(true);
+			temp[i].setOpaque(false);
 		}
 		temp[0].setText("颜色1");
 		temp[1].setText("颜色2");

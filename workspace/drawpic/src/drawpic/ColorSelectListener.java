@@ -23,8 +23,8 @@ public class ColorSelectListener implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
-		button[0].setBorder(BorderFactory.createLineBorder(new Color(0,162,232)));
-		button[1].setBorder(BorderFactory.createLineBorder(new Color(220,220,220)));
+		button[0].setBackground(new Color(0,162,232));
+		button[1].setBackground(new Color(220,220,220));
 		button[0].updateUI();
 		button[1].updateUI();
 	}

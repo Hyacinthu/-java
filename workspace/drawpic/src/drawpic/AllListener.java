@@ -17,7 +17,7 @@ public class AllListener {
 	KeyListener[] key;
 	MouseListener[] mouse;
 	MouseMotionListener[] mouseMotion;
-	public AllListener(AllButton b,AllMenu m,AllTool t,AllCanvas c,MyFrame fram) {
+	public AllListener(AllButton b,AllMenu m,AllTool t,CanPaintLabel c,MyFrame fram) {
 		/*例：
 		 * action = new ActionListener["总体的个数，此处需要改动"];
 		 * ...此处为其他的listener
@@ -25,19 +25,27 @@ public class AllListener {
 		 * !上述listener可能不全，如果有需要可以添加额外的listener，或者删除掉多余的listener
 		 */
 		//为了可以调试，暂时为每一种添加60个对象
-		action = new ActionListener[60];
+		action = new ActionListener[40];
 		focus = new FocusListener[60];
 		key = new KeyListener[60];
 		mouse = new MouseListener[60];
 		mouseMotion = new MouseMotionListener[60];
+		for(int i=0;i<14;i++) {
+			action[i] = new LeftButtonListener(b.allButton,i);
+		}
+		action[14] = new ColorSelectListener(t.allButton[0].button,t.allButton[1].button);
+		action[15] = new ColorSelectListener(t.allButton[1].button,t.allButton[0].button);
+		action[16] = new EditColorListener(fram.frame,t.allButton[0].button,
+				t.allButton[1].button,t.allLabel);
+		for(int i=0;i<3;i++) {
+			action[i+17] = new FontListener(t.allButton[i+3].button);
+		}
+		for(int i=0;i<20;i++) {
+			action[i+20] = new ColorBoxListener(t.allLabel,t.allButton[0].button,
+					t.allButton[1].button,t.allColor[i]);
+		}
+		//下方为尚未实现的监听器
 		for(int i=0;i<60;i++) {
-			action[i] = new ActionListener() {
-
-				@Override
-				public void actionPerformed(ActionEvent arg0) {
-					// TODO Auto-generated method stub
-					
-				}};
 			focus[i] = new FocusListener() {
 
 				@Override
