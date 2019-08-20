@@ -29,10 +29,11 @@ public class FontTool {
 		for(int i=0;i<g.length;i++) {
 			fontTool.addItem(g[i]);
 		}
-		for(int i=1;i<25;i++) {
+		for(int i=5;i<25;i++) {
 			fontSizeTool.addItem(""+2*i);
 		}
-		fontSizeTool.setSelectedIndex(4);
+		fontTool.setSelectedIndex(g.length-7);
+		fontSizeTool.setSelectedIndex(3);
 		blacker = new Button();
 		underer = new Button();
 		leaner = new Button();

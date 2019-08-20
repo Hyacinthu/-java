@@ -1,7 +1,6 @@
 package drawpic;
-import java.awt.Color;
 
-import java.awt.*;
+//import java.awt.*;
 import javax.swing.*;
 /**
  * 
@@ -56,6 +55,8 @@ public class AllCombine {
 		//此处添加监听器,要注意的是,该程序到现在为止,没有设置任何的初始状态,故监听器要考虑到
 		allCanvas.addMouseListener(allListener.mouse[0]);
 		allCanvas.addMouseMotionListener(allListener.mouseMotion[0]);//暂且保留监听器的数组形式
+		allCanvas.addMouseMotionListener(allListener.asd);
+		allCanvas.addMouseListener(allListener.asd);
 		//所有监听器赋值完毕后,对该处进行初始化
 		allPenButton = allButton.allButton;
 		allMenuMenu = allMenu.allMenu;

@@ -1,7 +1,0 @@
-package drawpic;
-import java.awt.*;
-import javax.swing.*;
-
-public class SizeTool {
-	
-}

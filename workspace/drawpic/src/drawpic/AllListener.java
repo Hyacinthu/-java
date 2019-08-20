@@ -17,6 +17,7 @@ public class AllListener {
 	KeyListener[] key;
 	MouseListener[] mouse;
 	MouseMotionListener[] mouseMotion;
+	BorderListener asd;
 	public AllListener(AllButton b,AllMenu m,AllTool t,CanPaintLabel c,MyFrame fram) {
 		/*例：
 		 * action = new ActionListener["总体的个数，此处需要改动"];
@@ -44,6 +45,7 @@ public class AllListener {
 			action[i+20] = new ColorBoxListener(t.allLabel,t.allButton[0].button,
 					t.allButton[1].button,t.allColor[i]);
 		}
+		asd = new BorderListener(b,m,t,c,fram);
 		//下方为尚未实现的监听器
 		for(int i=0;i<60;i++) {
 			focus[i] = new FocusListener() {

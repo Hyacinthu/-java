@@ -2,6 +2,16 @@ package drawpic;
 import java.awt.*;
 import javax.swing.*;
 
+/**
+ * 
+ * @author ASUS
+ *
+ * @time 下午8:18:35
+ *
+ * @description 用于点击编辑颜色按钮产生的界面
+ *
+ */
+
 
 @SuppressWarnings("serial")
 public class EditDialog extends JDialog{
@@ -84,6 +94,7 @@ public class EditDialog extends JDialog{
 		c.add(south,BorderLayout.SOUTH);
 		this.setBounds(100, 100, 570, 350);
 		this.setResizable(false);
+		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 	}
 	
 }

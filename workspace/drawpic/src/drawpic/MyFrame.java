@@ -25,7 +25,7 @@ public class MyFrame {
 		c.add(all.northPanel,BorderLayout.NORTH);
 		c.add(all.centerPanel,BorderLayout.CENTER);
 		frame.setJMenuBar(all.menu);*/
-		frame.setSize(1200,700);
+		frame.setBounds(80,10,1200,750);
 		frame.setTitle("¼òÒ×»æÍ¼°å");
 		try {
 			frame.setIconImage(ImageIO.read(new File("icon/peach.png")));
