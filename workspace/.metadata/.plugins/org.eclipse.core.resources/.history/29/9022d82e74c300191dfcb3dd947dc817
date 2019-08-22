@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_kkgsMBeLEd60N8ipLbB6nA" name="ObjectOrientedModel_1">
+  <packagedElement xmi:type="uml:Package" xmi:id="_i7ev8MNyEem8ke0My6jckA" name="drawpic">
+    <packagedElement xmi:type="uml:Association" xmi:id="_i-6ecMNyEem8ke0My6jckA" name="association1" memberEnd="_i_DoYMNyEem8ke0My6jckA _i_gUUMNyEem8ke0My6jckA" navigableOwnedEnd="_i_gUUMNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_i_DoYMNyEem8ke0My6jckA" name="" visibility="public" type="_jMUoUMNyEem8ke0My6jckA" association="_i-6ecMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_i_XKYcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_i_XKYMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_i_gUUMNyEem8ke0My6jckA" name="allButton" visibility="package" type="_jgb3IMNyEem8ke0My6jckA" association="_i-6ecMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_i_qFUcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_i_qFUMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_i_qFUsNyEem8ke0My6jckA" name="association2" memberEnd="_i_qFU8NyEem8ke0My6jckA _i_zPQsNyEem8ke0My6jckA" navigableOwnedEnd="_i_zPQsNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_i_qFU8NyEem8ke0My6jckA" name="" visibility="public" type="_jQyRkMNyEem8ke0My6jckA" association="_i_qFUsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_i_zPQcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_i_zPQMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_i_zPQsNyEem8ke0My6jckA" name="allPenButton" visibility="package" type="_jgb3IMNyEem8ke0My6jckA" association="_i_qFUsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_i_zPRMNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_i_zPQ8NyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_i_zPRcNyEem8ke0My6jckA" name="association3" memberEnd="_i_zPRsNyEem8ke0My6jckA _i_9AQMNyEem8ke0My6jckA" navigableOwnedEnd="_i_9AQMNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_i_zPRsNyEem8ke0My6jckA" name="" visibility="public" type="_jQyRkMNyEem8ke0My6jckA" association="_i_zPRcNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_i_zPSMNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_i_zPR8NyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_i_9AQMNyEem8ke0My6jckA" name="allToolLabel" visibility="package" type="_jnSGAMNyEem8ke0My6jckA" association="_i_zPRcNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_i_9AQsNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_i_9AQcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_i_9AQ8NyEem8ke0My6jckA" name="association4" memberEnd="_i_9ARMNyEem8ke0My6jckA _i_9AR8NyEem8ke0My6jckA" navigableOwnedEnd="_i_9AR8NyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_i_9ARMNyEem8ke0My6jckA" name="" visibility="public" type="_jQyRkMNyEem8ke0My6jckA" association="_i_9AQ8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_i_9ARsNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_i_9ARcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_i_9AR8NyEem8ke0My6jckA" name="allToolButton" visibility="package" type="_jgb3IMNyEem8ke0My6jckA" association="_i_9AQ8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jAGxQcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jAGxQMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jAGxQsNyEem8ke0My6jckA" name="association5" memberEnd="_jAGxQ8NyEem8ke0My6jckA _jAGxRsNyEem8ke0My6jckA" navigableOwnedEnd="_jAGxRsNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jAGxQ8NyEem8ke0My6jckA" name="" visibility="public" type="_jQyRkMNyEem8ke0My6jckA" association="_jAGxQsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jAGxRcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jAGxRMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jAGxRsNyEem8ke0My6jckA" name="canvas" visibility="package" type="_jhUn8MNyEem8ke0My6jckA" association="_jAGxQsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jAGxSMNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jAGxR8NyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jAP7MMNyEem8ke0My6jckA" name="association6" memberEnd="_jAP7McNyEem8ke0My6jckA _jAP7NMNyEem8ke0My6jckA" navigableOwnedEnd="_jAP7NMNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jAP7McNyEem8ke0My6jckA" name="" visibility="public" type="_jTUoMMNyEem8ke0My6jckA" association="_jAP7MMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jAP7M8NyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jAP7MsNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jAP7NMNyEem8ke0My6jckA" name="action" visibility="package" type="_kXkTccNyEem8ke0My6jckA" association="_jAP7MMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jAZsMcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jAZsMMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jAZsMsNyEem8ke0My6jckA" name="association7" memberEnd="_jAZsM8NyEem8ke0My6jckA _jAZsNsNyEem8ke0My6jckA" navigableOwnedEnd="_jAZsNsNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jAZsM8NyEem8ke0My6jckA" name="" visibility="public" type="_jTUoMMNyEem8ke0My6jckA" association="_jAZsMsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jAZsNcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jAZsNMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jAZsNsNyEem8ke0My6jckA" name="mouse" visibility="package" type="_kW92gcNyEem8ke0My6jckA" association="_jAZsMsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jAjdMMNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jAZsN8NyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jAjdMcNyEem8ke0My6jckA" name="association8" memberEnd="_jAjdMsNyEem8ke0My6jckA _jAjdNcNyEem8ke0My6jckA" navigableOwnedEnd="_jAjdNcNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jAjdMsNyEem8ke0My6jckA" name="" visibility="public" type="_jTUoMMNyEem8ke0My6jckA" association="_jAjdMcNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jAjdNMNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jAjdM8NyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jAjdNcNyEem8ke0My6jckA" name="mouseMotion" visibility="package" type="_kVU3wMNyEem8ke0My6jckA" association="_jAjdMcNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jAjdN8NyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jAjdNsNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jAsnIMNyEem8ke0My6jckA" name="association9" memberEnd="_jAsnIcNyEem8ke0My6jckA _jAsnJMNyEem8ke0My6jckA" navigableOwnedEnd="_jAsnJMNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jAsnIcNyEem8ke0My6jckA" name="" visibility="public" type="_jTUoMMNyEem8ke0My6jckA" association="_jAsnIMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jAsnI8NyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jAsnIsNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jAsnJMNyEem8ke0My6jckA" name="asd" visibility="package" type="_jaK3EMNyEem8ke0My6jckA" association="_jAsnIMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jAsnJsNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jAsnJcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jAsnJ8NyEem8ke0My6jckA" name="association10" memberEnd="_jAsnKMNyEem8ke0My6jckA _jA2YIsNyEem8ke0My6jckA" navigableOwnedEnd="_jA2YIsNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jAsnKMNyEem8ke0My6jckA" name="" visibility="public" type="_jYYuYMNyEem8ke0My6jckA" association="_jAsnJ8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jA2YIcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jA2YIMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jA2YIsNyEem8ke0My6jckA" name="allLabel" visibility="package" type="_jnSGAMNyEem8ke0My6jckA" association="_jAsnJ8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jA2YJMNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jA2YI8NyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jA_iEMNyEem8ke0My6jckA" name="association11" memberEnd="_jA_iEcNyEem8ke0My6jckA _jA_iFMNyEem8ke0My6jckA" navigableOwnedEnd="_jA_iFMNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jA_iEcNyEem8ke0My6jckA" name="" visibility="public" type="_jYYuYMNyEem8ke0My6jckA" association="_jA_iEMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jA_iE8NyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jA_iEsNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jA_iFMNyEem8ke0My6jckA" name="allButton" visibility="package" type="_jgb3IMNyEem8ke0My6jckA" association="_jA_iEMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jA_iFsNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jA_iFcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jBJTEMNyEem8ke0My6jckA" name="association12" memberEnd="_jBJTEcNyEem8ke0My6jckA _jBJTFMNyEem8ke0My6jckA" navigableOwnedEnd="_jBJTFMNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jBJTEcNyEem8ke0My6jckA" name="" visibility="public" type="_jaK3EMNyEem8ke0My6jckA" association="_jBJTEMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jBJTE8NyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jBJTEsNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jBJTFMNyEem8ke0My6jckA" name="b" visibility="package" type="_jMUoUMNyEem8ke0My6jckA" association="_jBJTEMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jBJTFsNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jBJTFcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jBJTF8NyEem8ke0My6jckA" name="association13" memberEnd="_jBJTGMNyEem8ke0My6jckA _jBTEEsNyEem8ke0My6jckA" navigableOwnedEnd="_jBTEEsNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jBJTGMNyEem8ke0My6jckA" name="" visibility="public" type="_jaK3EMNyEem8ke0My6jckA" association="_jBJTF8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jBTEEcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jBTEEMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jBTEEsNyEem8ke0My6jckA" name="m" visibility="package" type="_jV2XwMNyEem8ke0My6jckA" association="_jBJTF8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jBTEFMNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jBTEE8NyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jBTEFcNyEem8ke0My6jckA" name="association14" memberEnd="_jBcOAMNyEem8ke0My6jckA _jBcOA8NyEem8ke0My6jckA" navigableOwnedEnd="_jBcOA8NyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jBcOAMNyEem8ke0My6jckA" name="" visibility="public" type="_jaK3EMNyEem8ke0My6jckA" association="_jBTEFcNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jBcOAsNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jBcOAcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jBcOA8NyEem8ke0My6jckA" name="t" visibility="package" type="_jYYuYMNyEem8ke0My6jckA" association="_jBTEFcNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jBcOBcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jBcOBMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jBcOBsNyEem8ke0My6jckA" name="association15" memberEnd="_jBcOB8NyEem8ke0My6jckA _jBl_AMNyEem8ke0My6jckA" navigableOwnedEnd="_jBl_AMNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jBcOB8NyEem8ke0My6jckA" name="" visibility="public" type="_jaK3EMNyEem8ke0My6jckA" association="_jBcOBsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jBcOCcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jBcOCMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jBl_AMNyEem8ke0My6jckA" name="a" visibility="package" type="_jhUn8MNyEem8ke0My6jckA" association="_jBcOBsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jBl_AsNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jBl_AcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jBl_A8NyEem8ke0My6jckA" name="association16" memberEnd="_jBl_BMNyEem8ke0My6jckA _jBvwAMNyEem8ke0My6jckA" navigableOwnedEnd="_jBvwAMNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jBl_BMNyEem8ke0My6jckA" name="" visibility="public" type="_jaK3EMNyEem8ke0My6jckA" association="_jBl_A8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jBl_BsNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jBl_BcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jBvwAMNyEem8ke0My6jckA" name="fram" visibility="package" type="_kEMrgMNyEem8ke0My6jckA" association="_jBl_A8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jBvwAsNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jBvwAcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jBvwA8NyEem8ke0My6jckA" name="association17" memberEnd="_jBvwBMNyEem8ke0My6jckA _jB458sNyEem8ke0My6jckA" navigableOwnedEnd="_jB458sNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jBvwBMNyEem8ke0My6jckA" name="" visibility="public" type="_jp9mkMNyEem8ke0My6jckA" association="_jBvwA8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jB458cNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jB458MNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jB458sNyEem8ke0My6jckA" name="label" visibility="package" type="_jnSGAMNyEem8ke0My6jckA" association="_jBvwA8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jB459MNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jB4588NyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jB459cNyEem8ke0My6jckA" name="association18" memberEnd="_jB459sNyEem8ke0My6jckA _jCCq8sNyEem8ke0My6jckA" navigableOwnedEnd="_jCCq8sNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jB459sNyEem8ke0My6jckA" name="" visibility="public" type="_juSF4MNyEem8ke0My6jckA" association="_jB459cNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jCCq8cNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jCCq8MNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jCCq8sNyEem8ke0My6jckA" name="foreColorIcon" visibility="package" type="_jnSGAMNyEem8ke0My6jckA" association="_jB459cNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jCCq9MNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jCCq88NyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jCCq9cNyEem8ke0My6jckA" name="association19" memberEnd="_jCL04MNyEem8ke0My6jckA _jCL048NyEem8ke0My6jckA" navigableOwnedEnd="_jCL048NyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jCL04MNyEem8ke0My6jckA" name="" visibility="public" type="_juSF4MNyEem8ke0My6jckA" association="_jCCq9cNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jCL04sNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jCL04cNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jCL048NyEem8ke0My6jckA" name="backColorIcon" visibility="package" type="_jnSGAMNyEem8ke0My6jckA" association="_jCCq9cNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jCL05cNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jCL05MNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jCL05sNyEem8ke0My6jckA" name="association20" memberEnd="_jCL058NyEem8ke0My6jckA _jCVl4sNyEem8ke0My6jckA" navigableOwnedEnd="_jCVl4sNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jCL058NyEem8ke0My6jckA" name="" visibility="public" type="_juSF4MNyEem8ke0My6jckA" association="_jCL05sNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jCVl4cNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jCVl4MNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jCVl4sNyEem8ke0My6jckA" name="foreColor" visibility="package" type="_jgb3IMNyEem8ke0My6jckA" association="_jCL05sNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jCVl5MNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jCVl48NyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jCVl5cNyEem8ke0My6jckA" name="association21" memberEnd="_jCVl5sNyEem8ke0My6jckA _jCfW4MNyEem8ke0My6jckA" navigableOwnedEnd="_jCfW4MNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jCVl5sNyEem8ke0My6jckA" name="" visibility="public" type="_juSF4MNyEem8ke0My6jckA" association="_jCVl5cNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jCVl6MNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jCVl58NyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jCfW4MNyEem8ke0My6jckA" name="backColor" visibility="package" type="_jgb3IMNyEem8ke0My6jckA" association="_jCVl5cNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jCfW4sNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jCfW4cNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jCfW48NyEem8ke0My6jckA" name="association22" memberEnd="_jCfW5MNyEem8ke0My6jckA _jCog0MNyEem8ke0My6jckA" navigableOwnedEnd="_jCog0MNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jCfW5MNyEem8ke0My6jckA" name="" visibility="public" type="_juSF4MNyEem8ke0My6jckA" association="_jCfW48NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jCfW5sNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jCfW5cNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jCog0MNyEem8ke0My6jckA" name="editColor" visibility="package" type="_jgb3IMNyEem8ke0My6jckA" association="_jCfW48NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jCog0sNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jCog0cNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jCog08NyEem8ke0My6jckA" name="association23" memberEnd="_jCog1MNyEem8ke0My6jckA _jCyR0MNyEem8ke0My6jckA" navigableOwnedEnd="_jCyR0MNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jCog1MNyEem8ke0My6jckA" name="" visibility="public" type="_jxaSYMNyEem8ke0My6jckA" association="_jCog08NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jCog1sNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jCog1cNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jCyR0MNyEem8ke0My6jckA" name="a" visibility="package" type="_jnSGAMNyEem8ke0My6jckA" association="_jCog08NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jCyR0sNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jCyR0cNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jCyR08NyEem8ke0My6jckA" name="association24" memberEnd="_jCyR1MNyEem8ke0My6jckA _jC7bwsNyEem8ke0My6jckA" navigableOwnedEnd="_jC7bwsNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jCyR1MNyEem8ke0My6jckA" name="" visibility="public" type="_j8AY0MNyEem8ke0My6jckA" association="_jCyR08NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jC7bwcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jC7bwMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jC7bwsNyEem8ke0My6jckA" name="fontLabel" visibility="package" type="_jnSGAMNyEem8ke0My6jckA" association="_jCyR08NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jC7bxMNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jC7bw8NyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jC7bxcNyEem8ke0My6jckA" name="association25" memberEnd="_jC7bxsNyEem8ke0My6jckA _jDFMwMNyEem8ke0My6jckA" navigableOwnedEnd="_jDFMwMNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jC7bxsNyEem8ke0My6jckA" name="" visibility="public" type="_j8AY0MNyEem8ke0My6jckA" association="_jC7bxcNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jC7byMNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jC7bx8NyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jDFMwMNyEem8ke0My6jckA" name="blacker" visibility="package" type="_jgb3IMNyEem8ke0My6jckA" association="_jC7bxcNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jDFMwsNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jDFMwcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jDFMw8NyEem8ke0My6jckA" name="association26" memberEnd="_jDFMxMNyEem8ke0My6jckA _jDO9wMNyEem8ke0My6jckA" navigableOwnedEnd="_jDO9wMNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jDFMxMNyEem8ke0My6jckA" name="" visibility="public" type="_j8AY0MNyEem8ke0My6jckA" association="_jDFMw8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jDFMxsNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jDFMxcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jDO9wMNyEem8ke0My6jckA" name="underer" visibility="package" type="_jgb3IMNyEem8ke0My6jckA" association="_jDFMw8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jDO9wsNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jDO9wcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jDO9w8NyEem8ke0My6jckA" name="association27" memberEnd="_jDO9xMNyEem8ke0My6jckA _jDYHsMNyEem8ke0My6jckA" navigableOwnedEnd="_jDYHsMNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jDO9xMNyEem8ke0My6jckA" name="" visibility="public" type="_j8AY0MNyEem8ke0My6jckA" association="_jDO9w8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jDO9xsNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jDO9xcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jDYHsMNyEem8ke0My6jckA" name="leaner" visibility="package" type="_jgb3IMNyEem8ke0My6jckA" association="_jDO9w8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jDYHssNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jDYHscNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jDYHs8NyEem8ke0My6jckA" name="association28" memberEnd="_jDYHtMNyEem8ke0My6jckA _jDh4ssNyEem8ke0My6jckA" navigableOwnedEnd="_jDh4ssNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jDYHtMNyEem8ke0My6jckA" name="" visibility="public" type="_kAU4IMNyEem8ke0My6jckA" association="_jDYHs8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jDh4scNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jDh4sMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jDh4ssNyEem8ke0My6jckA" name="button" visibility="package" type="_jgb3IMNyEem8ke0My6jckA" association="_jDYHs8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jDh4tMNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jDh4s8NyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jDh4tcNyEem8ke0My6jckA" name="association29" memberEnd="_jDh4tsNyEem8ke0My6jckA _jDrpssNyEem8ke0My6jckA" navigableOwnedEnd="_jDrpssNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jDh4tsNyEem8ke0My6jckA" name="" visibility="public" type="_kFGDYMNyEem8ke0My6jckA" association="_jDh4tcNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jDrpscNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jDrpsMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jDrpssNyEem8ke0My6jckA" name="a" visibility="package" type="_jnSGAMNyEem8ke0My6jckA" association="_jDh4tcNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jDrptMNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jDrps8NyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jD0zoMNyEem8ke0My6jckA" name="association30" memberEnd="_jD0zocNyEem8ke0My6jckA _jD0zpMNyEem8ke0My6jckA" navigableOwnedEnd="_jD0zpMNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jD0zocNyEem8ke0My6jckA" name="" visibility="public" type="_kFGDYMNyEem8ke0My6jckA" association="_jD0zoMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jD0zo8NyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jD0zosNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jD0zpMNyEem8ke0My6jckA" name="b" visibility="package" type="_jnSGAMNyEem8ke0My6jckA" association="_jD0zoMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jD0zpsNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jD0zpcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jD0zp8NyEem8ke0My6jckA" name="association31" memberEnd="_jD-koMNyEem8ke0My6jckA _jD-ko8NyEem8ke0My6jckA" navigableOwnedEnd="_jD-ko8NyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jD-koMNyEem8ke0My6jckA" name="" visibility="public" type="_kFGDYMNyEem8ke0My6jckA" association="_jD0zp8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jD-kosNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jD-kocNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jD-ko8NyEem8ke0My6jckA" name="g" visibility="package" type="_j0ie4MNyEem8ke0My6jckA" association="_jD0zp8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jD-kpcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jD-kpMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jD-kpsNyEem8ke0My6jckA" name="association32" memberEnd="_jEHukMNyEem8ke0My6jckA _jEHuk8NyEem8ke0My6jckA" navigableOwnedEnd="_jEHuk8NyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jEHukMNyEem8ke0My6jckA" name="" visibility="public" type="_kJ3OoMNyEem8ke0My6jckA" association="_jD-kpsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jEHuksNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jEHukcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jEHuk8NyEem8ke0My6jckA" name="a" visibility="package" type="_jnSGAMNyEem8ke0My6jckA" association="_jD-kpsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jEHulcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jEHulMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jEHulsNyEem8ke0My6jckA" name="association33" memberEnd="_jERfkMNyEem8ke0My6jckA _jERfk8NyEem8ke0My6jckA" navigableOwnedEnd="_jERfk8NyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jERfkMNyEem8ke0My6jckA" name="" visibility="public" type="_kJ3OoMNyEem8ke0My6jckA" association="_jEHulsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jERfksNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jERfkcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jERfk8NyEem8ke0My6jckA" name="b" visibility="package" type="_j0ie4MNyEem8ke0My6jckA" association="_jEHulsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jERflcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jERflMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jERflsNyEem8ke0My6jckA" name="association34" memberEnd="_jERfl8NyEem8ke0My6jckA _jEbQkMNyEem8ke0My6jckA" navigableOwnedEnd="_jEbQkMNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jERfl8NyEem8ke0My6jckA" name="" visibility="public" type="_kJ3OoMNyEem8ke0My6jckA" association="_jERflsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jERfmcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jERfmMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jEbQkMNyEem8ke0My6jckA" name="c" visibility="package" type="_jnSGAMNyEem8ke0My6jckA" association="_jERflsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jEbQksNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jEbQkcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jEbQk8NyEem8ke0My6jckA" name="association35" memberEnd="_jEbQlMNyEem8ke0My6jckA _jEkagMNyEem8ke0My6jckA" navigableOwnedEnd="_jEkagMNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jEbQlMNyEem8ke0My6jckA" name="" visibility="public" type="_kJ3OoMNyEem8ke0My6jckA" association="_jEbQk8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jEbQlsNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jEbQlcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jEkagMNyEem8ke0My6jckA" name="ds" visibility="package" type="_kNIlEMNyEem8ke0My6jckA" association="_jEbQk8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jEkagsNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jEkagcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jEkag8NyEem8ke0My6jckA" name="association36" memberEnd="_jEkahMNyEem8ke0My6jckA _jEuLgsNyEem8ke0My6jckA" navigableOwnedEnd="_jEuLgsNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jEkahMNyEem8ke0My6jckA" name="" visibility="public" type="_kJ3OoMNyEem8ke0My6jckA" association="_jEkag8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jEuLgcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jEuLgMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jEuLgsNyEem8ke0My6jckA" name="zz" visibility="package" type="_jnSGAMNyEem8ke0My6jckA" association="_jEkag8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jEuLhMNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jEuLg8NyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jEuLhcNyEem8ke0My6jckA" name="association37" memberEnd="_jEuLhsNyEem8ke0My6jckA _jE38gsNyEem8ke0My6jckA" navigableOwnedEnd="_jE38gsNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jEuLhsNyEem8ke0My6jckA" name="" visibility="public" type="_kO7U0MNyEem8ke0My6jckA" association="_jEuLhcNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jE38gcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jE38gMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jE38gsNyEem8ke0My6jckA" name="sizeLabel" visibility="package" type="_jnSGAMNyEem8ke0My6jckA" association="_jEuLhcNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jE38hMNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jE38g8NyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jE38hcNyEem8ke0My6jckA" name="association38" memberEnd="_jFBGcMNyEem8ke0My6jckA _jFBGc8NyEem8ke0My6jckA" navigableOwnedEnd="_jFBGc8NyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jFBGcMNyEem8ke0My6jckA" name="" visibility="public" type="_kSWcQMNyEem8ke0My6jckA" association="_jE38hcNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jFBGcsNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jFBGccNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jFBGc8NyEem8ke0My6jckA" name="b" visibility="package" type="_j0ie4MNyEem8ke0My6jckA" association="_jE38hcNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jFBGdcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jFBGdMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jFK3cMNyEem8ke0My6jckA" name="association39" memberEnd="_jFK3ccNyEem8ke0My6jckA _jFK3dMNyEem8ke0My6jckA" navigableOwnedEnd="_jFK3dMNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jFK3ccNyEem8ke0My6jckA" name="" visibility="public" type="_kSWcQMNyEem8ke0My6jckA" association="_jFK3cMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jFK3c8NyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jFK3csNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jFK3dMNyEem8ke0My6jckA" name="c" visibility="package" type="_jnSGAMNyEem8ke0My6jckA" association="_jFK3cMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jFK3dsNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jFK3dcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jFK3d8NyEem8ke0My6jckA" name="association40" memberEnd="_jFK3eMNyEem8ke0My6jckA _jFUBYsNyEem8ke0My6jckA" navigableOwnedEnd="_jFUBYsNyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jFK3eMNyEem8ke0My6jckA" name="" visibility="public" type="_kSWcQMNyEem8ke0My6jckA" association="_jFK3d8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jFUBYcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jFUBYMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jFUBYsNyEem8ke0My6jckA" name="ds" visibility="package" type="_kNIlEMNyEem8ke0My6jckA" association="_jFK3d8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jFUBZMNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jFUBY8NyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jFUBZcNyEem8ke0My6jckA" name="association41" memberEnd="_jFdyYMNyEem8ke0My6jckA _jFdyY8NyEem8ke0My6jckA" navigableOwnedEnd="_jFdyY8NyEem8ke0My6jckA">
+      <ownedEnd xmi:id="_jFdyYMNyEem8ke0My6jckA" name="" visibility="public" type="_kSWcQMNyEem8ke0My6jckA" association="_jFUBZcNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jFdyYsNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jFdyYcNyEem8ke0My6jckA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jFdyY8NyEem8ke0My6jckA" name="zz" visibility="package" type="_jnSGAMNyEem8ke0My6jckA" association="_jFUBZcNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jFdyZcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jFdyZMNyEem8ke0My6jckA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jMUoUMNyEem8ke0My6jckA" name="AllButton">
+      <ownedComment xmi:id="_jPJS0MNyEem8ke0My6jckA">
+        <body>import java.awt.*;&#xD;
+import javax.swing.*;&#xD;
+</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_jO2X4MNyEem8ke0My6jckA" name="allButton" visibility="package" type="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jPAI4cNyEem8ke0My6jckA">
+          <body>整合所有的button，以便于设置listener时的参数传入</body>
+        </ownedComment>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jO2X4cNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jPAI4MNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_jPl-wMNyEem8ke0My6jckA" name="AllButton" visibility="public" bodyCondition="_jPvvwMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jPvvwMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jQMbsMNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;allButton = new Button[14];&#xD;&#xA;&#x9;allButton[0] = new BrushButton();&#xD;&#xA;&#x9;allButton[1] = new CircleButton();&#xD;&#xA;&#x9;allButton[2] = new CirRectButton();&#xD;&#xA;&#x9;allButton[3] = new ColorPenButton();&#xD;&#xA;&#x9;allButton[4] = new CurveButton();&#xD;&#xA;&#x9;allButton[5] = new EraserButton();&#xD;&#xA;&#x9;allButton[6] = new FillColorButton();&#xD;&#xA;&#x9;allButton[7] = new LargerButton();&#xD;&#xA;&#x9;allButton[8] = new LineButton();&#xD;&#xA;&#x9;allButton[9] = new PencilButton();&#xD;&#xA;&#x9;allButton[10] = new RectangleButton();&#xD;&#xA;&#x9;allButton[11] = new SelectBoxButton();&#xD;&#xA;&#x9;allButton[12] = new SprayPaintButton();&#xD;&#xA;&#x9;allButton[13] = new TextBoxButton();&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jQyRkMNyEem8ke0My6jckA" name="AllCombine">
+      <ownedAttribute xmi:id="_jRYugMNyEem8ke0My6jckA" name="allPenButton" visibility="package" type="_jgb3IMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jRYugcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jRYugsNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jRYug8NyEem8ke0My6jckA" name="allMenuMenu" visibility="package" type="_jRh4cMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jRYuhMNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jRYuhcNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jRrpcMNyEem8ke0My6jckA" name="allMenuMenuItem" visibility="package" type="_jRrpc8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jRrpccNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jRrpcsNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jR1acMNyEem8ke0My6jckA" name="allToolLabel" visibility="package" type="_jnSGAMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jR1accNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jR1acsNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jR1ac8NyEem8ke0My6jckA" name="sizeToolBox" visibility="package" type="_jR-kYMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jR-kYcNyEem8ke0My6jckA" name="fontToolBox" visibility="package" type="_jR-kYMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jSIVYMNyEem8ke0My6jckA" name="fontSizeToolBox" visibility="package" type="_jR-kYMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jSRfUMNyEem8ke0My6jckA" name="allToolButton" visibility="package" type="_jgb3IMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jSRfUcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jSRfUsNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jSRfU8NyEem8ke0My6jckA" name="allToolColor" visibility="package" type="_jSbQUsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jSbQUMNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jSbQUcNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jSbQU8NyEem8ke0My6jckA" name="canvas" visibility="package" type="_jhUn8MNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jSlBUMNyEem8ke0My6jckA" name="frame" visibility="package" type="_jSlBUcNyEem8ke0My6jckA"/>
+      <ownedOperation xmi:id="_jTBtQMNyEem8ke0My6jckA" name="AllCombine" visibility="public" bodyCondition="_jTBtQcNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jTBtQcNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jTBtQsNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;AllButton allButton = new AllButton();&#xD;&#xA;&#x9;AllMenu allMenu = new AllMenu();&#xD;&#xA;&#x9;AllTool allTool = new AllTool();&#xD;&#xA;&#x9;CanPaintLabel allCanvas = new CanPaintLabel();&#xD;&#xA;&#x9;MyFrame fram = new MyFrame();&#xD;&#xA;&#x9;AllListener allListener = new AllListener(allButton,allMenu,allTool,allCanvas,fram);&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;for(int i=0;i&lt;allButton.allButton.length;i++) {&#xD;&#xA;&#x9;&#x9;allButton.allButton[i].button.addActionListener(allListener.action[i]);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;//工具栏区域只需要实现颜色区的点击事件就可以,其他的参数等到canvas绘图时再提取&#xD;&#xA;&#x9;for(int i=0;i&lt;allTool.allButton.length;i++) {&#xD;&#xA;&#x9;&#x9;allTool.allButton[i].button.addActionListener(allListener.action[i+&#xD;&#xA;&#x9;&#x9;                                allButton.allButton.length]);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;for(int i=0;i&lt;allTool.allColor.length;i++) {&#xD;&#xA;&#x9;&#x9;allTool.allColor[i].addActionListener(allListener.action[i+allButton.allButton.length+&#xD;&#xA;&#x9;&#x9;                                allTool.allButton.length]);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;//此处添加监听器,要注意的是,该程序到现在为止,没有设置任何的初始状态,故监听器要考虑到&#xD;&#xA;&#x9;allCanvas.addMouseListener(allListener.mouse[0]);&#xD;&#xA;&#x9;allCanvas.addMouseMotionListener(allListener.mouseMotion[0]);//暂且保留监听器的数组形式&#xD;&#xA;&#x9;allCanvas.addMouseMotionListener(allListener.asd);&#xD;&#xA;&#x9;allCanvas.addMouseListener(allListener.asd);&#xD;&#xA;&#x9;//所有监听器赋值完毕后,对该处进行初始化&#xD;&#xA;&#x9;allPenButton = allButton.allButton;&#xD;&#xA;&#x9;allMenuMenu = allMenu.allMenu;&#xD;&#xA;&#x9;allMenuMenuItem = allMenu.allMenuItem;&#xD;&#xA;&#x9;allToolLabel = allTool.allLabel;&#xD;&#xA;&#x9;sizeToolBox = allTool.sizeBox;&#xD;&#xA;&#x9;fontToolBox = allTool.fontBox;&#xD;&#xA;&#x9;fontSizeToolBox = allTool.fontSizeBox;&#xD;&#xA;&#x9;allToolButton = allTool.allButton;&#xD;&#xA;&#x9;allToolColor = allTool.allColor;&#xD;&#xA;&#x9;canvas = allCanvas;&#xD;&#xA;&#x9;frame = fram.frame;&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jRh4cMNyEem8ke0My6jckA" name="JMenu"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jRrpc8NyEem8ke0My6jckA" name="JMenuItem"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jR-kYMNyEem8ke0My6jckA" name="JComboBox&lt;String>"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jSbQUsNyEem8ke0My6jckA" name="JButton"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jSlBUcNyEem8ke0My6jckA" name="JFrame"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jTUoMMNyEem8ke0My6jckA" name="AllListener">
+      <ownedAttribute xmi:id="_jTxUIMNyEem8ke0My6jckA" name="action" visibility="package" type="_kXkTccNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jTxUIcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jTxUIsNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jTxUI8NyEem8ke0My6jckA" name="focus" visibility="package" type="_jT6eEsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jT6eEMNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jT6eEcNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jT6eE8NyEem8ke0My6jckA" name="key" visibility="package" type="_jT6eFsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jT6eFMNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jT6eFcNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jUEPEMNyEem8ke0My6jckA" name="mouse" visibility="package" type="_kW92gcNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jUEPEcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jUEPEsNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jUOAEMNyEem8ke0My6jckA" name="mouseMotion" visibility="package" type="_kVU3wMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jUOAEcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jUOAEsNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jUXKAMNyEem8ke0My6jckA" name="asd" visibility="package" type="_jaK3EMNyEem8ke0My6jckA"/>
+      <ownedOperation xmi:id="_jUqE8MNyEem8ke0My6jckA" name="AllListener" visibility="public" bodyCondition="_jUz18MNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jUz18MNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jUz18cNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;/*例：&#xD;&#xA;&#x9; * action = new ActionListener[&quot;总体的个数，此处需要改动&quot;];&#xD;&#xA;&#x9; * ...此处为其他的listener&#xD;&#xA;&#x9; * action[&quot;此处为对应的listener的序号&quot;] = MyListener(&quot;参数&quot;，&quot;参数&quot;，。。。);&#xD;&#xA;&#x9; * !上述listener可能不全，如果有需要可以添加额外的listener，或者删除掉多余的listener&#xD;&#xA;&#x9; */&#xD;&#xA;&#xD;&#xA;&#x9;//为了可以调试，暂时为每一种添加60个对象&#xD;&#xA;&#x9;action = new ActionListener[40];&#xD;&#xA;&#x9;focus = new FocusListener[60];&#xD;&#xA;&#x9;key = new KeyListener[60];&#xD;&#xA;&#x9;mouse = new MouseListener[60];&#xD;&#xA;&#x9;mouseMotion = new MouseMotionListener[60];&#xD;&#xA;&#x9;for(int i=0;i&lt;14;i++) {&#xD;&#xA;&#x9;&#x9;action[i] = new LeftButtonListener(b.allButton,i);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;action[14] = new ColorSelectListener(t.allButton[0].button,t.allButton[1].button);&#xD;&#xA;&#x9;action[15] = new ColorSelectListener(t.allButton[1].button,t.allButton[0].button);&#xD;&#xA;&#x9;action[16] = new EditColorListener(fram.frame,t.allButton[0].button,&#xD;&#xA;&#x9;&#x9;&#x9;t.allButton[1].button,t.allLabel);&#xD;&#xA;&#x9;for(int i=0;i&lt;3;i++) {&#xD;&#xA;&#x9;&#x9;action[i+17] = new FontListener(t.allButton[i+3].button);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;for(int i=0;i&lt;20;i++) {&#xD;&#xA;&#x9;&#x9;action[i+20] = new ColorBoxListener(t.allLabel,t.allButton[0].button,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;t.allButton[1].button,t.allColor[i]);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;asd = new BorderListener(b,m,t,c,fram);&#xD;&#xA;&#x9;//下方为尚未实现的监听器&#xD;&#xA;&#x9;for(int i=0;i&lt;60;i++) {&#xD;&#xA;&#x9;&#x9;focus[i] = new FocusListener() {&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;public void focusGained(FocusEvent arg0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;public void focusLost(FocusEvent arg0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;};&#xD;&#xA;&#x9;&#x9;key[i] = new KeyListener() {&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;public void keyPressed(KeyEvent arg0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;public void keyReleased(KeyEvent arg0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;public void keyTyped(KeyEvent arg0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;}};&#xD;&#xA;&#x9;&#x9;mouse[i] = new MouseListener() {&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;public void mouseClicked(MouseEvent arg0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;public void mouseEntered(MouseEvent arg0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;public void mouseExited(MouseEvent arg0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;public void mousePressed(MouseEvent arg0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;public void mouseReleased(MouseEvent arg0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;}};&#xD;&#xA;&#x9;&#x9;mouseMotion[i] = new MouseMotionListener() {&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;public void mouseDragged(MouseEvent arg0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;@Override&#xD;&#xA;&#x9;&#x9;&#x9;public void mouseMoved(MouseEvent arg0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;}};&#xD;&#xA;&#x9;}&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_jVGw4MNyEem8ke0My6jckA" name="b" type="_jMUoUMNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jVQh4MNyEem8ke0My6jckA" name="m" type="_jV2XwMNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jVaS4MNyEem8ke0My6jckA" name="t" type="_jYYuYMNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jVjc0MNyEem8ke0My6jckA" name="c" type="_jhUn8MNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jVjc0cNyEem8ke0My6jckA" name="fram" type="_kEMrgMNyEem8ke0My6jckA" direction="inout"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jT6eEsNyEem8ke0My6jckA" name="FocusListener"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jT6eFsNyEem8ke0My6jckA" name="KeyListener"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jV2XwMNyEem8ke0My6jckA" name="AllMenu">
+      <ownedAttribute xmi:id="_jWJ5wMNyEem8ke0My6jckA" name="allMenu" visibility="package" type="_jRh4cMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jWJ5wcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jWJ5wsNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jWTDsMNyEem8ke0My6jckA" name="allMenuItem" visibility="package" type="_jRrpc8NyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jWTDscNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jWTDssNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_jWmlsMNyEem8ke0My6jckA" name="AllMenu" visibility="public" bodyCondition="_jWvvoMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jWvvoMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jWvvocNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;FileMenu fileMenu = new FileMenu();&#xD;&#xA;&#x9;EditMenu editMenu = new EditMenu();&#xD;&#xA;&#x9;HelpMenu helpMenu = new HelpMenu();&#xD;&#xA;&#x9;allMenu = new JMenu[3];&#xD;&#xA;&#x9;allMenuItem = new JMenuItem[12];&#xD;&#xA;&#x9;allMenu[0] = fileMenu.fileMenu;&#xD;&#xA;&#x9;allMenu[1] = editMenu.editMenu;&#xD;&#xA;&#x9;allMenu[2] = helpMenu.helpMenu;&#xD;&#xA;&#x9;allMenuItem[0] = fileMenu.newMenu;&#xD;&#xA;&#x9;allMenuItem[1] = fileMenu.openMenu;&#xD;&#xA;&#x9;allMenuItem[2] = fileMenu.saveMenu;&#xD;&#xA;&#x9;allMenuItem[3] = fileMenu.saveAsMenu;&#xD;&#xA;&#x9;allMenuItem[4] = fileMenu.exitMenu;&#xD;&#xA;&#x9;allMenuItem[5] = editMenu.undoMenu;&#xD;&#xA;&#x9;allMenuItem[6] = editMenu.redoMenu;&#xD;&#xA;&#x9;allMenuItem[7] = editMenu.copyMenu;&#xD;&#xA;&#x9;allMenuItem[8] = editMenu.cutMenu;&#xD;&#xA;&#x9;allMenuItem[9] = editMenu.pasteMenu;&#xD;&#xA;&#x9;allMenuItem[10] = helpMenu.showHelpMenu;&#xD;&#xA;&#x9;allMenuItem[11] = helpMenu.aboutMenu;&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jXCqkMNyEem8ke0My6jckA" name="AllPanel">
+      <ownedAttribute xmi:id="_jXWMkMNyEem8ke0My6jckA" name="menu" visibility="package" type="_jXWMkcNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jXfWgMNyEem8ke0My6jckA" name="westPanel" visibility="package" type="_jXfWgcNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jXfWgsNyEem8ke0My6jckA" name="northPanel" visibility="package" type="_jXfWgcNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jXpHgMNyEem8ke0My6jckA" name="centerPanel" visibility="package" type="_jXpHgcNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jXyRcMNyEem8ke0My6jckA">
+          <body>定义三个区</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jXyRccNyEem8ke0My6jckA" name="frame" visibility="package" type="_jSlBUcNyEem8ke0My6jckA"/>
+      <ownedOperation xmi:id="_jYFzcMNyEem8ke0My6jckA" name="AllPanel" visibility="public" bodyCondition="_jYO9YMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jYO9YMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jYO9YcNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;FlowLayout f = new FlowLayout(FlowLayout.LEFT);&#xD;&#xA;&#x9;f.setHgap(50);&#xD;&#xA;&#x9;westPanel = new JPanel(new &#x9;GridLayout(14,2));//14行两列,用空白label补充空位&#xD;&#xA;&#x9;menu = new JMenuBar();&#xD;&#xA;&#x9;menu.setLayout(new FlowLayout(FlowLayout.LEFT));//设置菜单栏属性&#xD;&#xA;&#x9;northPanel = new JPanel(f);&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;AllCombine allCombine = new AllCombine();&#xD;&#xA;&#x9;for(int i=0;i&lt;allCombine.allPenButton.length;i++) {&#xD;&#xA;&#x9;&#x9;westPanel.add(allCombine.allPenButton[i].button);//添加到西区面板上&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;for(int i=0;i&lt;14;i++) {&#xD;&#xA;&#x9;&#x9;westPanel.add(new JLabel(&quot;&quot;));&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;for(int i=0;i&lt;allCombine.allMenuMenu.length;i++) {&#xD;&#xA;&#x9;&#x9;menu.add(allCombine.allMenuMenu[i]);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;JPanel[] tools = new JPanel[3];//将北区分为三块&#xD;&#xA;&#x9;//添加字体栏组件&#xD;&#xA;&#x9;tools[0] = new JPanel(new GridLayout(3,1));&#xD;&#xA;&#x9;JPanel[] tool = new JPanel[3];&#xD;&#xA;&#x9;for(int i=0;i&lt;3;i++) {&#xD;&#xA;&#x9;&#x9;tool[i] = new JPanel(new FlowLayout(FlowLayout.LEFT));//为了显示更舒服，否则会一样大，炸了&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;tool[0].add(allCombine.allToolLabel[3]);&#xD;&#xA;&#x9;tool[1].add(allCombine.fontToolBox);&#xD;&#xA;&#x9;tool[1].add(allCombine.fontSizeToolBox);&#xD;&#xA;&#x9;tool[2].add(allCombine.allToolButton[3].button);&#xD;&#xA;&#x9;tool[2].add(allCombine.allToolButton[4].button);&#xD;&#xA;&#x9;tool[2].add(allCombine.allToolButton[5].button);&#xD;&#xA;&#x9;for(int i=0;i&lt;3;i++) {&#xD;&#xA;&#x9;&#x9;tools[0].add(tool[i]);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;//添加大小组件&#xD;&#xA;&#x9;tools[1] = new JPanel(new GridLayout(2,1));&#xD;&#xA;&#x9;tools[1].add(allCombine.allToolLabel[2]);&#xD;&#xA;&#x9;tools[1].add(allCombine.sizeToolBox);&#xD;&#xA;&#x9;//添加颜色组件&#xD;&#xA;&#x9;tools[2] = new JPanel(new FlowLayout(FlowLayout.LEFT));&#xD;&#xA;&#x9;JPanel colorBox = new JPanel(new GridLayout(2,1));//用来装小颜色区&#xD;&#xA;&#x9;JPanel[] color = new JPanel[2];&#xD;&#xA;&#x9;for(int i=0;i&lt;2;i++) {&#xD;&#xA;&#x9;&#x9;color[i] = new JPanel(new FlowLayout(FlowLayout.CENTER));&#xD;&#xA;&#x9;&#x9;color[i].setBackground(Color.WHITE);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;for(int i=0;i&lt;10;i++) {&#xD;&#xA;&#x9;&#x9;color[0].add(allCombine.allToolColor[i]);&#xD;&#xA;&#x9;&#x9;color[1].add(allCombine.allToolColor[10+i]);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;colorBox.add(color[0]);&#xD;&#xA;&#x9;colorBox.add(color[1]);&#xD;&#xA;&#x9;colorBox.setPreferredSize(new Dimension(205,50));&#xD;&#xA;&#x9;colorBox.setBackground(Color.WHITE);&#xD;&#xA;&#x9;colorBox.setBorder(BorderFactory.createLineBorder(Color.BLACK));&#xD;&#xA;&#x9;tools[2].add(allCombine.allToolButton[0].button);&#xD;&#xA;&#x9;tools[2].add(allCombine.allToolButton[1].button);&#xD;&#xA;&#x9;tools[2].add(colorBox);&#xD;&#xA;&#x9;tools[2].add(allCombine.allToolButton[2].button);&#xD;&#xA;&#x9;for(int i=0;i&lt;3;i++) {&#xD;&#xA;&#x9;&#x9;northPanel.add(tools[i]);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;//添加画布区&#xD;&#xA;&#x9;centerPanel = new JScrollPane();&#xD;&#xA;&#x9;JViewport contain =centerPanel.getViewport();&#xD;&#xA;&#x9;JPanel centre = new JPanel(new FlowLayout(FlowLayout.LEFT));&#xD;&#xA;&#x9;centre.add(allCombine.canvas);&#xD;&#xA;&#x9;contain.add(centre);&#xD;&#xA;&#x9;frame = allCombine.frame;&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jXWMkcNyEem8ke0My6jckA" name="JMenuBar"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jXfWgcNyEem8ke0My6jckA" name="JPanel"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jXpHgcNyEem8ke0My6jckA" name="JScrollPane"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jYYuYMNyEem8ke0My6jckA" name="AllTool">
+      <ownedAttribute xmi:id="_jY1aUMNyEem8ke0My6jckA" name="allLabel" visibility="package" type="_jnSGAMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jY1aUcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jY1aUsNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jY-kQMNyEem8ke0My6jckA" name="sizeBox" visibility="package" type="_jR-kYMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jZIVQMNyEem8ke0My6jckA">
+          <body>原始类型的泛型无法构建数组，故分开传输</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jZIVQcNyEem8ke0My6jckA" name="fontBox" visibility="package" type="_jR-kYMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jZSGQMNyEem8ke0My6jckA" name="fontSizeBox" visibility="package" type="_jR-kYMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jZbQMMNyEem8ke0My6jckA" name="allButton" visibility="package" type="_jgb3IMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jZbQMcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jZbQMsNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jZlBMMNyEem8ke0My6jckA" name="allColor" visibility="package" type="_jSbQUsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jZlBMcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jZlBMsNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_jZ38IMNyEem8ke0My6jckA" name="AllTool" visibility="public" bodyCondition="_jaBtIMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jaBtIMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jaBtIcNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;ColorTool temp1 = new ColorTool();&#xD;&#xA;&#x9;SizeTool temp2 = new SizeTool();&#xD;&#xA;&#x9;FontTool temp3 = new FontTool();&#xD;&#xA;&#x9;allLabel = new JLabel[4];&#xD;&#xA;&#x9;allLabel[0]=temp1.foreColorIcon;&#xD;&#xA;&#x9;allLabel[1]=temp1.backColorIcon;&#xD;&#xA;&#x9;allLabel[2]=temp2.sizeLabel;&#xD;&#xA;&#x9;allLabel[3]=temp3.fontLabel;&#xD;&#xA;&#x9;sizeBox = temp2.sizeTool;&#xD;&#xA;&#x9;fontBox = temp3.fontTool;&#xD;&#xA;&#x9;fontSizeBox = temp3.fontSizeTool;&#xD;&#xA;&#x9;allButton = new Button[6];&#xD;&#xA;&#x9;allButton[0]=temp1.foreColor;&#xD;&#xA;&#x9;allButton[1]=temp1.backColor;&#xD;&#xA;&#x9;allButton[2]=temp1.editColor;&#xD;&#xA;&#x9;allButton[3]=temp3.blacker;&#xD;&#xA;&#x9;allButton[4]=temp3.underer;&#xD;&#xA;&#x9;allButton[5]=temp3.leaner;&#xD;&#xA;&#x9;allColor = new JButton[20];&#xD;&#xA;&#x9;for(int i=0;i&lt;20;i++) {&#xD;&#xA;&#x9;&#x9;allColor[i]=temp1.colorBox[i];&#xD;&#xA;&#x9;}&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jaK3EMNyEem8ke0My6jckA" name="BorderListener" clientDependency="_kYdEQMNyEem8ke0My6jckA _kYm1QcNyEem8ke0My6jckA">
+      <ownedAttribute xmi:id="_jaxUAMNyEem8ke0My6jckA" name="b" visibility="package" type="_jMUoUMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_ja7FAMNyEem8ke0My6jckA" name="m" visibility="package" type="_jV2XwMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jbEO8MNyEem8ke0My6jckA" name="t" visibility="package" type="_jYYuYMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jbN_8MNyEem8ke0My6jckA" name="a" visibility="package" type="_jhUn8MNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jbN_8cNyEem8ke0My6jckA" name="fram" visibility="package" type="_kEMrgMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jbXJ4MNyEem8ke0My6jckA" name="x" visibility="package" type="_jbXJ4cNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jbg64MNyEem8ke0My6jckA" name="y" visibility="package" type="_jbXJ4cNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jbqr4MNyEem8ke0My6jckA" name="x1" visibility="package" type="_jbXJ4cNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jbqr4cNyEem8ke0My6jckA" name="y1" visibility="package" type="_jbXJ4cNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jbz10MNyEem8ke0My6jckA" name="text" visibility="package" type="_jbz10cNyEem8ke0My6jckA"/>
+      <ownedOperation xmi:id="_jcaSwMNyEem8ke0My6jckA" name="BorderListener" visibility="public" bodyCondition="_jcjcsMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jcjcsMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jcjcscNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;this.b = b;&#xD;&#xA;&#x9;this.m = m;&#xD;&#xA;&#x9;this.t = t;&#xD;&#xA;&#x9;this.a = c;&#xD;&#xA;&#x9;this.fram = fram;&#xD;&#xA;&#x9;text = new JTextArea();&#xD;&#xA;&#x9;text.setOpaque(false);//文本框透明&#xD;&#xA;&#x9;text.setBorder(BorderFactory.createLineBorder(new Color(238,238,238)));&#xD;&#xA;&#x9;text.setBounds(-101, -101, 201, 101);//便于寻找中心点&#xD;&#xA;&#x9;fram.frame.add(text);//在主界面添加该文本框，以便于接受监听器信号，局部变量&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_jc2-sMNyEem8ke0My6jckA" name="b" type="_jMUoUMNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jc2-scNyEem8ke0My6jckA" name="m" type="_jV2XwMNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jc2-ssNyEem8ke0My6jckA" name="t" type="_jYYuYMNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jdAIoMNyEem8ke0My6jckA" name="c" type="_jhUn8MNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jdAIocNyEem8ke0My6jckA" name="fram" type="_kEMrgMNyEem8ke0My6jckA" direction="inout"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jdJ5oMNyEem8ke0My6jckA" name="mouseDragged" visibility="public" bodyCondition="_jdJ5ocNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jdc0ksNyEem8ke0My6jckA">
+          <body>当鼠标按下并拖动</body>
+        </ownedComment>
+        <ownedRule xmi:id="_jdJ5ocNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jdJ5osNyEem8ke0My6jckA" name="TemplateBody" value="{//当鼠标按下并拖动&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;int m = x+(e.getX()-a.x1);//画布大小+按下的点与当前点的坐标差&#xD;&#xA;&#x9;int n = y+(e.getY()-a.y1);&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;if(a.getCursor() == Cursor.getPredefinedCursor(Cursor.MOVE_CURSOR)) {//当teImage存在并且移动到该范围&#xD;&#xA;&#x9;&#x9;a.temx += (e.getX()-a.x1);//移动的新位置坐标&#xD;&#xA;&#x9;&#x9;a.temy += (e.getY()-a.y1);&#xD;&#xA;&#x9;&#x9;a.updateUI();//更新界面使其移动&#xD;&#xA;&#x9;&#x9;a.x1 = e.getX();//并更改保存的按下之前的位置&#xD;&#xA;&#x9;&#x9;a.y1 = e.getY();&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else if(a.getCursor() == Cursor.getPredefinedCursor(Cursor.SE_RESIZE_CURSOR)) {&#xD;&#xA;&#x9;&#x9;//当鼠标移动到右下边界并拖动&#xD;&#xA;&#x9;&#x9;if(m>100&amp;&amp;n>50&amp;&amp;m&lt;3000&amp;&amp;n&lt;1500){&#xD;&#xA;&#x9;&#x9;&#x9;a.setPreferredSize(new Dimension(m,n));//判断最大与最小边界条件&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else if(m>100&amp;&amp;n&lt;=50&amp;&amp;m&lt;3000) {&#xD;&#xA;&#x9;&#x9;&#x9;a.setPreferredSize(new Dimension(m,50));&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else if(m&lt;=100&amp;&amp;n>50&amp;&amp;n&lt;1500) {&#xD;&#xA;&#x9;&#x9;&#x9;a.setPreferredSize(new Dimension(100,n));&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else if(m&lt;=100&amp;&amp;n&lt;=50) {&#xD;&#xA;&#x9;&#x9;&#x9;a.setPreferredSize(new Dimension(100,50));&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else if(m>=3000&amp;&amp;n>50&amp;&amp;n&lt;1500) {&#xD;&#xA;&#x9;&#x9;&#x9;a.setPreferredSize(new Dimension(3000,n));&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else if(m>100&amp;&amp;m&lt;3000&amp;&amp;n>=1500) {&#xD;&#xA;&#x9;&#x9;&#x9;a.setPreferredSize(new Dimension(m,1500));&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else if(m>=3000&amp;&amp;n>=1500) {&#xD;&#xA;&#x9;&#x9;&#x9;a.setPreferredSize(new Dimension(3000,1500));&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else if(m&lt;=100&amp;&amp;n>=1500) {&#xD;&#xA;&#x9;&#x9;&#x9;a.setPreferredSize(new Dimension(100,1500));&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;a.setPreferredSize(new Dimension(3000,50));&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;a.updateUI();//更新界面&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else if(a.getCursor() == Cursor.getPredefinedCursor(Cursor.E_RESIZE_CURSOR)) {//右侧拖动区&#xD;&#xA;&#x9;&#x9;if(m&lt;=100) {&#xD;&#xA;&#x9;&#x9;&#x9;a.setPreferredSize(new Dimension(100,y));//判断最大与最小边界条件&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else if(m>100&amp;&amp;m&lt;3000) {&#xD;&#xA;&#x9;&#x9;&#x9;a.setPreferredSize(new Dimension(m,y));&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;a.setPreferredSize(new Dimension(3000,y));&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;a.updateUI();&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else if(a.getCursor() == Cursor.getPredefinedCursor(Cursor.S_RESIZE_CURSOR)) {//下侧边界区&#xD;&#xA;&#x9;&#x9;if(n&lt;=50) {&#xD;&#xA;&#x9;&#x9;&#x9;a.setPreferredSize(new Dimension(x,50));//判断最大与最小边界条件&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else if(n>50&amp;&amp;n&lt;1500) {&#xD;&#xA;&#x9;&#x9;&#x9;a.setPreferredSize(new Dimension(x,n));&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;a.setPreferredSize(new Dimension(x,1500));&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;a.updateUI();&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else {//功能产生区&#xD;&#xA;&#x9;&#x9;if(text.getBounds().x != -101) {//判断文本框是否被移动过，移动过则要还原&#xD;&#xA;&#x9;&#x9;&#x9;a.teImage = new BufferedImage(206,106,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;BufferedImage.TYPE_INT_ARGB);&#xD;&#xA;&#x9;&#x9;&#x9;a.gg = (Graphics2D)a.teImage.getGraphics();//临时的图像缓存&#xD;&#xA;&#x9;&#x9;&#x9;a.gg.setFont(text.getFont());//设置字体&#xD;&#xA;&#x9;&#x9;&#x9;a.gg.setColor(a.fore);//设置颜色&#xD;&#xA;&#x9;&#x9;&#x9;FontMetrics metrics = a.gg.getFontMetrics();//获得字体绘制位置的比例&#xD;&#xA;&#x9;&#x9;&#x9;a.gg.drawString(text.getText(), 5, metrics.getAscent()+3);//绘制文字&#xD;&#xA;&#x9;&#x9;&#x9;a.temx = x1-2;a.temy = y1-2;a.temw = a.teImage.getWidth();a.temh = a.teImage.getHeight();//保存临时位置以备拖动&#xD;&#xA;&#x9;&#x9;&#x9;text.setLocation(-101, -101);//还原文本框位置&#xD;&#xA;&#x9;&#x9;&#x9;text.setText(&quot;&quot;);//清空文本框中的文字&#xD;&#xA;&#x9;&#x9;&#x9;a.gg.setColor(Color.BLACK);&#xD;&#xA;&#x9;&#x9;&#x9;for(int i=1;i&lt;=5;i=i+2) {//绘出临时图像缓存的边框&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;a.gg.drawLine(a.teImage.getWidth()*(i-1)/5, 0, a.teImage.getWidth()*i/5, 0);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;a.gg.drawLine(a.teImage.getWidth()*(i-1)/5,a.teImage.getHeight()-1,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;a.teImage.getWidth()*i/5, a.teImage.getHeight()-1);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;a.gg.drawLine(0, a.teImage.getHeight()*(i-1)/5, 0, a.teImage.getHeight()*i/5);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;a.gg.drawLine(a.teImage.getWidth()-1, a.teImage.getHeight()*(i-1)/5, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;a.teImage.getWidth()-1, a.teImage.getHeight()*i/5);&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;a.bg.drawImage(a.teImage.getSubimage(2, 2, a.teImage.getWidth()-4, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;a.teImage.getHeight()-4), a.temx+2, a.temy+2,a.teImage.getWidth()-4, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;a.teImage.getHeight()-4, null);//将临时图像绘制到原图像中&#xD;&#xA;&#x9;&#x9;&#x9;a.teImage = null;//清除临时图像&#xD;&#xA;&#x9;&#x9;&#x9;a.gg = null;//清除临时图像的画笔&#xD;&#xA;&#x9;&#x9;&#x9;a.updateUI();&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else if(a.teImage!=null&amp;&amp;a.flag == 0) {//判断是否有临时图像存在&#xD;&#xA;&#x9;&#x9;&#x9;if(a.getCursor() != Cursor.getPredefinedCursor(Cursor.MOVE_CURSOR)) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;a.bg.drawImage(a.teImage.getSubimage(2, 2, a.teImage.getWidth()-4, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;a.teImage.getHeight()-4), a.temx+2, a.temy+2,a.teImage.getWidth()-4, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;a.teImage.getHeight()-4, null);//绘制临时图像到原图像&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;a.teImage = null;//清除临时图像&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;a.gg = null;//清除临时图像的画笔&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;a.updateUI();&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;a.flag = 1;//设置绘制信号,否则会跳过绘制部分&#xD;&#xA;&#x9;&#x9;if(a.selectButton != 3&amp;&amp;a.selectButton != 6&amp;&amp;a.selectButton != 7&amp;&amp;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;a.selectButton != 13) {//去除点击响应的组件索引&#xD;&#xA;&#x9;&#x9;&#x9;a.x = e.getX();//保留当前坐标值&#xD;&#xA;&#x9;&#x9;&#x9;a.y = e.getY();&#xD;&#xA;&#x9;&#x9;&#x9;a.updateUI();&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_jdTDkMNyEem8ke0My6jckA" name="e" type="_jdTDkcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jdc0kMNyEem8ke0My6jckA" name="mouseDragged" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jdc0k8NyEem8ke0My6jckA" name="mouseMoved" visibility="public" bodyCondition="_jdmlkMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jdvvgcNyEem8ke0My6jckA">
+          <body>鼠标移动但无点击事件</body>
+        </ownedComment>
+        <ownedRule xmi:id="_jdmlkMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jdmlkcNyEem8ke0My6jckA" name="TemplateBody" value="{//鼠标移动但无点击事件&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;x = a.getPreferredSize().width;//记录当前画布的大小&#xD;&#xA;&#x9;y = a.getPreferredSize().height;&#xD;&#xA;&#x9;if(a.teImage !=null) {//当有临时图像存在时&#xD;&#xA;&#x9;&#x9;if(e.getX()>a.temx+1&amp;&amp;e.getX()&lt;a.temx+a.temw-1&amp;&amp;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;e.getY()>a.temy+1&amp;&amp;e.getY()&lt;a.temy+a.temh-1) {&#xD;&#xA;&#x9;&#x9;&#x9;a.setCursor(Cursor.getPredefinedCursor(Cursor.MOVE_CURSOR));&#xD;&#xA;&#x9;&#x9;}//如果鼠标移动到临时图像区，将鼠标变成十字箭头，以供上方的dragged调用&#xD;&#xA;&#x9;&#x9;else {//其他情况&#xD;&#xA;&#x9;&#x9;&#x9;if(e.getX()&lt;=a.getWidth()&amp;&amp;e.getX()+3>=a.getWidth()&amp;&amp;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;e.getY()&lt;=a.getHeight()&amp;&amp;e.getY()+3>=a.getHeight()) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;a.setCursor(Cursor.getPredefinedCursor(Cursor.SE_RESIZE_CURSOR));//鼠标移动到右下边界处，调用同上&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else if(e.getX()&lt;=a.getWidth()&amp;&amp;e.getX()+3>=a.getWidth()) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;a.setCursor(Cursor.getPredefinedCursor(Cursor.E_RESIZE_CURSOR));//鼠标移动到右边界处，调用同上&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else if(e.getY()&lt;=a.getHeight()&amp;&amp;e.getY()+3>=a.getHeight()) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;a.setCursor(Cursor.getPredefinedCursor(Cursor.S_RESIZE_CURSOR));//鼠标移动到下边界处，调用同上&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;a.setCursor(Cursor.getDefaultCursor());//放置默认的鼠标图标&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else {//无临时图像&#xD;&#xA;&#x9;&#x9;if(e.getX()&lt;=a.getWidth()&amp;&amp;e.getX()+3>=a.getWidth()&amp;&amp;&#xD;&#xA;&#x9;&#x9;&#x9;e.getY()&lt;=a.getHeight()&amp;&amp;e.getY()+3>=a.getHeight()) {&#xD;&#xA;&#x9;&#x9;&#x9;a.setCursor(Cursor.getPredefinedCursor(Cursor.SE_RESIZE_CURSOR));//功能同上&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else if(e.getX()&lt;=a.getWidth()&amp;&amp;e.getX()+3>=a.getWidth()) {&#xD;&#xA;&#x9;&#x9;&#x9;a.setCursor(Cursor.getPredefinedCursor(Cursor.E_RESIZE_CURSOR));&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else if(e.getY()&lt;=a.getHeight()&amp;&amp;e.getY()+3>=a.getHeight()) {&#xD;&#xA;&#x9;&#x9;&#x9;a.setCursor(Cursor.getPredefinedCursor(Cursor.S_RESIZE_CURSOR));&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;a.setCursor(Cursor.getDefaultCursor());&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;a.x1 = e.getX();//移动时保留位置，以便于功能调用&#xD;&#xA;&#x9;a.y1 = e.getY();&#xD;&#xA;&#x9;text.updateUI();//实时刷新文本框，否则其他组件会将其盖住&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_jdmlksNyEem8ke0My6jckA" name="e" type="_jdTDkcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jdvvgMNyEem8ke0My6jckA" name="mouseMoved" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jdvvgsNyEem8ke0My6jckA" name="mouseClicked" visibility="public" bodyCondition="_jd5ggMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jeDRgcNyEem8ke0My6jckA">
+          <body>鼠标点击事件</body>
+        </ownedComment>
+        <ownedRule xmi:id="_jd5ggMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jd5ggcNyEem8ke0My6jckA" name="TemplateBody" value="{//鼠标点击事件&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;if(text.getBounds().x != -101) {//判断文本框是否被调用，如果鼠标没有脱离文本框是不会触发点击事件的&#xD;&#xA;&#x9;&#x9;//将文本框中的文字变成图片并放置到临时图像中&#xD;&#xA;&#x9;&#x9;a.teImage = new BufferedImage(206,106,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;BufferedImage.TYPE_INT_ARGB);&#xD;&#xA;&#x9;&#x9;a.gg = (Graphics2D)a.teImage.getGraphics();&#xD;&#xA;&#x9;&#x9;a.gg.setFont(text.getFont());&#xD;&#xA;&#x9;&#x9;a.gg.setColor(a.fore);&#xD;&#xA;&#x9;&#x9;FontMetrics metrics = a.gg.getFontMetrics();&#xD;&#xA;&#x9;&#x9;a.gg.drawString(text.getText(), 5, metrics.getAscent()+3);&#xD;&#xA;&#x9;&#x9;a.temx = x1-2;a.temy = y1-2;a.temw = a.teImage.getWidth();a.temh = a.teImage.getHeight();&#xD;&#xA;&#x9;&#x9;text.setLocation(-101, -101);&#xD;&#xA;&#x9;&#x9;text.setText(&quot;&quot;);&#xD;&#xA;&#x9;&#x9;a.gg.setColor(Color.BLACK);&#xD;&#xA;&#x9;&#x9;for(int i=1;i&lt;=5;i=i+2) {//绘制临时图像边框&#xD;&#xA;&#x9;&#x9;&#x9;a.gg.drawLine(a.teImage.getWidth()*(i-1)/5, 0, a.teImage.getWidth()*i/5, 0);&#xD;&#xA;&#x9;&#x9;&#x9;a.gg.drawLine(a.teImage.getWidth()*(i-1)/5,a.teImage.getHeight()-1,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;a.teImage.getWidth()*i/5, a.teImage.getHeight()-1);&#xD;&#xA;&#x9;&#x9;&#x9;a.gg.drawLine(0, a.teImage.getHeight()*(i-1)/5, 0, a.teImage.getHeight()*i/5);&#xD;&#xA;&#x9;&#x9;&#x9;a.gg.drawLine(a.teImage.getWidth()-1, a.teImage.getHeight()*(i-1)/5, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;a.teImage.getWidth()-1, a.teImage.getHeight()*i/5);&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;a.updateUI();//更新组件&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else if(a.teImage!=null) {//临时图像和有更改的文本框不会同时触发&#xD;&#xA;&#x9;&#x9;if(a.getCursor() != Cursor.getPredefinedCursor(Cursor.MOVE_CURSOR)) {//不是移动标志&#xD;&#xA;&#x9;&#x9;&#x9;a.bg.drawImage(a.teImage.getSubimage(2, 2, a.teImage.getWidth()-4, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;a.teImage.getHeight()-4), a.temx+2, a.temy+2,a.teImage.getWidth()-4, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;a.teImage.getHeight()-4, null);//讲临时图像添加到原图像&#xD;&#xA;&#x9;&#x9;&#x9;a.teImage = null;//清除临时图像&#xD;&#xA;&#x9;&#x9;&#x9;a.gg = null;//清除临时图像画笔&#xD;&#xA;&#x9;&#x9;&#x9;a.updateUI();&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else {&#xD;&#xA;&#x9;&#x9;if(a.selectButton == 13) {//选择的组件为文本框&#xD;&#xA;&#x9;&#x9;&#x9;text.setLocation(e.getXOnScreen()-fram.frame.getBounds().x-105, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;e.getYOnScreen()-fram.frame.getBounds().y-115);//放置文本框，使鼠标位置在中间&#xD;&#xA;&#x9;&#x9;&#x9;x1 = e.getX()-100;//记录当前位置，便于转换图像时确定位置&#xD;&#xA;&#x9;&#x9;&#x9;y1 = e.getY()-50;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else if(a.selectButton == 6) {//组件为填色桶&#xD;&#xA;&#x9;&#x9;&#x9;a.x1 = e.getX();&#xD;&#xA;&#x9;&#x9;&#x9;a.y1 = e.getY();&#xD;&#xA;&#x9;&#x9;&#x9;a.flag = 1;//触发绘图&#xD;&#xA;&#x9;&#x9;&#x9;a.updateUI();&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else if(a.selectButton == 3) {//组件为取色笔&#xD;&#xA;&#x9;&#x9;&#x9;int[] rgb = new int[3];&#xD;&#xA;&#x9;&#x9;&#x9;int pixel = a.image.getRGB(e.getX(), e.getY());//得到点击的点的RGB值&#xD;&#xA;&#x9;&#x9;&#x9;rgb[0] = (pixel &amp; 0xff0000) >> 16;&#xD;&#xA;&#x9;&#x9;&#x9;rgb[1] = (pixel &amp; 0xff00) >> 8;&#xD;&#xA;&#x9;&#x9;&#x9;rgb[2] = (pixel &amp; 0xff);&#xD;&#xA;&#x9;&#x9;&#x9;if(t.allButton[0].button.getBackground().equals(new Color(0,162,232))) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;//判断当前选定的颜色是前景还是后景&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;t.allLabel[0].setBackground(new Color(rgb[0],rgb[1],rgb[2]));//更改颜色&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;t.allLabel[0].updateUI();&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;t.allLabel[1].setBackground(new Color(rgb[0],rgb[1],rgb[2]));&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;t.allLabel[1].updateUI();&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else if(a.selectButton == 7) {//组件为放大镜&#xD;&#xA;&#x9;&#x9;&#x9;if(e.getButton()==e.BUTTON1) {//鼠标左键被点击&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;if(a.image.getWidth()*(a.times+1)/a.oldtimes&lt;=5000&amp;&amp;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;a.image.getHeight()*(a.times+1)/a.oldtimes&lt;=2500) {//如果不超过最大限制5000x2500&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;a.times += 1;//放大标志&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;a.setPreferredSize(new Dimension(a.getPreferredSize().width*a.times/a.oldtimes,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;a.getPreferredSize().height*a.times/a.oldtimes));//更改画布大小以适应图像大小改变&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;a.flag = 1;//触发事件&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;a.updateUI();&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else if(e.getButton()==e.BUTTON3) {//右键被点击&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;if(a.times != 1) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;a.times -= 1;//放大倍数不为基础倍数则缩小&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;a.setPreferredSize(new Dimension(a.getPreferredSize().width*a.times/a.oldtimes,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;a.getPreferredSize().height*a.times/a.oldtimes));//更改画布大小以适应图像大小改变&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;a.flag = 1;//触发事件&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;a.updateUI();&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_jd5ggsNyEem8ke0My6jckA" name="e" type="_jdTDkcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jeDRgMNyEem8ke0My6jckA" name="mouseClicked" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jeDRgsNyEem8ke0My6jckA" name="mouseEntered" visibility="public" bodyCondition="_jeDRg8NyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jeWMccNyEem8ke0My6jckA">
+          <body>当鼠标移动到画布区时</body>
+        </ownedComment>
+        <ownedRule xmi:id="_jeDRg8NyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jeMbcMNyEem8ke0My6jckA" name="TemplateBody" value="{//当鼠标移动到画布区时&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;//此处根据其他工具的情况设定画布的初始值&#xD;&#xA;&#x9;int se=0;int ti=a.times;&#xD;&#xA;&#x9;String fo;&#xD;&#xA;&#x9;int bl=0;int un=0;;int le=0;&#xD;&#xA;&#x9;int fs;int si=3;&#xD;&#xA;&#x9;Color fore;Color ba;&#xD;&#xA;&#x9;for(int i=0;i&lt;b.allButton.length;i++) {&#xD;&#xA;&#x9;&#x9;if(b.allButton[i].button.getBackground().equals(new Color(175,175,175))){&#xD;&#xA;&#x9;&#x9;&#x9;se = i;&#xD;&#xA;&#x9;&#x9;&#x9;break;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;continue;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;fo = (String)t.fontBox.getSelectedItem();&#xD;&#xA;&#x9;if(t.allButton[3].button.getBackground().equals(new Color(175,175,175))) {&#xD;&#xA;&#x9;&#x9;bl=1;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;if(t.allButton[4].button.getBackground().equals(new Color(175,175,175))) {&#xD;&#xA;&#x9;&#x9;un=1;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;if(t.allButton[5].button.getBackground().equals(new Color(175,175,175))) {&#xD;&#xA;&#x9;&#x9;le=1;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;fs = Integer.parseInt((String)t.fontSizeBox.getSelectedItem());&#xD;&#xA;&#x9;if(((String)t.sizeBox.getSelectedItem()).equals(&quot;最小&quot;)) {&#xD;&#xA;&#x9;&#x9;si=1;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else if(((String)t.sizeBox.getSelectedItem()).equals(&quot;小&quot;)) {&#xD;&#xA;&#x9;&#x9;si=3;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else if(((String)t.sizeBox.getSelectedItem()).equals(&quot;大&quot;)) {&#xD;&#xA;&#x9;&#x9;si=5;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else {&#xD;&#xA;&#x9;&#x9;si=7;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;fore = t.allLabel[0].getBackground();&#xD;&#xA;&#x9;ba = t.allLabel[1].getBackground();&#xD;&#xA;&#x9;a.setProperty(se, ti, si, fore, ba);//设置初始参数&#xD;&#xA;&#x9;a.updateUI();&#xD;&#xA;&#x9;HashMap&lt;TextAttribute, Object> hm = new HashMap&lt;TextAttribute, Object>();//在此处设置文本框字体备用&#xD;&#xA;&#x9;if(un == 1) {&#xD;&#xA;&#x9;&#x9;hm.put(TextAttribute.UNDERLINE, TextAttribute.UNDERLINE_ON); // 定义有下划线&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;if(le == 1) {&#xD;&#xA;&#x9;&#x9;hm.put(TextAttribute.POSTURE, TextAttribute.POSTURE_OBLIQUE);//设置倾斜&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;if(bl == 1) {&#xD;&#xA;&#x9;&#x9;hm.put(TextAttribute.WEIGHT, TextAttribute.WEIGHT_BOLD);//设置加粗&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;hm.put(TextAttribute.SIZE, fs); // 定义字号&#xD;&#xA;&#x9;hm.put(TextAttribute.FAMILY, fo); // 定义字体名&#xD;&#xA;&#x9;text.setFont(new Font(hm));&#xD;&#xA;&#x9;text.setForeground(fore);&#xD;&#xA;&#x9;a.flag = 0;//非触发事件&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_jeMbccNyEem8ke0My6jckA" name="arg0" type="_jdTDkcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jeWMcMNyEem8ke0My6jckA" name="mouseEntered" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jeWMcsNyEem8ke0My6jckA" name="mouseExited" visibility="public" bodyCondition="_jefWYMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jefWYMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jefWYcNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_jepHYMNyEem8ke0My6jckA" name="arg0" type="_jdTDkcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jepHYcNyEem8ke0My6jckA" name="mouseExited" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jepHYsNyEem8ke0My6jckA" name="mousePressed" visibility="public" bodyCondition="_jey4YMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jey4YMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jey4YcNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_je8CUMNyEem8ke0My6jckA" name="arg0" type="_jdTDkcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_je8CUcNyEem8ke0My6jckA" name="mousePressed" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_je8CUsNyEem8ke0My6jckA" name="mouseReleased" visibility="public" bodyCondition="_jfFzUMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jfFzUMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jfFzUcNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;if(a.selectButton == 11&amp;&amp;a.teImage != null&amp;&amp;a.flag==1) {//当为选定框，且选定完成后&#xD;&#xA;&#x9;&#x9;a.gg.drawImage(a.image.getSubimage(a.temx+2, a.temy+2, a.temw-5, a.temh-5),&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;2, 2, a.temw-5, a.temh-5, null);//截取选定部分图像放入临时区，并将截取原部分填充背景色&#xD;&#xA;&#x9;&#x9;a.bg.setColor(a.back);&#xD;&#xA;&#x9;&#x9;a.bg.fillRect(a.temx+2, a.temy+2, a.temw-5, a.temh-5);&#xD;&#xA;&#x9;&#x9;a.flag = 0;&#xD;&#xA;&#x9;&#x9;a.updateUI();&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;a.flag = 0;//此处是当除选定框外的所有其他组件结束时调用，用以控制绘图频率&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_jfPkUMNyEem8ke0My6jckA" name="arg0" type="_jdTDkcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jfPkUcNyEem8ke0My6jckA" name="mouseReleased" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jbXJ4cNyEem8ke0My6jckA" name="int"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jbz10cNyEem8ke0My6jckA" name="JTextArea"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jdTDkcNyEem8ke0My6jckA" name="MouseEvent"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jdc0kcNyEem8ke0My6jckA" name="void"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jfYuQMNyEem8ke0My6jckA" name="BrushButton">
+      <generalization xmi:id="_jfifQMNyEem8ke0My6jckA" general="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jfifQcNyEem8ke0My6jckA">
+          <body>BrushButton extends Button</body>
+        </ownedComment>
+      </generalization>
+      <ownedOperation xmi:id="_jgIVIMNyEem8ke0My6jckA" name="BrushButton" visibility="public" bodyCondition="_jgIVIcNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jgIVIcNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jgIVIsNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;button.setIcon(new ImageIcon(&quot;icon/brush.png&quot;));//构造格式刷属性&#xD;&#xA;&#x9;button.setToolTipText(&quot;格式刷&quot;);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jgb3IMNyEem8ke0My6jckA" name="Button">
+      <ownedAttribute xmi:id="_jguyEMNyEem8ke0My6jckA" name="button" visibility="package" type="_jSbQUsNyEem8ke0My6jckA"/>
+      <ownedOperation xmi:id="_jhBtAMNyEem8ke0My6jckA" name="Button" visibility="public" bodyCondition="_jhLeAMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jhLeAMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jhLeAcNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;//新建一个button&#xD;&#xA;&#x9;button = new JButton();&#xD;&#xA;&#x9;//设置按钮大小,但是貌似没有用&#xD;&#xA;&#x9;button.setPreferredSize(new Dimension(30,30));&#xD;&#xA;&#x9;//设置背景色为灰色,之后要以背景颜色判定选定&#xD;&#xA;&#x9;button.setBackground(new Color(255,255,255));&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jhUn8MNyEem8ke0My6jckA" name="CanPaintLabel">
+      <generalization xmi:id="_jheY8MNyEem8ke0My6jckA" general="_jnSGAMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jheY8cNyEem8ke0My6jckA">
+          <body>CanPaintLabel extends JLabel</body>
+        </ownedComment>
+      </generalization>
+      <ownedAttribute xmi:id="_jig6wMNyEem8ke0My6jckA" name="pi" visibility="private" isStatic="true" type="_jig6wcNyEem8ke0My6jckA" isReadOnly="true">
+        <ownedComment xmi:id="_jig6wsNyEem8ke0My6jckA">
+          <body>用以求取曲线的起始角</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jig6w8NyEem8ke0My6jckA" name="selectButton" visibility="package" type="_jbXJ4cNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jiqrwMNyEem8ke0My6jckA">
+          <body>选择的工具</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jiqrwcNyEem8ke0My6jckA" name="oldtimes" visibility="package" type="_jbXJ4cNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jiz1sMNyEem8ke0My6jckA">
+          <body>记录的原始倍数</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jiz1scNyEem8ke0My6jckA" name="times" visibility="package" type="_jbXJ4cNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_ji9msMNyEem8ke0My6jckA">
+          <body>放大倍数</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ji9mscNyEem8ke0My6jckA" name="x" visibility="package" type="_jbXJ4cNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_ji9mssNyEem8ke0My6jckA" name="y" visibility="package" type="_jbXJ4cNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jjHXsMNyEem8ke0My6jckA">
+          <body>绘图的终止位置</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jjHXscNyEem8ke0My6jckA" name="x1" visibility="package" type="_jbXJ4cNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jjHXssNyEem8ke0My6jckA" name="y1" visibility="package" type="_jbXJ4cNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jjHXs8NyEem8ke0My6jckA">
+          <body>绘图的起始位置，多功能引用，不局限于此</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jjHXtMNyEem8ke0My6jckA" name="size" visibility="package" type="_jbXJ4cNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jjQhoMNyEem8ke0My6jckA">
+          <body>画笔大小</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jjQhocNyEem8ke0My6jckA" name="fore" visibility="package" type="_jjaSoMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jjaSocNyEem8ke0My6jckA">
+          <body>前景色</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jjaSosNyEem8ke0My6jckA" name="back" visibility="package" type="_jjaSoMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jjkDoMNyEem8ke0My6jckA">
+          <body>背景色</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jjkDocNyEem8ke0My6jckA" name="flag" visibility="package" type="_jbXJ4cNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jjtNkMNyEem8ke0My6jckA">
+          <body>用以判断是否需要paint其他的组件</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jjtNkcNyEem8ke0My6jckA" name="image" visibility="package" type="_jjtNksNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jj2-kMNyEem8ke0My6jckA">
+          <body>原始图像，随label本身变化及绘图而变化</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jj2-kcNyEem8ke0My6jckA" name="bg" visibility="package" type="_jj2-ksNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jkAIgMNyEem8ke0My6jckA">
+          <body>image的画笔</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jkAIgcNyEem8ke0My6jckA" name="teImage" visibility="package" type="_jjtNksNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jkJ5gMNyEem8ke0My6jckA">
+          <body>临时图像缓存区，用于存储可移动图像部分</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jkJ5gcNyEem8ke0My6jckA" name="gg" visibility="package" type="_jj2-ksNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jkTqgMNyEem8ke0My6jckA">
+          <body>teImage的画笔</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jkTqgcNyEem8ke0My6jckA" name="temx" visibility="package" type="_jbXJ4cNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jkTqgsNyEem8ke0My6jckA" name="temy" visibility="package" type="_jbXJ4cNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jkc0cMNyEem8ke0My6jckA" name="temw" visibility="package" type="_jbXJ4cNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jkmlcMNyEem8ke0My6jckA" name="temh" visibility="package" type="_jbXJ4cNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jkmlccNyEem8ke0My6jckA">
+          <body>记录teImage存在时在该组件中的位置，用以更新时绘图</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_jlDRYMNyEem8ke0My6jckA" name="CanPaintLabel" visibility="public" bodyCondition="_jlMbUMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jlMbUsNyEem8ke0My6jckA">
+          <body>初始化参数，之后会传入部分重要参数进行更改</body>
+        </ownedComment>
+        <ownedRule xmi:id="_jlMbUMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jlMbUcNyEem8ke0My6jckA" name="TemplateBody" value="{//初始化参数，之后会传入部分重要参数进行更改&#xD;&#xA;&#x9;//在这里传入参数,可以自己设定一些参数&#xD;&#xA;&#x9;setOpaque(true);//设置不透明&#xD;&#xA;&#x9;setBackground(Color.WHITE);//设置背景色为白色&#xD;&#xA;&#x9;setPreferredSize(new Dimension(1000,500));//设置原始大小为1000x500&#xD;&#xA;&#x9;selectButton = 9; times = 1;oldtimes = 1;//根据界面初始值，设置初始选定及其他组件状态&#xD;&#xA;&#x9;x = 0; y = 0;&#xD;&#xA;&#x9;x1 = 0; y1 = 0;&#xD;&#xA;&#x9;size = 3;&#xD;&#xA;&#x9;fore = new Color(0,0,0);&#xD;&#xA;&#x9;back = new Color(255,255,255);&#xD;&#xA;&#x9;flag = -1;&#xD;&#xA;&#x9;image = new BufferedImage(1000,500,BufferedImage.TYPE_INT_RGB);//设置RGB形式的图像&#xD;&#xA;&#x9;bg = (Graphics2D)image.getGraphics();//得到画笔&#xD;&#xA;&#x9;bg.setColor(back);&#xD;&#xA;&#x9;bg.fillRect(0, 0, image.getWidth(), image.getHeight());//填充初始背景为白色&#xD;&#xA;&#x9;bg.setColor(fore);&#xD;&#xA;&#x9;teImage = null;//设定临时区图像为空&#xD;&#xA;&#x9;gg = null;&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jlMbU8NyEem8ke0My6jckA" name="setProperty" visibility="public" bodyCondition="_jlWMUMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jmFzMsNyEem8ke0My6jckA">
+          <body>设定重要参数</body>
+        </ownedComment>
+        <ownedRule xmi:id="_jlWMUMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jlWMUcNyEem8ke0My6jckA" name="TemplateBody" value="{//设定重要参数&#xD;&#xA;&#x9;selectButton = se; times = ti;oldtimes = ti;//所选组件、倍数&#xD;&#xA;&#x9;size = si;//组件大小&#xD;&#xA;&#x9;this.fore = fore;//前景色&#xD;&#xA;&#x9;back = ba;//背景色&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_jlpHQMNyEem8ke0My6jckA" name="se" type="_jbXJ4cNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jlpHQcNyEem8ke0My6jckA" name="ti" type="_jbXJ4cNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jly4QMNyEem8ke0My6jckA" name="si" type="_jbXJ4cNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jl8pQMNyEem8ke0My6jckA" name="fore" type="_jjaSoMNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jmFzMMNyEem8ke0My6jckA" name="ba" type="_jjaSoMNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jmFzMcNyEem8ke0My6jckA" name="setProperty" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jmPkMMNyEem8ke0My6jckA" name="paintComponent" visibility="public" bodyCondition="_jmPkMcNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jmPkMcNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jmPkMsNyEem8ke0My6jckA" name="TemplateBody" value="   {&#xD;&#xA;&#x9;//在这里绘制我们想要的东西,可以通过updateUI()更新图像&#xD;&#xA;&#x9;super.paintComponent(g1);//g1是系统调用时所用的画笔，我们在绘图时不用，最后将整个图片绘制到组件上才用到&#xD;&#xA;&#x9;if(flag == 1 ) {//触发事件&#xD;&#xA;&#x9;&#x9;switch(selectButton) {//刷子&#xD;&#xA;&#x9;&#x9;case 0:{&#xD;&#xA;&#x9;&#x9;&#x9;bg.setColor(fore);&#xD;&#xA;&#x9;&#x9;&#x9;Stroke s = new BasicStroke(3*size+1);//就是大一点的铅笔&#xD;&#xA;&#x9;&#x9;&#x9;bg.setStroke(s);&#xD;&#xA;&#x9;&#x9;&#x9;bg.drawLine(x1, y1, x, y);//将之前保存的点与当前点连接起来，否则系统返回的点是不连续的，会出现断点位置&#xD;&#xA;&#x9;&#x9;&#x9;x1 = x;//记录当前的位置用于下一轮调用&#xD;&#xA;&#x9;&#x9;&#x9;y1 = y;&#xD;&#xA;&#x9;&#x9;&#x9;break;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;case 1:{//圆形&#xD;&#xA;&#x9;&#x9;&#x9;int sx=0;&#xD;&#xA;&#x9;&#x9;&#x9;int sy=0;&#xD;&#xA;&#x9;&#x9;&#x9;if(x1>x) {//此处用于找到左上的端点&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sx = x;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sx = x1;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;if(y1>y) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sy = y;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sy = y1;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;teImage = new BufferedImage(Math.abs(x-x1)+5,Math.abs(y-y1)+5,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;BufferedImage.TYPE_INT_ARGB);//开辟临时图像区&#xD;&#xA;&#x9;&#x9;&#x9;gg = (Graphics2D)teImage.getGraphics();&#xD;&#xA;&#x9;&#x9;&#x9;gg.setColor(Color.BLACK);&#xD;&#xA;&#x9;&#x9;&#x9;for(int i=1;i&lt;=5;i=i+2) {//设置边框&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(teImage.getWidth()*(i-1)/5, 0, teImage.getWidth()*i/5, 0);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(teImage.getWidth()*(i-1)/5, teImage.getHeight()-1,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;teImage.getWidth()*i/5, teImage.getHeight()-1);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(0, teImage.getHeight()*(i-1)/5, 0, teImage.getHeight()*i/5);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(teImage.getWidth()-1, teImage.getHeight()*(i-1)/5, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;teImage.getWidth()-1, teImage.getHeight()*i/5);&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;Stroke s = new BasicStroke(size*2-1);//设置粗细&#xD;&#xA;&#x9;&#x9;&#x9;gg.setStroke(s);&#xD;&#xA;&#x9;&#x9;&#x9;gg.setColor(fore);&#xD;&#xA;&#x9;&#x9;&#x9;gg.drawOval(2+size, 2+size, teImage.getWidth()-5-2*size, teImage.getHeight()-5-2*size);&#xD;&#xA;&#x9;&#x9;&#x9;temx = sx-2;temy = sy-2;temw = teImage.getWidth();temh = teImage.getHeight();//记录绘制的图像位置，以便于后方调用&#xD;&#xA;&#x9;&#x9;&#x9;break;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;case 2:{//圆角矩形,大部分与圆形相同&#xD;&#xA;&#x9;&#x9;&#x9;int sx=0;&#xD;&#xA;&#x9;&#x9;&#x9;int sy=0;&#xD;&#xA;&#x9;&#x9;&#x9;if(x1>x) {//找左上点&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sx = x;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sx = x1;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;if(y1>y) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sy = y;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sy = y1;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;teImage = new BufferedImage(Math.abs(x-x1)+5,Math.abs(y-y1)+5,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;BufferedImage.TYPE_INT_ARGB);//同上&#xD;&#xA;&#x9;&#x9;&#x9;gg = (Graphics2D)teImage.getGraphics();&#xD;&#xA;&#x9;&#x9;&#x9;gg.setColor(Color.BLACK);&#xD;&#xA;&#x9;&#x9;&#x9;for(int i=1;i&lt;=5;i=i+2) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(teImage.getWidth()*(i-1)/5, 0, teImage.getWidth()*i/5, 0);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(teImage.getWidth()*(i-1)/5, teImage.getHeight()-1,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;teImage.getWidth()*i/5, teImage.getHeight()-1);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(0, teImage.getHeight()*(i-1)/5, 0, teImage.getHeight()*i/5);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(teImage.getWidth()-1, teImage.getHeight()*(i-1)/5, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;teImage.getWidth()-1, teImage.getHeight()*i/5);&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;Stroke s = new BasicStroke(2*size-1);&#xD;&#xA;&#x9;&#x9;&#x9;gg.setStroke(s);&#xD;&#xA;&#x9;&#x9;&#x9;gg.setColor(fore);&#xD;&#xA;&#x9;&#x9;&#x9;gg.drawRoundRect(2+size, 2+size, teImage.getWidth()-5-2*size, teImage.getHeight()-5-2*size,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;(teImage.getWidth()-5)/5,(teImage.getHeight()-5)/5);&#xD;&#xA;&#x9;&#x9;&#x9;temx = sx-2;temy = sy-2;temw = teImage.getWidth();temh = teImage.getHeight();&#xD;&#xA;&#x9;&#x9;&#x9;break;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;case 4:{//曲线&#xD;&#xA;&#x9;&#x9;&#x9;int sx=0;&#xD;&#xA;&#x9;&#x9;&#x9;int sy=0;&#xD;&#xA;&#x9;&#x9;&#x9;if(x1>x) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sx = x;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sx = x1;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;if(y1>y) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sy = y;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sy = y1;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;teImage = new BufferedImage(Math.abs(x-x1)+5,Math.abs(y-y1)+5,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;BufferedImage.TYPE_INT_ARGB);&#xD;&#xA;&#x9;&#x9;&#x9;gg = (Graphics2D)teImage.getGraphics();&#xD;&#xA;&#x9;&#x9;&#x9;gg.setColor(Color.BLACK);&#xD;&#xA;&#x9;&#x9;&#x9;for(int i=1;i&lt;=5;i=i+2) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(teImage.getWidth()*(i-1)/5, 0, teImage.getWidth()*i/5, 0);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(teImage.getWidth()*(i-1)/5, teImage.getHeight()-1,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;teImage.getWidth()*i/5, teImage.getHeight()-1);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(0, teImage.getHeight()*(i-1)/5, 0, teImage.getHeight()*i/5);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(teImage.getWidth()-1, teImage.getHeight()*(i-1)/5, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;teImage.getWidth()-1, teImage.getHeight()*i/5);&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;Stroke s = new BasicStroke(2*size-1);&#xD;&#xA;&#x9;&#x9;&#x9;gg.setStroke(s);&#xD;&#xA;&#x9;&#x9;&#x9;gg.setColor(fore);&#xD;&#xA;&#x9;&#x9;&#x9;double tr;&#xD;&#xA;&#x9;&#x9;&#x9;if(x1-x == 0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;if(y1-y >0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;tr = pi/2;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;else if(y1-y &lt; 0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;tr = -pi/2;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;tr = 0;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawArc(2+size, 2+size, teImage.getWidth()-5-2*size, teImage.getHeight()-5-2*size,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;(int)(180*tr/pi),180);&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else if(y1-y == 0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;tr = 0;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawArc(2+size, 2+size, teImage.getWidth()-5-2*size, teImage.getHeight()-5-2*size,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;(int)(180*tr/pi),180);&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else {//此处为了让拖动时,四个方向的弧线均不同&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;tr = -Math.atan(((double)(y1-y))/(x1-x));&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawArc(2+size, 2+size, teImage.getWidth()-5-2*size, teImage.getHeight()-5-2*size,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;(int)(180*tr/pi)*((x1-x)/Math.abs(x1-x)),&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;180*((x1-x)/Math.abs(x1-x))*((y1-y)/Math.abs(y1-y)));&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;temx = sx-2;temy = sy-2;temw = teImage.getWidth();temh = teImage.getHeight();&#xD;&#xA;&#x9;&#x9;&#x9;break;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;case 5:{//橡皮&#xD;&#xA;&#x9;&#x9;&#x9;bg.setColor(back);&#xD;&#xA;&#x9;&#x9;&#x9;Stroke s = new BasicStroke(2*size+1);&#xD;&#xA;&#x9;&#x9;&#x9;bg.setStroke(s);&#xD;&#xA;&#x9;&#x9;&#x9;bg.drawLine(x1, y1, x, y);&#xD;&#xA;&#x9;&#x9;&#x9;x1 = x;&#xD;&#xA;&#x9;&#x9;&#x9;y1 = y;&#xD;&#xA;&#x9;&#x9;&#x9;break;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;case 6:{//填色桶,可能能再次更新为速度更快的算法,当前涂色有延迟&#xD;&#xA;&#x9;&#x9;&#x9;int[] rgb = new int[3];&#xD;&#xA;&#x9;&#x9;&#x9;int pixel = image.getRGB(x1,y1);&#xD;&#xA;&#x9;&#x9;&#x9;rgb[0] = (pixel &amp; 0xff0000) >> 16;&#xD;&#xA;&#x9;&#x9;&#x9;rgb[1] = (pixel &amp; 0xff00) >> 8;&#xD;&#xA;&#x9;&#x9;&#x9;rgb[2] = (pixel &amp; 0xff);&#xD;&#xA;&#x9;&#x9;&#x9;if(!fore.equals(new Color(rgb[0],rgb[1],rgb[2]))) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;fill(x1,y1,new Color(rgb[0],rgb[1],rgb[2]));//种子填充算法&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;break;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;case 7:{//放大镜&#xD;&#xA;&#x9;&#x9;&#x9;BufferedImage te = new BufferedImage(image.getWidth()*times/oldtimes,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;image.getHeight()*times/oldtimes,BufferedImage.TYPE_INT_RGB);&#xD;&#xA;&#x9;&#x9;&#x9;Graphics2D tee = (Graphics2D)te.getGraphics();&#xD;&#xA;&#x9;&#x9;&#x9;tee.scale(((double)times)/oldtimes, ((double)times)/oldtimes);//放大倍数&#xD;&#xA;&#x9;&#x9;&#x9;tee.drawImage(image, 0, 0, null);//以放大倍数来绘制在另一临时区&#xD;&#xA;&#x9;&#x9;&#x9;image = te;&#xD;&#xA;&#x9;&#x9;&#x9;bg = tee;&#xD;&#xA;&#x9;&#x9;&#x9;oldtimes = times;&#xD;&#xA;&#x9;&#x9;&#x9;break;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;case 8:{//直线&#xD;&#xA;&#x9;&#x9;&#x9;int sx=0;&#xD;&#xA;&#x9;&#x9;&#x9;int sy=0;&#xD;&#xA;&#x9;&#x9;&#x9;if(x1>x) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sx = x;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sx = x1;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;if(y1>y) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sy = y;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sy = y1;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;teImage = new BufferedImage(Math.abs(x-x1)+5,Math.abs(y-y1)+5,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;BufferedImage.TYPE_INT_ARGB);&#xD;&#xA;&#x9;&#x9;&#x9;gg = (Graphics2D)teImage.getGraphics();&#xD;&#xA;&#x9;&#x9;&#x9;gg.setColor(Color.BLACK);&#xD;&#xA;&#x9;&#x9;&#x9;for(int i=1;i&lt;=5;i=i+2) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(teImage.getWidth()*(i-1)/5, 0, teImage.getWidth()*i/5, 0);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(teImage.getWidth()*(i-1)/5, teImage.getHeight()-1,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;teImage.getWidth()*i/5, teImage.getHeight()-1);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(0, teImage.getHeight()*(i-1)/5, 0, teImage.getHeight()*i/5);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(teImage.getWidth()-1, teImage.getHeight()*(i-1)/5, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;teImage.getWidth()-1, teImage.getHeight()*i/5);&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;Stroke s = new BasicStroke(2*size-1);&#xD;&#xA;&#x9;&#x9;&#x9;gg.setStroke(s);&#xD;&#xA;&#x9;&#x9;&#x9;gg.setColor(fore);&#xD;&#xA;&#x9;&#x9;&#x9;gg.drawLine(x1 - (Math.min(x1, x)-3), y1 - (Math.min(y1, y)-3),&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;x - (Math.min(x1, x)-3),  y - (Math.min(y1, y)-3));&#xD;&#xA;&#x9;&#x9;&#x9;temx = sx-2;temy = sy-2;temw = teImage.getWidth();temh = teImage.getHeight();&#xD;&#xA;&#x9;&#x9;&#x9;break;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;case 9:{//铅笔&#xD;&#xA;&#x9;&#x9;&#x9;bg.setColor(fore);&#xD;&#xA;&#x9;&#x9;&#x9;Stroke s = new BasicStroke(size);&#xD;&#xA;&#x9;&#x9;&#x9;bg.setStroke(s);&#xD;&#xA;&#x9;&#x9;&#x9;bg.drawLine(x1, y1, x, y);&#xD;&#xA;&#x9;&#x9;&#x9;x1 = x;&#xD;&#xA;&#x9;&#x9;&#x9;y1 = y;&#xD;&#xA;&#x9;&#x9;&#x9;break;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;case 10:{//矩形&#xD;&#xA;&#x9;&#x9;&#x9;int sx=0;&#xD;&#xA;&#x9;&#x9;&#x9;int sy=0;&#xD;&#xA;&#x9;&#x9;&#x9;if(x1>x) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sx = x;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sx = x1;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;if(y1>y) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sy = y;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sy = y1;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;teImage = new BufferedImage(Math.abs(x-x1)+5,Math.abs(y-y1)+5,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;BufferedImage.TYPE_INT_ARGB);&#xD;&#xA;&#x9;&#x9;&#x9;gg = (Graphics2D)teImage.getGraphics();&#xD;&#xA;&#x9;&#x9;&#x9;gg.setColor(Color.BLACK);&#xD;&#xA;&#x9;&#x9;&#x9;for(int i=1;i&lt;=5;i=i+2) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(teImage.getWidth()*(i-1)/5, 0, teImage.getWidth()*i/5, 0);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(teImage.getWidth()*(i-1)/5, teImage.getHeight()-1,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;teImage.getWidth()*i/5, teImage.getHeight()-1);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(0, teImage.getHeight()*(i-1)/5, 0, teImage.getHeight()*i/5);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(teImage.getWidth()-1, teImage.getHeight()*(i-1)/5, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;teImage.getWidth()-1, teImage.getHeight()*i/5);&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;Stroke s = new BasicStroke(2*size-1);&#xD;&#xA;&#x9;&#x9;&#x9;gg.setStroke(s);&#xD;&#xA;&#x9;&#x9;&#x9;gg.setColor(fore);&#xD;&#xA;&#x9;&#x9;&#x9;gg.drawRect(2+size, 2+size, teImage.getWidth()-5-2*size, teImage.getHeight()-5-2*size);&#xD;&#xA;&#x9;&#x9;&#x9;temx = sx-2;temy = sy-2;temw = teImage.getWidth();temh = teImage.getHeight();&#xD;&#xA;&#x9;&#x9;&#x9;break;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;case 11:{//选定框&#xD;&#xA;&#x9;&#x9;&#x9;if(x>this.getPreferredSize().width) {//保证选定框不能在画布的范围外&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;x = this.getPreferredSize().width;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else if(x&lt;0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;x = 0;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;if(y>this.getPreferredSize().height) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;y = this.getPreferredSize().height;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else if(y&lt;0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;y = 0;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;int sx=0;&#xD;&#xA;&#x9;&#x9;&#x9;int sy=0;&#xD;&#xA;&#x9;&#x9;&#x9;if(x1>x) {//找左上角点&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sx = x;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sx = x1;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;if(y1>y) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sy = y;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;sy = y1;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;teImage = new BufferedImage(Math.abs(x-x1)+5,Math.abs(y-y1)+5,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;BufferedImage.TYPE_INT_ARGB);&#xD;&#xA;&#x9;&#x9;&#x9;gg = (Graphics2D)teImage.getGraphics();&#xD;&#xA;&#x9;&#x9;&#x9;gg.setColor(Color.BLACK);&#xD;&#xA;&#x9;&#x9;&#x9;for(int i=1;i&lt;=5;i=i+2) {//绘制选定框边框&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(teImage.getWidth()*(i-1)/5, 0, teImage.getWidth()*i/5, 0);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(teImage.getWidth()*(i-1)/5, teImage.getHeight()-1,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;teImage.getWidth()*i/5, teImage.getHeight()-1);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(0, teImage.getHeight()*(i-1)/5, 0, teImage.getHeight()*i/5);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;gg.drawLine(teImage.getWidth()-1, teImage.getHeight()*(i-1)/5, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;teImage.getWidth()-1, teImage.getHeight()*i/5);&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;temx = sx-2;temy = sy-2;temw = teImage.getWidth();temh = teImage.getHeight();&#xD;&#xA;&#x9;&#x9;&#x9;break;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;case 12:{//喷枪&#xD;&#xA;&#x9;&#x9;&#x9;int rx;&#xD;&#xA;&#x9;&#x9;&#x9;int ry;&#xD;&#xA;&#x9;&#x9;&#x9;bg.setColor(fore);&#xD;&#xA;&#x9;&#x9;&#x9;for(int i=0;i&lt;50;i++) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;rx = (int)(Math.random()*(size+1)*5/2)-1;//选取50个随机点&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;ry = (int)(Math.random()*(size+1)*5/2)-1;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;bg.drawLine(x+rx, y+ry, x+rx, y+ry);//循环绘制一个点，连续绘制50个&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;break;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;default:break;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else if(flag == 0){//此处为画布边框被拖动时准备&#xD;&#xA;&#x9;&#x9;BufferedImage temp = new BufferedImage(this.getPreferredSize().width,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;this.getPreferredSize().height,BufferedImage.TYPE_INT_RGB);&#xD;&#xA;&#x9;&#x9;Graphics2D te = (Graphics2D)temp.getGraphics();//创建与原画布相同类型的画布&#xD;&#xA;&#x9;&#x9;te.setColor(back);&#xD;&#xA;&#x9;&#x9;te.fillRect(0, 0, temp.getWidth(), temp.getHeight());//设置背景色&#xD;&#xA;&#x9;&#x9;if(this.getPreferredSize().width>image.getWidth()&amp;&amp;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;this.getPreferredSize().height>image.getHeight()) {//原画布大小比组件小&#xD;&#xA;&#x9;&#x9;&#x9;te.drawImage(image, 0, 0, image.getWidth(), image.getHeight(), null);&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else if(this.getPreferredSize().width>image.getWidth()&amp;&amp;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;this.getPreferredSize().height&lt;=image.getHeight()) {//原画布比组件高&#xD;&#xA;&#x9;&#x9;&#x9;BufferedImage a = image.getSubimage(0, 0, image.getWidth(),//截取对应部分&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;this.getPreferredSize().height);&#xD;&#xA;&#x9;&#x9;&#x9;te.drawImage(a, 0, 0, a.getWidth(), a.getHeight(), null);&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else if(this.getPreferredSize().width&lt;=image.getWidth()&amp;&amp;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;this.getPreferredSize().height>image.getHeight()) {//原画布比组件宽&#xD;&#xA;&#x9;&#x9;&#x9;BufferedImage a = image.getSubimage(0, 0, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;this.getPreferredSize().width,image.getHeight());//截取对应部分&#xD;&#xA;&#x9;&#x9;&#x9;te.drawImage(a, 0, 0, a.getWidth(), a.getHeight(), null);&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else {&#xD;&#xA;&#x9;&#x9;&#x9;BufferedImage a = image.getSubimage(0, 0, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;this.getPreferredSize().width,this.getPreferredSize().height);&#xD;&#xA;&#x9;&#x9;&#x9;te.drawImage(a, 0, 0, a.getWidth(), a.getHeight(), null);&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;image = temp;//覆盖原对象&#xD;&#xA;&#x9;&#x9;bg = te;//覆盖原画笔&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;g1.drawImage(image, 0, 0, image.getWidth(), image.getHeight(), null);//系统将原图像绘制到组件上&#xD;&#xA;&#x9;if(teImage != null) {//如果有临时图像则绘制到对应位置&#xD;&#xA;&#x9;&#x9;g1.drawImage(teImage, temx, temy, temw, temh, null);&#xD;&#xA;&#x9;}&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_jmYuIMNyEem8ke0My6jckA" name="g1" type="_jmifIMNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jmifIcNyEem8ke0My6jckA" name="paintComponent" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jmifIsNyEem8ke0My6jckA" name="fill" visibility="private" bodyCondition="_jmsQIMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jnI8EcNyEem8ke0My6jckA">
+          <body>种子填充算法，用于填色桶</body>
+        </ownedComment>
+        <ownedRule xmi:id="_jmsQIMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jmsQIcNyEem8ke0My6jckA" name="TemplateBody" value="{//种子填充算法，用于填色桶&#xD;&#xA;&#x9;//此为4-连通种子填充法，测试过比8-连通的要快，且不会错涂&#xD;&#xA;&#x9;Vector&lt;Point> tete = new Vector&lt;Point>();//记录被涂色点的上下左右的点的位置&#xD;&#xA;&#x9;tete.addElement(new Point(xx,yy));//起始点添加&#xD;&#xA;&#x9;while(!tete.isEmpty()) {//当内部所有该涂的点全部被涂完&#xD;&#xA;&#x9;&#x9;int[] rgb = new int[3];&#xD;&#xA;&#x9;&#x9;int pixel = image.getRGB(tete.get(0).x,tete.get(0).y);&#xD;&#xA;&#x9;&#x9;rgb[0] = (pixel &amp; 0xff0000) >> 16;&#xD;&#xA;&#x9;&#x9;rgb[1] = (pixel &amp; 0xff00) >> 8;&#xD;&#xA;&#x9;&#x9;rgb[2] = (pixel &amp; 0xff);&#xD;&#xA;&#x9;&#x9;if(co.equals(new Color(rgb[0],rgb[1],rgb[2]))) {//判断该点是否可涂&#xD;&#xA;&#x9;&#x9;&#x9;//可涂&#xD;&#xA;&#x9;&#x9;&#x9;image.setRGB(tete.get(0).x,tete.get(0).y,fore.getRGB());//涂色&#xD;&#xA;&#x9;&#x9;&#x9;//添加其上下左右的点的坐标&#xD;&#xA;&#x9;&#x9;&#x9;if(tete.get(0).x>0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;tete.addElement(new Point(tete.get(0).x-1,tete.get(0).y));&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;if(tete.get(0).x&lt;image.getWidth()-1) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;tete.addElement(new Point(tete.get(0).x+1,tete.get(0).y));&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;if(tete.get(0).y>0) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;tete.addElement(new Point(tete.get(0).x,tete.get(0).y-1));&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;if(tete.get(0).y&lt;image.getHeight()-1) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;tete.addElement(new Point(tete.get(0).x,tete.get(0).y+1));&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;tete.remove(0);//清除vector的第一位的元素，以支持循环可结束&#xD;&#xA;&#x9;}&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_jm1aEMNyEem8ke0My6jckA" name="xx" type="_jbXJ4cNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jm_LEMNyEem8ke0My6jckA" name="yy" type="_jbXJ4cNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jm_LEcNyEem8ke0My6jckA" name="co" type="_jjaSoMNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jnI8EMNyEem8ke0My6jckA" name="fill" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jig6wcNyEem8ke0My6jckA" name="double"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jjaSoMNyEem8ke0My6jckA" name="Color"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jjtNksNyEem8ke0My6jckA" name="BufferedImage"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jj2-ksNyEem8ke0My6jckA" name="Graphics2D"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jmifIMNyEem8ke0My6jckA" name="Graphics"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jnSGAMNyEem8ke0My6jckA" name="JLabel">
+      <nestedClassifier xmi:type="uml:Stereotype" xmi:id="_joBs4MNyEem8ke0My6jckA" name="Unresolved Class"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_joBs4cNyEem8ke0My6jckA" name="CirRectButton">
+      <generalization xmi:id="_joLd4MNyEem8ke0My6jckA" general="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_joLd4cNyEem8ke0My6jckA">
+          <body>CirRectButton extends Button</body>
+        </ownedComment>
+      </generalization>
+      <ownedOperation xmi:id="_jooJ0MNyEem8ke0My6jckA" name="CirRectButton" visibility="public" bodyCondition="_joxTwMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_joxTwMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_joxTwcNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;button.setIcon(new ImageIcon(&quot;icon/cirrect.png&quot;));//构造圆角矩形属性&#xD;&#xA;&#x9;button.setToolTipText(&quot;圆角矩形&quot;);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jo7EwMNyEem8ke0My6jckA" name="CircleButton">
+      <generalization xmi:id="_jpE1wMNyEem8ke0My6jckA" general="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jpE1wcNyEem8ke0My6jckA">
+          <body>CircleButton extends Button</body>
+        </ownedComment>
+      </generalization>
+      <ownedOperation xmi:id="_jpqroMNyEem8ke0My6jckA" name="CircleButton" visibility="public" bodyCondition="_jpqrocNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jpqrocNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jpqrosNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;button.setIcon(new ImageIcon(&quot;icon/circle.png&quot;));//构造圆形属性&#xD;&#xA;&#x9;button.setToolTipText(&quot;圆形&quot;);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jp9mkMNyEem8ke0My6jckA" name="ColorBoxListener" clientDependency="_kYwmQcNyEem8ke0My6jckA">
+      <ownedAttribute xmi:id="_jqRIkMNyEem8ke0My6jckA" name="label" visibility="package" type="_jnSGAMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jqRIkcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jqRIksNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jqaSgMNyEem8ke0My6jckA" name="button" visibility="package" type="_jSbQUsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jqaSgcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jqaSgsNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jqaSg8NyEem8ke0My6jckA" name="flag" visibility="package" type="_jSbQUsNyEem8ke0My6jckA"/>
+      <ownedOperation xmi:id="_jq2-cMNyEem8ke0My6jckA" name="ColorBoxListener" visibility="public" bodyCondition="_jrAvcMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jrAvcMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jrAvccNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;label = a;&#xD;&#xA;&#x9;button = new JButton[2];&#xD;&#xA;&#x9;button[0] = f;&#xD;&#xA;&#x9;button[1] = b;&#xD;&#xA;&#x9;flag = s;&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_jrJ5YMNyEem8ke0My6jckA" name="a" type="_jnSGAMNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jrTqYMNyEem8ke0My6jckA" name="f" type="_jSbQUsNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jrc0UMNyEem8ke0My6jckA" name="b" type="_jSbQUsNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jrc0UcNyEem8ke0My6jckA" name="s" type="_jSbQUsNyEem8ke0My6jckA" direction="inout"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jrmlUMNyEem8ke0My6jckA" name="actionPerformed" visibility="public" bodyCondition="_jrmlUcNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jrmlUcNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jrmlUsNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;if(button[0].getBackground().equals(new Color(0,162,232))) {&#xD;&#xA;&#x9;&#x9;label[0].setBackground(flag.getBackground());&#xD;&#xA;&#x9;&#x9;label[0].updateUI();&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else {&#xD;&#xA;&#x9;&#x9;label[1].setBackground(flag.getBackground());&#xD;&#xA;&#x9;&#x9;label[1].updateUI();&#xD;&#xA;&#x9;}&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_jrwWUMNyEem8ke0My6jckA" name="e" type="_jrwWUcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jrwWUsNyEem8ke0My6jckA" name="actionPerformed" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jrwWUcNyEem8ke0My6jckA" name="ActionEvent"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jsDRQMNyEem8ke0My6jckA" name="ColorPenButton">
+      <generalization xmi:id="_jsDRQcNyEem8ke0My6jckA" general="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jsNCQMNyEem8ke0My6jckA">
+          <body>ColorPenButton extends Button</body>
+        </ownedComment>
+      </generalization>
+      <ownedOperation xmi:id="_jspHIMNyEem8ke0My6jckA" name="ColorPenButton" visibility="public" bodyCondition="_jspHIcNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jspHIcNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jsy4IMNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;button.setIcon(new ImageIcon(&quot;icon/colorpen.png&quot;));//构造取色笔属性&#xD;&#xA;&#x9;button.setToolTipText(&quot;取色笔&quot;);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_js8pIMNyEem8ke0My6jckA" name="ColorSelectListener" clientDependency="_kY5wMMNyEem8ke0My6jckA">
+      <ownedAttribute xmi:id="_jtPkEMNyEem8ke0My6jckA" name="button" visibility="package" type="_jSbQUsNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jtPkEcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jtPkEsNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_jtsQAMNyEem8ke0My6jckA" name="ColorSelectListener" visibility="public" bodyCondition="_jtsQAcNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jtsQAcNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jtsQAsNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;button = new JButton[2];&#xD;&#xA;&#x9;button[0] = a;&#xD;&#xA;&#x9;button[1] = b;&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_jt1Z8MNyEem8ke0My6jckA" name="a" type="_jSbQUsNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jt1Z8cNyEem8ke0My6jckA" name="b" type="_jSbQUsNyEem8ke0My6jckA" direction="inout"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jt_K8MNyEem8ke0My6jckA" name="actionPerformed" visibility="public" bodyCondition="_jt_K8cNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jt_K8cNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jt_K8sNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;button[0].setBackground(new Color(0,162,232));&#xD;&#xA;&#x9;button[1].setBackground(new Color(220,220,220));&#xD;&#xA;&#x9;button[0].updateUI();&#xD;&#xA;&#x9;button[1].updateUI();&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_juI78MNyEem8ke0My6jckA" name="e" type="_jrwWUcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_juI78cNyEem8ke0My6jckA" name="actionPerformed" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_juSF4MNyEem8ke0My6jckA" name="ColorTool">
+      <ownedAttribute xmi:id="_ju4i0MNyEem8ke0My6jckA" name="foreColorIcon" visibility="package" type="_jnSGAMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jvBswMNyEem8ke0My6jckA">
+          <body>前景色图标的显示，与监听器同步更改</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jvBswcNyEem8ke0My6jckA" name="backColorIcon" visibility="package" type="_jnSGAMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jvLdwMNyEem8ke0My6jckA">
+          <body>背景色图标显示，与监听器同步</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jvLdwcNyEem8ke0My6jckA" name="foreColor" visibility="package" type="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jvVOwMNyEem8ke0My6jckA">
+          <body>前景色按钮</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jvVOwcNyEem8ke0My6jckA" name="backColor" visibility="package" type="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jveYsMNyEem8ke0My6jckA">
+          <body>背景色按钮</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jveYscNyEem8ke0My6jckA" name="colorBox" visibility="package" type="_jSbQUsNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jvoJsMNyEem8ke0My6jckA">
+          <body>常用颜色版</body>
+        </ownedComment>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jveYssNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jveYs8NyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jvoJscNyEem8ke0My6jckA" name="editColor" visibility="package" type="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jvx6sMNyEem8ke0My6jckA">
+          <body>编辑颜色按钮</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_jwE1oMNyEem8ke0My6jckA" name="ColorTool" visibility="public" bodyCondition="_jwN_kMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jwN_kMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jwN_kcNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;foreColor = new Button();&#xD;&#xA;&#x9;backColor = new Button();&#xD;&#xA;&#x9;editColor = new Button();&#xD;&#xA;&#x9;foreColor.button.setPreferredSize(new Dimension(70,100));&#xD;&#xA;&#x9;backColor.button.setPreferredSize(new Dimension(70,100));&#xD;&#xA;&#x9;editColor.button.setPreferredSize(new Dimension(90,100));&#xD;&#xA;&#x9;foreColor.button.setBackground(new Color(0,162,232));&#xD;&#xA;&#x9;backColor.button.setBackground(new Color(220,220,220));&#xD;&#xA;&#x9;editColor.button.setBackground(new Color(220,220,220));&#xD;&#xA;&#x9;JPanel temp1 = new JPanel(new GridLayout(2,1));&#xD;&#xA;&#x9;temp1.setOpaque(false);&#xD;&#xA;&#x9;JPanel temp2 = new JPanel(new GridLayout(2,1));&#xD;&#xA;&#x9;temp2.setOpaque(false);&#xD;&#xA;&#x9;JPanel temp3 = new JPanel(new GridLayout(2,1));&#xD;&#xA;&#x9;temp3.setOpaque(false);&#xD;&#xA;&#x9;foreColorIcon = new JLabel(&quot;&quot;,JLabel.CENTER);&#xD;&#xA;&#x9;foreColorIcon.setOpaque(true);//背景设置为不透明，才可以设置背景色&#xD;&#xA;&#x9;foreColorIcon.setBackground(Color.BLACK);//背景色设置为黑，用以代表当前选定的颜色&#xD;&#xA;&#x9;foreColorIcon.setBorder(BorderFactory.createLineBorder(new Color(220,220,220)));&#xD;&#xA;&#x9;backColorIcon = new JLabel(&quot;&quot;,JLabel.CENTER);&#xD;&#xA;&#x9;backColorIcon.setOpaque(true);//背景设置为不透明，才可以设置背景色&#xD;&#xA;&#x9;backColorIcon.setBackground(Color.WHITE);//背景色设置为黑，用以代表当前选定的颜色&#xD;&#xA;&#x9;backColorIcon.setBorder(BorderFactory.createLineBorder(new Color(220,220,220)));&#xD;&#xA;&#x9;JLabel[] temp = new JLabel[4];&#xD;&#xA;&#x9;for(int i=0;i&lt;4;i++) {&#xD;&#xA;&#x9;&#x9;temp[i] = new JLabel(&quot;&quot;,JLabel.CENTER);&#xD;&#xA;&#x9;&#x9;temp[i].setOpaque(false);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;temp[0].setText(&quot;颜色1&quot;);&#xD;&#xA;&#x9;temp[1].setText(&quot;颜色2&quot;);&#xD;&#xA;&#x9;temp[2].setIcon(new ImageIcon(&quot;icon/colorBox.png&quot;));&#xD;&#xA;&#x9;temp[3].setText(&quot;编辑颜色&quot;);&#xD;&#xA;&#x9;temp1.add(foreColorIcon);&#xD;&#xA;&#x9;temp1.add(temp[0]);&#xD;&#xA;&#x9;foreColor.button.add(temp1);&#xD;&#xA;&#x9;temp2.add(backColorIcon);&#xD;&#xA;&#x9;temp2.add(temp[1]);&#xD;&#xA;&#x9;backColor.button.add(temp2);&#xD;&#xA;&#x9;temp3.add(temp[2]);&#xD;&#xA;&#x9;temp3.add(temp[3]);&#xD;&#xA;&#x9;editColor.button.add(temp3);&#xD;&#xA;&#x9;colorBox = new JButton[20];&#xD;&#xA;&#x9;for(int i=0;i&lt;20;i++) {&#xD;&#xA;&#x9;&#x9;colorBox[i] = new JButton();&#xD;&#xA;&#x9;&#x9;colorBox[i].setPreferredSize(new Dimension(15,15));&#xD;&#xA;&#x9;&#x9;//colorBox[i].setBorderPainted(false);//设置不绘制边框，此处应该无用，在JDialog中有用，保留在这&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;colorBox[0].setBackground(new Color(0,0,0));//根据电脑画图板,添加这些基本颜色&#xD;&#xA;&#x9;colorBox[1].setBackground(new Color(127,127,127));&#xD;&#xA;&#x9;colorBox[2].setBackground(new Color(136,0,21));&#xD;&#xA;&#x9;colorBox[3].setBackground(new Color(237,28,36));&#xD;&#xA;&#x9;colorBox[4].setBackground(new Color(255,127,39));&#xD;&#xA;&#x9;colorBox[5].setBackground(new Color(255,242,0));&#xD;&#xA;&#x9;colorBox[6].setBackground(new Color(34,177,76));&#xD;&#xA;&#x9;colorBox[7].setBackground(new Color(0,162,232));&#xD;&#xA;&#x9;colorBox[8].setBackground(new Color(63,72,204));&#xD;&#xA;&#x9;colorBox[9].setBackground(new Color(163,73,164));&#xD;&#xA;&#x9;colorBox[10].setBackground(new Color(255,255,255));&#xD;&#xA;&#x9;colorBox[11].setBackground(new Color(195,195,195));&#xD;&#xA;&#x9;colorBox[12].setBackground(new Color(185,122,87));&#xD;&#xA;&#x9;colorBox[13].setBackground(new Color(255,174,201));&#xD;&#xA;&#x9;colorBox[14].setBackground(new Color(255,201,14));&#xD;&#xA;&#x9;colorBox[15].setBackground(new Color(239,228,176));&#xD;&#xA;&#x9;colorBox[16].setBackground(new Color(181,230,29));&#xD;&#xA;&#x9;colorBox[17].setBackground(new Color(153,217,234));&#xD;&#xA;&#x9;colorBox[18].setBackground(new Color(112,146,190));&#xD;&#xA;&#x9;colorBox[19].setBackground(new Color(200,191,231));&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jwXwkMNyEem8ke0My6jckA" name="CurveButton">
+      <generalization xmi:id="_jwhhkMNyEem8ke0My6jckA" general="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jwhhkcNyEem8ke0My6jckA">
+          <body>CurveButton extends Button</body>
+        </ownedComment>
+      </generalization>
+      <ownedOperation xmi:id="_jxHXcMNyEem8ke0My6jckA" name="CurveButton" visibility="public" bodyCondition="_jxHXccNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jxHXccNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jxHXcsNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;button.setIcon(new ImageIcon(&quot;icon/curve.png&quot;));//构造曲线属性&#xD;&#xA;&#x9;button.setToolTipText(&quot;曲线&quot;);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jxaSYMNyEem8ke0My6jckA" name="EditColorListener" clientDependency="_kZDhMMNyEem8ke0My6jckA">
+      <ownedAttribute xmi:id="_jxt0YMNyEem8ke0My6jckA" name="frame" visibility="package" type="_jSlBUcNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jxt0YcNyEem8ke0My6jckA" name="f" visibility="package" type="_jSbQUsNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jx2-UMNyEem8ke0My6jckA" name="b" visibility="package" type="_jSbQUsNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_jyAvUMNyEem8ke0My6jckA" name="a" visibility="package" type="_jnSGAMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jyAvUcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jyAvUsNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_jyTqQMNyEem8ke0My6jckA" name="EditColorListener" visibility="public" bodyCondition="_jydbQMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jydbQMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jydbQcNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;this.frame = frame;&#xD;&#xA;&#x9;this.f = f;&#xD;&#xA;&#x9;this.b = b;&#xD;&#xA;&#x9;this.a = a;&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_jymlMMNyEem8ke0My6jckA" name="frame" type="_jSlBUcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jywWMMNyEem8ke0My6jckA" name="f" type="_jSbQUsNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jywWMcNyEem8ke0My6jckA" name="b" type="_jSbQUsNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jy6HMMNyEem8ke0My6jckA" name="a" type="_jnSGAMNyEem8ke0My6jckA" direction="inout"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jy6HMcNyEem8ke0My6jckA" name="actionPerformed" visibility="public" bodyCondition="_jy6HMsNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jy6HMsNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jy6HM8NyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;EditDialog dialog = new EditDialog(frame,f,b,a);&#xD;&#xA;&#x9;dialog.setVisible(true);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_jzDRIMNyEem8ke0My6jckA" name="e" type="_jrwWUcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_jzDRIcNyEem8ke0My6jckA" name="actionPerformed" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jzWMEMNyEem8ke0My6jckA" name="EditDialog">
+      <generalization xmi:id="_jzWMEcNyEem8ke0My6jckA" general="_j0ie4MNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_jzf9EMNyEem8ke0My6jckA">
+          <body>EditDialog extends JDialog</body>
+        </ownedComment>
+      </generalization>
+      <ownedOperation xmi:id="_jz8pAMNyEem8ke0My6jckA" name="EditDialog" visibility="public" bodyCondition="_jz8pAcNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_jz8pAcNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_jz8pAsNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;super(frame,&quot;编辑颜色&quot;,true);&#xD;&#xA;&#x9;Container c = getContentPane();&#xD;&#xA;&#x9;JPanel center = new JPanel(new GridLayout(1,2));&#xD;&#xA;&#x9;JPanel left = new JPanel(new FlowLayout());&#xD;&#xA;&#x9;JPanel right = new JPanel(new GridLayout(4,2));&#xD;&#xA;&#x9;right.setPreferredSize(new Dimension(260,241));&#xD;&#xA;&#x9;JPanel[] righter = new JPanel[4];&#xD;&#xA;&#x9;JPanel[] lefter = new JPanel[4];&#xD;&#xA;&#x9;for(int i=0;i&lt;4;i++) {&#xD;&#xA;&#x9;&#x9;righter[i] = new JPanel(new FlowLayout(FlowLayout.LEFT));&#xD;&#xA;&#x9;&#x9;lefter[i] = new JPanel(new FlowLayout(FlowLayout.RIGHT));&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;/*上面是将该contain的分区部分划分好，以便于之后的组件添加，下面开始构造组件及设置选定组件*/&#xD;&#xA;&#x9;JLabel select;&#xD;&#xA;&#x9;if(f.getBackground().equals(new Color(0,162,232))) {&#xD;&#xA;&#x9;&#x9;select = a[0];&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else {&#xD;&#xA;&#x9;&#x9;select = a[1];&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;JLabel x =new JLabel(&quot;&quot;,new ImageIcon(&quot;icon/color.png&quot;),JLabel.CENTER);&#xD;&#xA;&#x9;x.setOpaque(true);&#xD;&#xA;&#x9;x.setPreferredSize(new Dimension(240,241));&#xD;&#xA;&#x9;//颜色板&#xD;&#xA;&#x9;left.add(x);&#xD;&#xA;&#x9;ShadeLabel p = new ShadeLabel();//重写JLabel后的渐变背景色的label&#xD;&#xA;&#x9;p.setPreferredSize(new Dimension(20,240));&#xD;&#xA;&#x9;left.add(p);&#xD;&#xA;&#x9;//左边完成&#xD;&#xA;&#x9;JLabel[] label = new JLabel[8];&#xD;&#xA;&#x9;for(int i=0;i&lt;8;i++) {&#xD;&#xA;&#x9;&#x9;label[i] = new JLabel(&quot;&quot;,JLabel.CENTER);&#xD;&#xA;&#x9;&#x9;label[i].setPreferredSize(new Dimension(60,40));&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;label[0].setText(&quot;预览：&quot;);&#xD;&#xA;&#x9;label[1].setText(&quot;red:&quot;);&#xD;&#xA;&#x9;label[2].setText(&quot;green:&quot;);&#xD;&#xA;&#x9;label[3].setText(&quot;blue:&quot;);&#xD;&#xA;&#x9;for(int i=0;i&lt;4;i++) {&#xD;&#xA;&#x9;&#x9;label[i+4].setOpaque(true);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;label[4].setBackground(select.getBackground());&#xD;&#xA;&#x9;label[4].setBorder(BorderFactory.createLineBorder(new Color(220,220,220)));&#xD;&#xA;&#x9;label[4].setPreferredSize(new Dimension(50,40));&#xD;&#xA;&#x9;for(int i=0;i&lt;3;i++) {&#xD;&#xA;&#x9;&#x9;label[i+5].setBackground(Color.WHITE);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;label[5].setText(String.valueOf(select.getBackground().getRed()));&#xD;&#xA;&#x9;label[6].setText(String.valueOf(select.getBackground().getGreen()));&#xD;&#xA;&#x9;label[7].setText(String.valueOf(select.getBackground().getBlue()));&#xD;&#xA;&#x9;for(int i=0;i&lt;4;i++) {&#xD;&#xA;&#x9;&#x9;lefter[i].add(label[i]);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;for(int i=0;i&lt;4;i++) {&#xD;&#xA;&#x9;&#x9;righter[i].add(label[i+4]);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;for(int i=0;i&lt;4;i++) {&#xD;&#xA;&#x9;&#x9;right.add(lefter[i]);&#xD;&#xA;&#x9;&#x9;right.add(righter[i]);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;center.add(left);&#xD;&#xA;&#x9;center.add(right);&#xD;&#xA;&#x9;//dialog中产生的listener，不添加到AllListener中&#xD;&#xA;&#x9;SelectColorBoxListener as = new SelectColorBoxListener(x,this,p,label);&#xD;&#xA;&#x9;ThinColorBoxListener as1 = new ThinColorBoxListener(this,p,label);&#xD;&#xA;&#x9;x.addMouseListener(as);&#xD;&#xA;&#x9;p.addMouseListener(as1);&#xD;&#xA;&#x9;JButton con = new JButton(&quot;确定&quot;);&#xD;&#xA;&#x9;con.setBackground(new Color(200,200,200));&#xD;&#xA;&#x9;OKListener as2 = new OKListener(select,label[4],this);&#xD;&#xA;&#x9;con.addActionListener(as2);&#xD;&#xA;&#x9;c.add(center,BorderLayout.CENTER);&#xD;&#xA;&#x9;JPanel south = new JPanel(new FlowLayout());&#xD;&#xA;&#x9;south.setPreferredSize(new Dimension(400,50));&#xD;&#xA;&#x9;south.add(con);&#xD;&#xA;&#x9;c.add(south,BorderLayout.SOUTH);&#xD;&#xA;&#x9;this.setBounds(100, 100, 570, 350);&#xD;&#xA;&#x9;this.setResizable(false);&#xD;&#xA;&#x9;this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_j0Pj8MNyEem8ke0My6jckA" name="frame" type="_jSlBUcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_j0Pj8cNyEem8ke0My6jckA" name="f" type="_jSbQUsNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_j0Pj8sNyEem8ke0My6jckA" name="b" type="_jSbQUsNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_j0ZU8MNyEem8ke0My6jckA" name="a" type="_jnSGAMNyEem8ke0My6jckA" direction="inout"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_j0ie4MNyEem8ke0My6jckA" name="JDialog">
+      <nestedClassifier xmi:type="uml:Stereotype" xmi:id="_j1I70MNyEem8ke0My6jckA" name="Unresolved Class"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_j1I70cNyEem8ke0My6jckA" name="EditMenu">
+      <ownedAttribute xmi:id="_j1lnwMNyEem8ke0My6jckA" name="editMenu" visibility="package" type="_jRh4cMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_j1uxsMNyEem8ke0My6jckA" name="undoMenu" visibility="package" type="_jRrpc8NyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_j15JwMNyEem8ke0My6jckA" name="redoMenu" visibility="package" type="_jRrpc8NyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_j2C6wMNyEem8ke0My6jckA" name="copyMenu" visibility="package" type="_jRrpc8NyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_j2C6wcNyEem8ke0My6jckA" name="cutMenu" visibility="package" type="_jRrpc8NyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_j2MrwMNyEem8ke0My6jckA" name="pasteMenu" visibility="package" type="_jRrpc8NyEem8ke0My6jckA"/>
+      <ownedOperation xmi:id="_j2owoMNyEem8ke0My6jckA" name="EditMenu" visibility="public" bodyCondition="_j2yhoMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_j2yhoMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_j2yhocNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;editMenu = new JMenu(&quot;编辑&quot;);&#xD;&#xA;&#x9;undoMenu = new JMenuItem(&quot;撤回&quot;);&#xD;&#xA;&#x9;redoMenu = new JMenuItem(&quot;重做&quot;);&#xD;&#xA;&#x9;copyMenu = new JMenuItem(&quot;复制&quot;);;&#xD;&#xA;&#x9;cutMenu = new JMenuItem(&quot;剪切&quot;);&#xD;&#xA;&#x9;pasteMenu = new JMenuItem(&quot;粘贴&quot;);&#xD;&#xA;&#x9;editMenu.add(undoMenu);&#xD;&#xA;&#x9;editMenu.add(redoMenu);&#xD;&#xA;&#x9;editMenu.add(copyMenu);&#xD;&#xA;&#x9;editMenu.add(cutMenu);&#xD;&#xA;&#x9;editMenu.add(pasteMenu);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_j28SoMNyEem8ke0My6jckA" name="EraserButton">
+      <generalization xmi:id="_j3FckMNyEem8ke0My6jckA" general="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_j3FckcNyEem8ke0My6jckA">
+          <body>EraserButton extends Button</body>
+        </ownedComment>
+      </generalization>
+      <ownedOperation xmi:id="_j3r5gMNyEem8ke0My6jckA" name="EraserButton" visibility="public" bodyCondition="_j31DcMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_j31DcMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_j31DccNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;button.setIcon(new ImageIcon(&quot;icon/eraser.png&quot;));//构造橡皮属性&#xD;&#xA;&#x9;button.setToolTipText(&quot;橡皮&quot;);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_j3-0cMNyEem8ke0My6jckA" name="FileMenu">
+      <ownedAttribute xmi:id="_j4bgYMNyEem8ke0My6jckA" name="fileMenu" visibility="package" type="_jRh4cMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_j4lRYMNyEem8ke0My6jckA" name="newMenu" visibility="package" type="_jRrpc8NyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_j4ubUMNyEem8ke0My6jckA" name="openMenu" visibility="package" type="_jRrpc8NyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_j4ubUcNyEem8ke0My6jckA" name="saveMenu" visibility="package" type="_jRrpc8NyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_j44MUMNyEem8ke0My6jckA" name="saveAsMenu" visibility="package" type="_jRrpc8NyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_j5LHQMNyEem8ke0My6jckA" name="exitMenu" visibility="package" type="_jRrpc8NyEem8ke0My6jckA"/>
+      <ownedOperation xmi:id="_j5eCMMNyEem8ke0My6jckA" name="FileMenu" visibility="public" bodyCondition="_j5nzMMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_j5nzMMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_j5nzMcNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;fileMenu = new JMenu(&quot;文件&quot;);&#xD;&#xA;&#x9;newMenu = new JMenuItem(&quot;新建&quot;);&#xD;&#xA;&#x9;openMenu = new JMenuItem(&quot;打开&quot;);&#xD;&#xA;&#x9;saveMenu = new JMenuItem(&quot;保存&quot;);;&#xD;&#xA;&#x9;saveAsMenu = new JMenuItem(&quot;另存为&quot;);&#xD;&#xA;&#x9;exitMenu = new JMenuItem(&quot;退出&quot;);&#xD;&#xA;&#x9;fileMenu.add(newMenu);&#xD;&#xA;&#x9;fileMenu.add(openMenu);&#xD;&#xA;&#x9;fileMenu.add(saveMenu);&#xD;&#xA;&#x9;fileMenu.add(saveAsMenu);&#xD;&#xA;&#x9;fileMenu.add(exitMenu);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_j56uIMNyEem8ke0My6jckA" name="FillColorButton">
+      <generalization xmi:id="_j6EfIMNyEem8ke0My6jckA" general="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_j6EfIcNyEem8ke0My6jckA">
+          <body>FillColorButton extends Button</body>
+        </ownedComment>
+      </generalization>
+      <ownedOperation xmi:id="_j6hLEMNyEem8ke0My6jckA" name="FillColorButton" visibility="public" bodyCondition="_j6hLEcNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_j6hLEcNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_j6qVAMNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;button.setIcon(new ImageIcon(&quot;icon/fillcolor.png&quot;));//构造填色桶属性&#xD;&#xA;&#x9;button.setToolTipText(&quot;填色桶&quot;);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_j60GAMNyEem8ke0My6jckA" name="FontListener" clientDependency="_kZNSMMNyEem8ke0My6jckA">
+      <ownedAttribute xmi:id="_j7HA8MNyEem8ke0My6jckA" name="button" visibility="package" type="_jSbQUsNyEem8ke0My6jckA"/>
+      <ownedOperation xmi:id="_j7Z74MNyEem8ke0My6jckA" name="FontListener" visibility="public" bodyCondition="_j7js4MNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_j7js4MNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_j7js4cNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;button = s;&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_j7td4MNyEem8ke0My6jckA" name="s" type="_jSbQUsNyEem8ke0My6jckA" direction="inout"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_j7td4cNyEem8ke0My6jckA" name="actionPerformed" visibility="public" bodyCondition="_j7td4sNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_j7td4sNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_j7td48NyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;if(button.getBackground().equals(new Color(255,255,255))) {&#xD;&#xA;&#x9;&#x9;button.setBackground(new Color(175,175,175));&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else {&#xD;&#xA;&#x9;&#x9;button.setBackground(new Color(255,255,255));&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;button.updateUI();&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_j72n0MNyEem8ke0My6jckA" name="arg0" type="_jrwWUcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_j72n0cNyEem8ke0My6jckA" name="actionPerformed" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_j8AY0MNyEem8ke0My6jckA" name="FontTool">
+      <ownedAttribute xmi:id="_j8dEwMNyEem8ke0My6jckA" name="fontLabel" visibility="package" type="_jnSGAMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_j8mOsMNyEem8ke0My6jckA" name="fontTool" visibility="package" type="_jR-kYMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_j8v_sMNyEem8ke0My6jckA" name="fontSizeTool" visibility="package" type="_jR-kYMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_j85wsMNyEem8ke0My6jckA" name="blacker" visibility="package" type="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_j9C6oMNyEem8ke0My6jckA">
+          <body>加黑</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_j9C6ocNyEem8ke0My6jckA" name="underer" visibility="package" type="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_j9MroMNyEem8ke0My6jckA">
+          <body>下划线</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_j9MrocNyEem8ke0My6jckA" name="leaner" visibility="package" type="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_j9V1kMNyEem8ke0My6jckA">
+          <body>倾斜</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_j9pXkMNyEem8ke0My6jckA" name="FontTool" visibility="public" bodyCondition="_j9pXkcNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_j9pXkcNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_j9pXksNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;fontLabel = new JLabel(&quot;字体:&quot;,JLabel.CENTER);&#xD;&#xA;&#x9;fontLabel.setOpaque(true);&#xD;&#xA;&#x9;fontTool = new JComboBox&lt;String>();&#xD;&#xA;&#x9;//获取当前系统内所有可用字体&#xD;&#xA;&#x9;String[] g = GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames();&#xD;&#xA;&#x9;fontSizeTool = new JComboBox&lt;String>();&#xD;&#xA;&#x9;for(int i=0;i&lt;g.length;i++) {&#xD;&#xA;&#x9;&#x9;fontTool.addItem(g[i]);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;for(int i=5;i&lt;25;i++) {&#xD;&#xA;&#x9;&#x9;fontSizeTool.addItem(&quot;&quot;+2*i);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;fontTool.setSelectedIndex(g.length-7);&#xD;&#xA;&#x9;fontSizeTool.setSelectedIndex(3);&#xD;&#xA;&#x9;blacker = new Button();&#xD;&#xA;&#x9;underer = new Button();&#xD;&#xA;&#x9;leaner = new Button();&#xD;&#xA;&#x9;blacker.button.setPreferredSize(new Dimension(25,25));&#xD;&#xA;&#x9;underer.button.setPreferredSize(new Dimension(25,25));&#xD;&#xA;&#x9;leaner.button.setPreferredSize(new Dimension(25,25));&#xD;&#xA;&#x9;blacker.button.setIcon(new ImageIcon(&quot;icon/blacker.png&quot;));&#xD;&#xA;&#x9;underer.button.setIcon(new ImageIcon(&quot;icon/underer.png&quot;));&#xD;&#xA;&#x9;leaner.button.setIcon(new ImageIcon(&quot;icon/leaner.png&quot;));&#xD;&#xA;&#x9;blacker.button.setToolTipText(&quot;加粗&quot;);&#xD;&#xA;&#x9;underer.button.setToolTipText(&quot;下划线&quot;);&#xD;&#xA;&#x9;leaner.button.setToolTipText(&quot;斜体&quot;);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_j98SgMNyEem8ke0My6jckA" name="HelpMenu">
+      <ownedAttribute xmi:id="_j-PNcMNyEem8ke0My6jckA" name="helpMenu" visibility="package" type="_jRh4cMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_j-Y-cMNyEem8ke0My6jckA" name="showHelpMenu" visibility="package" type="_jRrpc8NyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_j-iIYMNyEem8ke0My6jckA" name="aboutMenu" visibility="package" type="_jRrpc8NyEem8ke0My6jckA"/>
+      <ownedOperation xmi:id="_j--0UMNyEem8ke0My6jckA" name="HelpMenu" visibility="public" bodyCondition="_j--0UcNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_j--0UcNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_j--0UsNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;helpMenu = new JMenu(&quot;帮助&quot;);&#xD;&#xA;&#x9;showHelpMenu = new JMenuItem(&quot;显示帮助&quot;);&#xD;&#xA;&#x9;aboutMenu = new JMenuItem(&quot;关于&quot;);&#xD;&#xA;&#x9;helpMenu.add(showHelpMenu);&#xD;&#xA;&#x9;helpMenu.add(aboutMenu);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_j_RvQMNyEem8ke0My6jckA" name="LargerButton">
+      <generalization xmi:id="_j_bgQMNyEem8ke0My6jckA" general="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_j_bgQcNyEem8ke0My6jckA">
+          <body>LargerButton extends Button</body>
+        </ownedComment>
+      </generalization>
+      <ownedOperation xmi:id="_j_4MMMNyEem8ke0My6jckA" name="LargerButton" visibility="public" bodyCondition="_kAB9MMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kAB9MMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kAB9McNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;button.setIcon(new ImageIcon(&quot;icon/larger.png&quot;));//构造放大镜属性&#xD;&#xA;&#x9;button.setToolTipText(&quot;放大镜&quot;);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kAU4IMNyEem8ke0My6jckA" name="LeftButtonListener" clientDependency="_kZNSMsNyEem8ke0My6jckA">
+      <ownedComment xmi:id="_kAnzFMNyEem8ke0My6jckA">
+        <body>import javax.swing.*;&#xD;
+</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_kAnzEMNyEem8ke0My6jckA" name="button" visibility="package" type="_jgb3IMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kAnzEcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kAnzEsNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_kAnzE8NyEem8ke0My6jckA" name="flag" visibility="package" type="_jbXJ4cNyEem8ke0My6jckA"/>
+      <ownedOperation xmi:id="_kBEfAMNyEem8ke0My6jckA" name="LeftButtonListener" visibility="public" bodyCondition="_kBEfAcNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_kBXZ8cNyEem8ke0My6jckA">
+          <body>传入按钮，以顺序作为标志来完成选定的更改，更改背景颜色</body>
+        </ownedComment>
+        <ownedRule xmi:id="_kBEfAcNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kBOQAMNyEem8ke0My6jckA" name="TemplateBody" value="{//传入按钮，以顺序作为标志来完成选定的更改，更改背景颜色&#xD;&#xA;&#x9;button = b;&#xD;&#xA;&#x9;flag = s;&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kBOQAcNyEem8ke0My6jckA" name="b" type="_jgb3IMNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kBXZ8MNyEem8ke0My6jckA" name="s" type="_jbXJ4cNyEem8ke0My6jckA" direction="inout"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_kBhK8MNyEem8ke0My6jckA" name="actionPerformed" visibility="public" bodyCondition="_kBhK8cNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kBhK8cNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kBhK8sNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;Color temp = new Color(175,175,175);&#xD;&#xA;&#x9;for(int i=0;i&lt;button.length;i++) {&#xD;&#xA;&#x9;&#x9;if(button[i].button.getBackground().equals(temp)) {//将原先的选定更改为原来的颜色&#xD;&#xA;&#x9;&#x9;&#x9;button[i].button.setBackground(new Color(255,255,255));&#xD;&#xA;&#x9;&#x9;&#x9;button[i].button.updateUI();&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;if(i==flag) {//当前选定的&#xD;&#xA;&#x9;&#x9;&#x9;button[i].button.setBackground(temp);&#xD;&#xA;&#x9;&#x9;&#x9;button[i].button.updateUI();&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kBqU4MNyEem8ke0My6jckA" name="arg0" type="_jrwWUcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kBqU4cNyEem8ke0My6jckA" name="actionPerformed" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kB0F4MNyEem8ke0My6jckA" name="LineButton">
+      <generalization xmi:id="_kB924MNyEem8ke0My6jckA" general="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_kB924cNyEem8ke0My6jckA">
+          <body>LineButton extends Button</body>
+        </ownedComment>
+      </generalization>
+      <ownedOperation xmi:id="_kCai0MNyEem8ke0My6jckA" name="LineButton" visibility="public" bodyCondition="_kCjswMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kCjswMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kCjswcNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;button.setIcon(new ImageIcon(&quot;icon/line.png&quot;));//构造直线属性&#xD;&#xA;&#x9;button.setToolTipText(&quot;直线&quot;);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kC2nsMNyEem8ke0My6jckA" name="MainWindow">
+      <ownedAttribute xmi:id="_kDKJsMNyEem8ke0My6jckA" name="frame" visibility="package" type="_jSlBUcNyEem8ke0My6jckA"/>
+      <ownedOperation xmi:id="_kDdEoMNyEem8ke0My6jckA" name="MainWindow" visibility="public" bodyCondition="_kDdEocNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kDdEocNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kDm1oMNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;AllPanel all = new AllPanel();&#xD;&#xA;&#x9;Container c = all.frame.getContentPane();&#xD;&#xA;&#x9;c.setLayout(new BorderLayout());&#xD;&#xA;&#x9;c.add(all.westPanel,BorderLayout.WEST);&#xD;&#xA;&#x9;c.add(all.northPanel,BorderLayout.NORTH);&#xD;&#xA;&#x9;c.add(all.centerPanel,BorderLayout.CENTER);&#xD;&#xA;&#x9;all.frame.setJMenuBar(all.menu);&#xD;&#xA;&#x9;all.frame.setVisible(true);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+      <ownedOperation xmi:id="_kDm1ocNyEem8ke0My6jckA" name="main" visibility="public" isStatic="true" bodyCondition="_kDv_kMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kDv_kMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kDv_kcNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;new MainWindow();&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kD5wkMNyEem8ke0My6jckA" name="args" type="_kD5wkcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kD5wksNyEem8ke0My6jckA" name="main" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_kD5wkcNyEem8ke0My6jckA" name="String"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kEMrgMNyEem8ke0My6jckA" name="MyFrame">
+      <ownedAttribute xmi:id="_kEWcgMNyEem8ke0My6jckA" name="frame" visibility="package" type="_jSlBUcNyEem8ke0My6jckA"/>
+      <ownedOperation xmi:id="_kEpXcMNyEem8ke0My6jckA" name="MyFrame" visibility="public" bodyCondition="_kEyhYMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kEyhYMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kEyhYcNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;frame = new JFrame();&#xD;&#xA;&#x9;frame.setBounds(80,10,1200,750);&#xD;&#xA;&#x9;frame.setTitle(&quot;简易绘图板&quot;);&#xD;&#xA;&#x9;try {&#xD;&#xA;&#x9;&#x9;frame.setIconImage(ImageIO.read(new File(&quot;icon/peach.png&quot;)));&#xD;&#xA;&#x9;} catch (IOException e) {&#xD;&#xA;&#x9;&#x9;// TODO Auto-generated catch block&#xD;&#xA;&#x9;&#x9;e.printStackTrace();&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;//frame.setVisible(true);&#xD;&#xA;&#x9;frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);//测试方便关闭&#xD;&#xA;&#x9;/*&#xD;&#xA;&#x9; frame.setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);&#xD;&#xA;&#x9; frame.addWindowListener(new WindowAdapter() {&#xD;&#xA;               @Override&#xD;&#xA;               public void windowClosing(WindowEvent e) {&#xD;&#xA;                   //此处判断文件是否保存,如果保存了则退出,否则询问是否保存,是则调出文件管理器,然后退出&#xD;&#xA;                   int result = JOptionPane.showConfirmDialog(null, &quot;是否保存您所作的更改?&quot;,&quot;保存&quot;, JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);&#xD;&#xA;                   if(result == JOptionPane.OK_OPTION){&#xD;&#xA;                       &#xD;&#xA;                   }&#xD;&#xA;                   else{&#xD;&#xA;                   &#x9;System.exit(0);&#xD;&#xA;                   }&#xD;&#xA;               }&#xD;&#xA;           });&#xD;&#xA;&#x9; */&#xD;&#xA;&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kFGDYMNyEem8ke0My6jckA" name="OKListener" clientDependency="_kZWcIcNyEem8ke0My6jckA">
+      <ownedAttribute xmi:id="_kFY-UMNyEem8ke0My6jckA" name="a" visibility="package" type="_jnSGAMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_kFY-UcNyEem8ke0My6jckA" name="b" visibility="package" type="_jnSGAMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_kFivUMNyEem8ke0My6jckA" name="g" visibility="package" type="_j0ie4MNyEem8ke0My6jckA"/>
+      <ownedOperation xmi:id="_kF-0MMNyEem8ke0My6jckA" name="OKListener" visibility="public" bodyCondition="_kF-0McNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kF-0McNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kF-0MsNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;a=s;&#xD;&#xA;&#x9;b=f;&#xD;&#xA;&#x9;g=q;&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kGSWMMNyEem8ke0My6jckA" name="s" type="_jnSGAMNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kGSWMcNyEem8ke0My6jckA" name="f" type="_jnSGAMNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kGSWMsNyEem8ke0My6jckA" name="q" type="_j0ie4MNyEem8ke0My6jckA" direction="inout"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_kGbgIMNyEem8ke0My6jckA" name="actionPerformed" visibility="public" bodyCondition="_kGbgIcNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kGbgIcNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kGlRIMNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;a.setBackground(b.getBackground());&#xD;&#xA;&#x9;a.updateUI();&#xD;&#xA;&#x9;g.dispose();&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kGlRIcNyEem8ke0My6jckA" name="arg0" type="_jrwWUcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kGvCIMNyEem8ke0My6jckA" name="actionPerformed" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kG4MEMNyEem8ke0My6jckA" name="PencilButton">
+      <generalization xmi:id="_kHB9EMNyEem8ke0My6jckA" general="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_kHB9EcNyEem8ke0My6jckA">
+          <body>PencilButton extends Button</body>
+        </ownedComment>
+      </generalization>
+      <ownedOperation xmi:id="_kHepAMNyEem8ke0My6jckA" name="PencilButton" visibility="public" bodyCondition="_kHny8MNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kHny8MNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kHny8cNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;button.setIcon(new ImageIcon(&quot;icon/pencil.png&quot;));//构造铅笔属性&#xD;&#xA;&#x9;button.setBackground(new Color(175,175,175));&#xD;&#xA;&#x9;button.setToolTipText(&quot;铅笔&quot;);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kHxj8MNyEem8ke0My6jckA" name="RectangleButton">
+      <generalization xmi:id="_kH7U8MNyEem8ke0My6jckA" general="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_kH7U8cNyEem8ke0My6jckA">
+          <body>RectangleButton extends Button</body>
+        </ownedComment>
+      </generalization>
+      <ownedOperation xmi:id="_kIhK0MNyEem8ke0My6jckA" name="RectangleButton" visibility="public" bodyCondition="_kIhK0cNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kIhK0cNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kIhK0sNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;button.setIcon(new ImageIcon(&quot;icon/rectangle.png&quot;));//构造矩形属性&#xD;&#xA;&#x9;button.setToolTipText(&quot;矩形&quot;);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kI0FwMNyEem8ke0My6jckA" name="SelectBoxButton">
+      <generalization xmi:id="_kI92wMNyEem8ke0My6jckA" general="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_kI92wcNyEem8ke0My6jckA">
+          <body>SelectBoxButton extends Button</body>
+        </ownedComment>
+      </generalization>
+      <ownedOperation xmi:id="_kJaisMNyEem8ke0My6jckA" name="SelectBoxButton" visibility="public" bodyCondition="_kJjsoMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kJjsoMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kJjsocNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;button.setIcon(new ImageIcon(&quot;icon/selectbox.png&quot;));//构造选定框属性&#xD;&#xA;&#x9;button.setToolTipText(&quot;矩形选择框&quot;);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kJ3OoMNyEem8ke0My6jckA" name="SelectColorBoxListener" clientDependency="_kZgNIMNyEem8ke0My6jckA">
+      <ownedAttribute xmi:id="_kKKJkMNyEem8ke0My6jckA" name="a" visibility="package" type="_jnSGAMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_kKTTgMNyEem8ke0My6jckA" name="b" visibility="package" type="_j0ie4MNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_kKTTgcNyEem8ke0My6jckA" name="c" visibility="package" type="_jnSGAMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_kKdEgMNyEem8ke0My6jckA" name="ds" visibility="package" type="_kNIlEMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_kKm1gMNyEem8ke0My6jckA" name="zz" visibility="package" type="_jnSGAMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kKm1gcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kKm1gsNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_kLMrYMNyEem8ke0My6jckA" name="SelectColorBoxListener" visibility="public" bodyCondition="_kLWcYMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_kL8SQMNyEem8ke0My6jckA">
+          <body>传入的参数为:大图，Dialog,重写过的渐变色label，以及预览图和数据图的label</body>
+        </ownedComment>
+        <ownedRule xmi:id="_kLWcYMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kLWcYcNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;a = s;&#xD;&#xA;&#x9;b = q;&#xD;&#xA;&#x9;c = new JLabel();&#xD;&#xA;&#x9;c.setBorder(BorderFactory.createLineBorder(new Color(0,0,0)));&#xD;&#xA;&#x9;c.setBounds(a.getBounds().x-5,a.getBounds().y-5,5,5);&#xD;&#xA;&#x9;b.add(c);&#xD;&#xA;&#x9;ds=d;&#xD;&#xA;&#x9;zz = z;&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kLpXUMNyEem8ke0My6jckA" name="s" type="_jnSGAMNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kLpXUcNyEem8ke0My6jckA" name="q" type="_j0ie4MNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kLpXUsNyEem8ke0My6jckA" name="d" type="_kNIlEMNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kLzIUMNyEem8ke0My6jckA" name="z" type="_jnSGAMNyEem8ke0My6jckA" direction="inout"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_kL8SQcNyEem8ke0My6jckA" name="mouseClicked" visibility="public" bodyCondition="_kL8SQsNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kL8SQsNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kL8SQ8NyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;c.setLocation(a.getBounds().x+e.getX()-2, a.getBounds().y+e.getY()-2);&#xD;&#xA;&#x9;long maxsum = 255-Math.round(e.getY()*128/240.0);&#xD;&#xA;&#x9;long minsum = Math.round(e.getY()*127/240.0);&#xD;&#xA;&#x9;Color te;&#xD;&#xA;&#x9;//此处不用深究,这个是根据画图板的图的颜色分布规律来的&#xD;&#xA;&#x9;if(e.getX()&lt;40) {&#xD;&#xA;&#x9;&#x9;te = new Color((int)maxsum,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;(int)(minsum+Math.round(e.getX()*(maxsum-minsum)/40.0)),(int)minsum);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else if(e.getX()&lt;80) {&#xD;&#xA;&#x9;&#x9;te = new Color((int)(maxsum-Math.round((e.getX()-40)*(maxsum-minsum)/40.0)),&#xD;&#xA;&#x9;&#x9;(int)maxsum,(int)minsum);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else if(e.getX()&lt;120) {&#xD;&#xA;&#x9;&#x9;te = new Color((int)minsum,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;(int)maxsum,(int)(minsum+Math.round((e.getX()-80)*(maxsum-minsum)/40.0)));&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else if(e.getX()&lt;160) {&#xD;&#xA;&#x9;&#x9;te = new Color((int)minsum,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;(int)(maxsum-Math.round((e.getX()-120)*(maxsum-minsum)/40.0)),(int)maxsum);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else if(e.getX()&lt;200) {&#xD;&#xA;&#x9;&#x9;te = new Color((int)(minsum+Math.round((e.getX()-160)*(maxsum-minsum)/40.0)),&#xD;&#xA;&#x9;&#x9;(int)minsum,(int)maxsum);&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else {&#xD;&#xA;&#x9;&#x9;te = new Color((int)maxsum,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;(int)minsum,(int)(maxsum-Math.round((e.getX()-200)*(maxsum-minsum)/40.0)));&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;ds.setBackground(te);&#xD;&#xA;&#x9;ds.updateUI();&#xD;&#xA;&#x9;zz[4].setBackground(te);&#xD;&#xA;&#x9;zz[4].updateUI();&#xD;&#xA;&#x9;//显示出RGB值&#xD;&#xA;&#x9;zz[5].setText(String.valueOf(te.getRed()));&#xD;&#xA;&#x9;zz[6].setText(String.valueOf(te.getGreen()));&#xD;&#xA;&#x9;zz[7].setText(String.valueOf(te.getBlue()));&#xD;&#xA;&#x9;for(int i=0;i&lt;3;i++) {&#xD;&#xA;&#x9;&#x9;zz[i+5].updateUI();&#xD;&#xA;&#x9;}&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kMGDQMNyEem8ke0My6jckA" name="e" type="_jdTDkcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kMGDQcNyEem8ke0My6jckA" name="mouseClicked" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_kMGDQsNyEem8ke0My6jckA" name="mouseEntered" visibility="public" bodyCondition="_kMP0QMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kMP0QMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kMP0QcNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kMP0QsNyEem8ke0My6jckA" name="e" type="_jdTDkcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kMY-MMNyEem8ke0My6jckA" name="mouseEntered" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_kMY-McNyEem8ke0My6jckA" name="mouseExited" visibility="public" bodyCondition="_kMY-MsNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kMY-MsNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kMY-M8NyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kMivMMNyEem8ke0My6jckA" name="e" type="_jdTDkcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kMivMcNyEem8ke0My6jckA" name="mouseExited" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_kMivMsNyEem8ke0My6jckA" name="mousePressed" visibility="public" bodyCondition="_kMivM8NyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kMivM8NyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kMivNMNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kMr5IMNyEem8ke0My6jckA" name="e" type="_jdTDkcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kMr5IcNyEem8ke0My6jckA" name="mousePressed" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_kMr5IsNyEem8ke0My6jckA" name="mouseReleased" visibility="public" bodyCondition="_kM1qIMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kM1qIMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kM1qIcNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kM1qIsNyEem8ke0My6jckA" name="e" type="_jdTDkcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kM1qI8NyEem8ke0My6jckA" name="mouseReleased" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kNIlEMNyEem8ke0My6jckA" name="ShadeLabel">
+      <generalization xmi:id="_kNIlEcNyEem8ke0My6jckA" general="_jnSGAMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_kNSWEMNyEem8ke0My6jckA">
+          <body>ShadeLabel extends JLabel</body>
+        </ownedComment>
+      </generalization>
+      <ownedAttribute xmi:id="_kNbgAMNyEem8ke0My6jckA" name="b" visibility="package" type="_jjaSoMNyEem8ke0My6jckA"/>
+      <ownedOperation xmi:id="_kN4L8MNyEem8ke0My6jckA" name="ShadeLabel" visibility="public" bodyCondition="_kN4L8cNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kN4L8cNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kN4L8sNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;super();&#xD;&#xA;&#x9;setLayout(null);&#xD;&#xA;&#x9;b=Color.GRAY;&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+      <ownedOperation xmi:id="_kOB88MNyEem8ke0My6jckA" name="paintComponent" visibility="protected" bodyCondition="_kOB88cNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_kOLt8sNyEem8ke0My6jckA">
+          <body> 重写绘制组件外观</body>
+        </ownedComment>
+        <ownedRule xmi:id="_kOB88cNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kOB88sNyEem8ke0My6jckA" name="TemplateBody" value="{// 重写绘制组件外观&#xD;&#xA;    Graphics2D g = (Graphics2D) g1;&#xD;&#xA;    super.paintComponent(g);// 执行超类方法&#xD;&#xA;    int width = getWidth();// 获取组件大小&#xD;&#xA;    int height = getHeight();&#xD;&#xA;    // 创建填充模式对象&#xD;&#xA;    GradientPaint paint1 = new GradientPaint(0, 0, Color.WHITE, 0, height/2,&#xD;&#xA;            b);//此处为渐变模式&#xD;&#xA;    GradientPaint paint2 = new GradientPaint(0, height/2, b, 0, height,&#xD;&#xA;            Color.BLACK);&#xD;&#xA;    g.setPaint(paint1);// 设置绘图对象的填充模式&#xD;&#xA;    g.fillRect(0, 0, width, height/2);// 绘制矩形填充控件界面&#xD;&#xA;    g.setPaint(paint2);&#xD;&#xA;    g.fillRect(0, height/2, width, height/2);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kOLt8MNyEem8ke0My6jckA" name="g1" type="_jmifIMNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kOLt8cNyEem8ke0My6jckA" name="paintComponent" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_kOLt88NyEem8ke0My6jckA" name="setBackground" visibility="public" bodyCondition="_kOU34MNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kOU34MNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kOU34cNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;b=bg;&#xD;&#xA;&#x9;super.setBackground(bg);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kOeo4MNyEem8ke0My6jckA" name="bg" type="_jjaSoMNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kOeo4cNyEem8ke0My6jckA" name="setBackground" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_kOny0MNyEem8ke0My6jckA" name="getBackground" visibility="public" bodyCondition="_kOny0cNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kOny0cNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kOny0sNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;return b;&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kOxj0MNyEem8ke0My6jckA" name="getBackground" type="_jjaSoMNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kO7U0MNyEem8ke0My6jckA" name="SizeTool">
+      <ownedAttribute xmi:id="_kPOPwMNyEem8ke0My6jckA" name="sizeLabel" visibility="package" type="_jnSGAMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_kPYAwMNyEem8ke0My6jckA" name="sizeTool" visibility="package" type="_jR-kYMNyEem8ke0My6jckA"/>
+      <ownedOperation xmi:id="_kPq7sMNyEem8ke0My6jckA" name="SizeTool" visibility="public" bodyCondition="_kP0FoMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kP0FoMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kP0FocNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;sizeTool = new JComboBox&lt;String>();//设置一个简陋的选择大小的下拉框&#xD;&#xA;&#x9;sizeTool.addItem(&quot;最小&quot;);&#xD;&#xA;&#x9;sizeTool.addItem(&quot;小&quot;);&#xD;&#xA;&#x9;sizeTool.addItem(&quot;大&quot;);&#xD;&#xA;&#x9;sizeTool.addItem(&quot;最大&quot;);&#xD;&#xA;&#x9;sizeTool.setSelectedIndex(1);&#xD;&#xA;&#x9;sizeLabel = new JLabel(&quot;画笔大小:&quot;,JLabel.CENTER);&#xD;&#xA;&#x9;sizeLabel.setOpaque(true);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kP92oMNyEem8ke0My6jckA" name="SprayPaintButton">
+      <generalization xmi:id="_kQHnoMNyEem8ke0My6jckA" general="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_kQaikMNyEem8ke0My6jckA">
+          <body>SprayPaintButton extends Button</body>
+        </ownedComment>
+      </generalization>
+      <ownedOperation xmi:id="_kRAYcMNyEem8ke0My6jckA" name="SprayPaintButton" visibility="public" bodyCondition="_kRAYccNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kRAYccNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kRAYcsNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;button.setIcon(new ImageIcon(&quot;icon/spraypaint.png&quot;));//构造喷漆属性&#xD;&#xA;&#x9;button.setToolTipText(&quot;喷漆&quot;);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kRT6cMNyEem8ke0My6jckA" name="TextBoxButton">
+      <generalization xmi:id="_kRdEYMNyEem8ke0My6jckA" general="_jgb3IMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_kRdEYcNyEem8ke0My6jckA">
+          <body>TextBoxButton extends Button</body>
+        </ownedComment>
+      </generalization>
+      <ownedOperation xmi:id="_kR5wUMNyEem8ke0My6jckA" name="TextBoxButton" visibility="public" bodyCondition="_kSDhUMNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kSDhUMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kSDhUcNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;button.setIcon(new ImageIcon(&quot;icon/textbox.png&quot;));//构造文本框属性&#xD;&#xA;&#x9;button.setToolTipText(&quot;文本框&quot;);&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kSWcQMNyEem8ke0My6jckA" name="ThinColorBoxListener" clientDependency="_kZpXEMNyEem8ke0My6jckA">
+      <ownedAttribute xmi:id="_kSpXMMNyEem8ke0My6jckA" name="b" visibility="package" type="_j0ie4MNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_kSzIMMNyEem8ke0My6jckA" name="c" visibility="package" type="_jnSGAMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_kSzIMcNyEem8ke0My6jckA" name="ds" visibility="package" type="_kNIlEMNyEem8ke0My6jckA"/>
+      <ownedAttribute xmi:id="_kS8SIMNyEem8ke0My6jckA" name="zz" visibility="package" type="_jnSGAMNyEem8ke0My6jckA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kS8SIcNyEem8ke0My6jckA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kS8SIsNyEem8ke0My6jckA"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_kTY-EMNyEem8ke0My6jckA" name="ThinColorBoxListener" visibility="public" bodyCondition="_kTivEMNyEem8ke0My6jckA">
+        <ownedComment xmi:id="_kT1qAcNyEem8ke0My6jckA">
+          <body>传入参数为：Dialog，渐变色面板，需要改变的预览图和数据框label</body>
+        </ownedComment>
+        <ownedRule xmi:id="_kTivEMNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kTivEcNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;b = q;&#xD;&#xA;&#x9;ds=d;&#xD;&#xA;&#x9;c = new JLabel();&#xD;&#xA;&#x9;c.setBorder(BorderFactory.createLineBorder(new Color(0,0,0)));&#xD;&#xA;&#x9;c.setBounds(ds.getBounds().x-5,ds.getBounds().y-5,25,5);&#xD;&#xA;&#x9;b.add(c);&#xD;&#xA;&#x9;zz = z;&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kTsgEMNyEem8ke0My6jckA" name="q" type="_j0ie4MNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kTsgEcNyEem8ke0My6jckA" name="d" type="_kNIlEMNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kT1qAMNyEem8ke0My6jckA" name="z" type="_jnSGAMNyEem8ke0My6jckA" direction="inout"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_kT1qAsNyEem8ke0My6jckA" name="mouseClicked" visibility="public" bodyCondition="_kT1qA8NyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kT1qA8NyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kT1qBMNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;c.setLocation(ds.getBounds().x-2, ds.getBounds().y+e.getY()-2);&#xD;&#xA;&#x9;Color te;&#xD;&#xA;&#x9;//这里同颜色板类似，从一个颜色渐变过去到另一个颜色的变化规律如下&#xD;&#xA;&#x9;if(e.getY()&lt;=120) {&#xD;&#xA;&#x9;&#x9;te = new Color((int)(255-(255-ds.getBackground().getRed())*e.getY()/120.0),&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;(int)(255-(255-ds.getBackground().getGreen())*e.getY()/120.0),&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;(int)(255-(255-ds.getBackground().getBlue())*e.getY()/120.0));&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else {&#xD;&#xA;&#x9;&#x9;te = new Color((int)(ds.getBackground().getRed()*(240-e.getY())/120.0),&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;(int)(ds.getBackground().getGreen()*(240-e.getY())/120.0),&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;(int)(ds.getBackground().getBlue()*(240-e.getY())/120.0));&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;zz[4].setBackground(te);&#xD;&#xA;&#x9;zz[4].updateUI();&#xD;&#xA;&#x9;//显示RGB值&#xD;&#xA;&#x9;zz[5].setText(String.valueOf(te.getRed()));&#xD;&#xA;&#x9;zz[6].setText(String.valueOf(te.getGreen()));&#xD;&#xA;&#x9;zz[7].setText(String.valueOf(te.getBlue()));&#xD;&#xA;&#x9;for(int i=0;i&lt;3;i++) {&#xD;&#xA;&#x9;&#x9;zz[i+5].updateUI();&#xD;&#xA;&#x9;}&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kT_bAMNyEem8ke0My6jckA" name="e" type="_jdTDkcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kT_bAcNyEem8ke0My6jckA" name="mouseClicked" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_kT_bAsNyEem8ke0My6jckA" name="mouseEntered" visibility="public" bodyCondition="_kUIk8MNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kUIk8MNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kUIk8cNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;&#x9;&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kUIk8sNyEem8ke0My6jckA" name="e" type="_jdTDkcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kUSV8MNyEem8ke0My6jckA" name="mouseEntered" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_kUSV8cNyEem8ke0My6jckA" name="mouseExited" visibility="public" bodyCondition="_kUSV8sNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kUSV8sNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kUSV88NyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kUcG8MNyEem8ke0My6jckA" name="e" type="_jdTDkcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kUcG8cNyEem8ke0My6jckA" name="mouseExited" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_kUcG8sNyEem8ke0My6jckA" name="mousePressed" visibility="public" bodyCondition="_kUcG88NyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kUcG88NyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kUcG9MNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kUlQ4MNyEem8ke0My6jckA" name="e" type="_jdTDkcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kUlQ4cNyEem8ke0My6jckA" name="mousePressed" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_kUlQ4sNyEem8ke0My6jckA" name="mouseReleased" visibility="public" bodyCondition="_kUvB4MNyEem8ke0My6jckA">
+        <ownedRule xmi:id="_kUvB4MNyEem8ke0My6jckA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_kUvB4cNyEem8ke0My6jckA" name="TemplateBody" value="{&#xD;&#xA;&#x9;// TODO Auto-generated method stub&#xD;&#xA;}&#xD;&#xA;"/>
+        </ownedRule>
+        <ownedParameter xmi:id="_kUvB4sNyEem8ke0My6jckA" name="e" type="_jdTDkcNyEem8ke0My6jckA" direction="inout"/>
+        <ownedParameter xmi:id="_kU4y4MNyEem8ke0My6jckA" name="mouseReleased" type="_jdc0kcNyEem8ke0My6jckA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_kVU3wMNyEem8ke0My6jckA" name="MouseMotionListener">
+      <nestedClassifier xmi:type="uml:Stereotype" xmi:id="_kW92gMNyEem8ke0My6jckA" name="Unresolved Interface"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_kW92gcNyEem8ke0My6jckA" name="MouseListener">
+      <nestedClassifier xmi:type="uml:Stereotype" xmi:id="_kXkTcMNyEem8ke0My6jckA" name="Unresolved Interface"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_kXkTccNyEem8ke0My6jckA" name="ActionListener">
+      <nestedClassifier xmi:type="uml:Stereotype" xmi:id="_kYA_YMNyEem8ke0My6jckA" name="Unresolved Interface"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InterfaceRealization" xmi:id="_kYdEQMNyEem8ke0My6jckA" name="BorderListener_implements_MouseMotionListener" supplier="_kVU3wMNyEem8ke0My6jckA" client="_jaK3EMNyEem8ke0My6jckA">
+      <ownedComment xmi:id="_kYm1QMNyEem8ke0My6jckA">
+        <body>BorderListener implements MouseMotionListener</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InterfaceRealization" xmi:id="_kYm1QcNyEem8ke0My6jckA" name="BorderListener_implements_MouseListener" supplier="_kW92gcNyEem8ke0My6jckA" client="_jaK3EMNyEem8ke0My6jckA">
+      <ownedComment xmi:id="_kYwmQMNyEem8ke0My6jckA">
+        <body>BorderListener implements MouseListener</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InterfaceRealization" xmi:id="_kYwmQcNyEem8ke0My6jckA" name="ColorBoxListener_implements_ActionListener" supplier="_kXkTccNyEem8ke0My6jckA" client="_jp9mkMNyEem8ke0My6jckA">
+      <ownedComment xmi:id="_kYwmQsNyEem8ke0My6jckA">
+        <body>ColorBoxListener implements ActionListener</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InterfaceRealization" xmi:id="_kY5wMMNyEem8ke0My6jckA" name="ColorSelectListener_implements_ActionListener" supplier="_kXkTccNyEem8ke0My6jckA" client="_js8pIMNyEem8ke0My6jckA">
+      <ownedComment xmi:id="_kY5wMcNyEem8ke0My6jckA">
+        <body>ColorSelectListener implements ActionListener</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InterfaceRealization" xmi:id="_kZDhMMNyEem8ke0My6jckA" name="EditColorListener_implements_ActionListener" supplier="_kXkTccNyEem8ke0My6jckA" client="_jxaSYMNyEem8ke0My6jckA">
+      <ownedComment xmi:id="_kZDhMcNyEem8ke0My6jckA">
+        <body>EditColorListener implements ActionListener</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InterfaceRealization" xmi:id="_kZNSMMNyEem8ke0My6jckA" name="FontListener_implements_ActionListener" supplier="_kXkTccNyEem8ke0My6jckA" client="_j60GAMNyEem8ke0My6jckA">
+      <ownedComment xmi:id="_kZNSMcNyEem8ke0My6jckA">
+        <body>FontListener implements ActionListener</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InterfaceRealization" xmi:id="_kZNSMsNyEem8ke0My6jckA" name="LeftButtonListener_implements_ActionListener" supplier="_kXkTccNyEem8ke0My6jckA" client="_kAU4IMNyEem8ke0My6jckA">
+      <ownedComment xmi:id="_kZWcIMNyEem8ke0My6jckA">
+        <body>LeftButtonListener implements ActionListener</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InterfaceRealization" xmi:id="_kZWcIcNyEem8ke0My6jckA" name="OKListener_implements_ActionListener" supplier="_kXkTccNyEem8ke0My6jckA" client="_kFGDYMNyEem8ke0My6jckA">
+      <ownedComment xmi:id="_kZWcIsNyEem8ke0My6jckA">
+        <body>OKListener implements ActionListener</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InterfaceRealization" xmi:id="_kZgNIMNyEem8ke0My6jckA" name="SelectColorBoxListener_implements_MouseListener" supplier="_kW92gcNyEem8ke0My6jckA" client="_kJ3OoMNyEem8ke0My6jckA">
+      <ownedComment xmi:id="_kZgNIcNyEem8ke0My6jckA">
+        <body>SelectColorBoxListener implements MouseListener</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InterfaceRealization" xmi:id="_kZpXEMNyEem8ke0My6jckA" name="ThinColorBoxListener_implements_MouseListener" supplier="_kW92gcNyEem8ke0My6jckA" client="_kSWcQMNyEem8ke0My6jckA">
+      <ownedComment xmi:id="_kZpXEcNyEem8ke0My6jckA">
+        <body>ThinColorBoxListener implements MouseListener</body>
+      </ownedComment>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

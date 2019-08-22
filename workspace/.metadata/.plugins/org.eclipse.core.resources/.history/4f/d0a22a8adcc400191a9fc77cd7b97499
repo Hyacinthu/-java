@@ -1,0 +1,69 @@
+package drawpic;
+
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Graphics2D;
+import java.awt.event.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+
+import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
+import javax.swing.filechooser.FileFilter;
+import javax.swing.filechooser.FileNameExtensionFilter;
+
+public class OpenListener implements ActionListener{
+	MyFrame frame;
+	CanPaintLabel a;
+	AllMenu b;
+	public OpenListener(MyFrame frame,CanPaintLabel a,AllMenu b) {
+		this.frame = frame;
+		this.a = a;
+		this.b = b;
+	}
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		if(frame.name != null&&frame.undo.size()!=0&&frame.redo.size()!=0) {
+			int result = JOptionPane.showConfirmDialog(frame.frame, "是否保存您所作的更改?","保存",
+					JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
+            if(result == JOptionPane.OK_OPTION){
+            	//写修改过的文件
+            }
+		}
+		JFileChooser fileChooser = new JFileChooser();// 创建文件选择对话框
+		FileFilter filter = new FileNameExtensionFilter("图像文件（JPG/GIF）", "JPG", "JPEG", "GIF","PNG");// 设置文件过滤器，只列出JPG或GIF格式的图片
+		fileChooser.setFileFilter(filter);
+		while(true) {
+			int j = fileChooser.showOpenDialog(frame.frame);// 显示文件选择对话框
+			// 判断用户单击的是否为“打开”按钮
+			if (j == JFileChooser.APPROVE_OPTION) {
+				File selectedFile = fileChooser.getSelectedFile();// 获得选中的图片对象
+				if(new File(selectedFile.getAbsolutePath()).exists()) {
+					int res = JOptionPane.showConfirmDialog(frame.frame, 
+							selectedFile.getAbsolutePath()+" 已存在，是否覆盖它?","确定",
+							JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
+					if(res == JOptionPane.OK_OPTION){
+						//此处读取文件
+						frame.undo.clear();
+						frame.redo.clear();
+						frame.cutboard = null;
+						for(int i=5;i<=9;i++) {
+							b.allMenuItem[i].setEnabled(false);
+						}
+						a.setPreferredSize(new Dimension(1000,500));
+						a.image = new BufferedImage(1000,500,BufferedImage.TYPE_INT_RGB);//设置RGB形式的图像
+						a.bg = (Graphics2D)a.image.getGraphics();//得到画笔
+						a.bg.setColor(Color.WHITE);
+						a.bg.fillRect(0, 0, a.image.getWidth(), a.image.getHeight());//填充初始背景为白色
+						a.updateUI();
+						break;
+					}
+				}
+			}
+			else {
+				break;
+			}
+		}
+	}
+}

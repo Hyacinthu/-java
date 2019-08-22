@@ -1,0 +1,70 @@
+package drawpic;
+
+import java.awt.event.*;
+
+import javax.swing.JOptionPane;
+
+
+public class ExitListener implements ActionListener,WindowListener {
+	MyFrame frame;
+	CanPaintLabel a;
+	public ExitListener(MyFrame frame,CanPaintLabel a) {
+		this.frame = frame;
+		this.a = a;
+	}
+
+	@Override
+	public void windowActivated(WindowEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void windowClosed(WindowEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void windowClosing(WindowEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void windowDeactivated(WindowEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void windowDeiconified(WindowEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void windowIconified(WindowEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void windowOpened(WindowEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		// TODO Auto-generated method stub
+		if(frame.undo.size()!=0&&frame.redo.size()!=0) {
+			int result = JOptionPane.showConfirmDialog(frame.frame, "是否保存您所作的更改?","保存",
+					JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
+            if(result == JOptionPane.OK_OPTION){
+            	
+            }
+		}
+	}
+	
+}

@@ -21,15 +21,20 @@ public class EditMenu {
 	JMenuItem pasteMenu;
 	public EditMenu() {
 		editMenu = new JMenu("±à¼­");
-		undoMenu = new JMenuItem("³·»Ø");
-		redoMenu = new JMenuItem("ÖØ×ö");
-		copyMenu = new JMenuItem("¸´ÖÆ");;
-		cutMenu = new JMenuItem("¼ôÇĞ");
-		pasteMenu = new JMenuItem("Õ³Ìù");
+		undoMenu = new JMenuItem("³·»Ø£¨ctrl+Z£©");
+		redoMenu = new JMenuItem("ÖØ×ö£¨ctrl+Y£©");
+		copyMenu = new JMenuItem("¸´ÖÆ£¨ctrl+C£©");;
+		cutMenu = new JMenuItem("¼ôÇĞ£¨ctrl+T£©");
+		pasteMenu = new JMenuItem("Õ³Ìù£¨ctrl+V£©");
 		editMenu.add(undoMenu);
 		editMenu.add(redoMenu);
 		editMenu.add(copyMenu);
 		editMenu.add(cutMenu);
 		editMenu.add(pasteMenu);
+		undoMenu.setEnabled(false);
+		redoMenu.setEnabled(false);
+		copyMenu.setEnabled(false);
+		cutMenu.setEnabled(false);
+		pasteMenu.setEnabled(false);
 	}
 }

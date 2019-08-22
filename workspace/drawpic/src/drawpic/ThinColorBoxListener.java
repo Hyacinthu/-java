@@ -63,14 +63,10 @@ public class ThinColorBoxListener implements MouseListener {
 	@Override
 	public void mouseExited(MouseEvent e) {
 		// TODO Auto-generated method stub
-		
 	}
 	@Override
 	public void mousePressed(MouseEvent e) {
 		// TODO Auto-generated method stub
-		/*c.setBounds(a.getBounds().x+e.getX()-1, a.getBounds().y+e.getY()-1, 3, 3);
-		c.updateUI();
-		System.out.println(e.getX()+"+"+e.getY());*/
 	}
 	@Override
 	public void mouseReleased(MouseEvent e) {

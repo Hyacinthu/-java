@@ -32,19 +32,4 @@ public class AllButton {
 		allButton[12] = new SprayPaintButton();
 		allButton[13] = new TextBoxButton();
 	}
-	/*public static void main(String[] args) {
-		//用来测试单个程序的代码段,不用时可注释
-		// TODO Auto-generated method stub
-		AllButton button = new AllButton();
-		JFrame frame = new JFrame();
-		Container c = frame.getContentPane();
-		c.setLayout(new FlowLayout());
-		//JPanel p1 = new JPanel(new GridLayout(5,2,5,5));
-		for(int i=0;i<14;i++) {
-			c.add(button.allButton[i].button);
-		}
-		frame.setSize(1200,700);
-		frame.setVisible(true);
-		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-	}*/
 }

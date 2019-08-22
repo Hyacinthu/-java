@@ -1,0 +1,31 @@
+package drawpic;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.image.BufferedImage;
+
+public class PasteListener implements ActionListener{
+	MyFrame frame;
+	CanPaintLabel a;
+	public PasteListener(MyFrame frame,CanPaintLabel a){
+		this.frame = frame;
+		this.a = a;
+	}
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		// TODO Auto-generated method stub
+		if(a.teImage!=null) {//判断是否有临时图像存在
+			a.bg.drawImage(a.teImage.getSubimage(2, 2, a.teImage.getWidth()-4, 
+					a.teImage.getHeight()-4), a.temx+2, a.temy+2,a.teImage.getWidth()-4, 
+					a.teImage.getHeight()-4, null);//绘制临时图像到原图像
+			a.teImage = null;//清除临时图像
+			a.gg = null;//清除临时图像的画笔
+		}
+		a.teImage = frame.cutboard;
+		a.gg = (Graphics2D)a.teImage.getGraphics();
+		a.temx = 0;a.temy = 0;
+		a.temw = a.teImage.getWidth();a.temh = a.teImage.getHeight();
+		a.updateUI();
+	}
+
+}

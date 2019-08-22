@@ -18,8 +18,8 @@ public class HelpMenu {
 	JMenuItem aboutMenu;
 	public HelpMenu() {
 		helpMenu = new JMenu("帮助");
-		showHelpMenu = new JMenuItem("显示帮助");
-		aboutMenu = new JMenuItem("关于");
+		showHelpMenu = new JMenuItem("显示帮助（ctrl+E）");
+		aboutMenu = new JMenuItem("关于（ctrl+P）");
 		helpMenu.add(showHelpMenu);
 		helpMenu.add(aboutMenu);
 	}

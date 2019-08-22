@@ -27,9 +27,6 @@ public class ColorTool {
 		foreColor.button.setPreferredSize(new Dimension(70,100));
 		backColor.button.setPreferredSize(new Dimension(70,100));
 		editColor.button.setPreferredSize(new Dimension(90,100));
-		/*foreColor.button.setBorder(BorderFactory.createLineBorder(new Color(0,162,232)));
-		backColor.button.setBorder(BorderFactory.createLineBorder(new Color(220,220,220)));
-		editColor.button.setBorder(BorderFactory.createLineBorder(new Color(220,220,220)));*/
 		foreColor.button.setBackground(new Color(0,162,232));
 		backColor.button.setBackground(new Color(220,220,220));
 		editColor.button.setBackground(new Color(220,220,220));
@@ -92,21 +89,4 @@ public class ColorTool {
 		colorBox[18].setBackground(new Color(112,146,190));
 		colorBox[19].setBackground(new Color(200,191,231));
 	}
-	/*public static void main(String[] args) {//用来测试单个程序的代码段,不用时可注释
-		// TODO Auto-generated method stub
-		ColorTool button = new ColorTool();
-		JFrame frame = new JFrame();
-		Container c = frame.getContentPane();
-		c.setLayout(new FlowLayout());
-		//JPanel p1 = new JPanel(new GridLayout(5,2,5,5));
-		c.add(button.foreColor.button);
-		c.add(button.backColor.button);
-		for(int i=0;i<button.colorBox.length;i++) {
-			c.add(button.colorBox[i]);
-		}
-		c.add(button.editColor.button);
-		frame.setSize(1200,700);
-		frame.setVisible(true);
-		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-	}*/
 }

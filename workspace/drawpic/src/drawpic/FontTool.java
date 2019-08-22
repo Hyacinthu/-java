@@ -47,17 +47,4 @@ public class FontTool {
 		underer.button.setToolTipText("下划线");
 		leaner.button.setToolTipText("斜体");
 	}
-	/*public static void main(String[] args) {//用来测试单个程序的代码段,不用时可注释
-		// TODO Auto-generated method stub
-		FontTool button = new FontTool();
-		JFrame frame = new JFrame();
-		Container c = frame.getContentPane();
-		c.setLayout(new BorderLayout());
-		//JPanel p1 = new JPanel(new GridLayout(5,2,5,5));
-		c.add(button.fontTool);
-		c.add(button.fontSizeTool);
-		frame.setSize(1200,700);
-		frame.setVisible(true);
-		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-	}*/
 }
