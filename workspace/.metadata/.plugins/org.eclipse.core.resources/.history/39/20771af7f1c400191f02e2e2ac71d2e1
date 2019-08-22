@@ -47,7 +47,7 @@ public class OpenListener implements ActionListener{
             }
 		}
 		JFileChooser fileChooser = new JFileChooser();// 创建文件选择对话框
-		FileFilter filter = new FileNameExtensionFilter("图像文件（JPG/JPEG/PNG）", "JPG", "JPEG","PNG");// 设置文件过滤器，只列出JPG或PNG格式的图片
+		FileFilter filter = new FileNameExtensionFilter("图像文件（JPG/GIF）", "JPG", "JPEG","PNG");// 设置文件过滤器，只列出JPG或PNG格式的图片
 		fileChooser.setFileFilter(filter);
 		while(true) {
 			int j = fileChooser.showOpenDialog(frame.frame);// 显示文件选择对话框

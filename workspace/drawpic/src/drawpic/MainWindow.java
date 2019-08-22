@@ -23,6 +23,7 @@ public class MainWindow {
 		c.add(all.centerPanel,BorderLayout.CENTER);
 		all.frame.setJMenuBar(all.menu);
 		all.frame.setVisible(true);
+		new AboutDialog(frame).setVisible(true);
 	}
 	public static void main(String[] args) {
 		new MainWindow();
