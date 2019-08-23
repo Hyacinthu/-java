@@ -1,0 +1,125 @@
+!SESSION 2019-08-23 13:13:16.705 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-08-23 13:13:43.646
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.yattasolutions.umllab.ui 4 0 2019-08-23 13:14:12.419
+!MESSAGE No valid license is available.
+!STACK 0
+com.yattasolutions.obf.kk.g: No license found for UML Lab.
+	at QOMROTXY47KEYJ3ICCG7CC63ISZQG46IOUERJB6ZFPXUM2YEIG4NLBMX6Z7TJP4G37UCXUDD6DKZBBBMSMBFRRBO62LA74E35JU2JZUREHK4GZ7DYFZ2S2NBMPCD7U4CUX3GH6S5FJEF2GXKOOK2WAXCP2BX4CCKMR3LJR45QNUKLO2NS35BXLEOLWTM75FDV7HP222XMZ7BACX7P2G4UV4XSIRGTRNNB55KNFH2Q6KFXM3FVIUYXCKIKK6MORWVFOROFUS63PB5IWKSSO4RMWMICCOUWTG4GBSY6A56KWMHK7HZLIB3KZQMKNKDB7IBBVADRFHNKP7OTEWCCYNU5CFTPA2WDYIHAGYKOBTXCOTM4PY5NBR3OCBBL447UCGRXVXH53VEFA2GF6VBJ7ORY32SKNDBGXVJM2ZDW7GG5WQ25RUZMHPQWJT2JY4TILALLHA6B4656HSAZGWT24WYEB2RMZPIIHBYT5M7BPW2DUTQGQ6BSDFBI2DGRWPVKQUPJFXBVMSHAMYFWKVIQDFZG6Z7YJZNOCU7BG7LW7Q3TQNSVKXJTBDKRHLXC4VYSHOV5Q47WE7TWU5HHQWHMWYSUGJ6ZJ2LZWD5Y7TBL4DBEZ4DCHZAZ6NDRJURE3E7IXOS2TCKK7ARCGLCGUNDP4C6J7X5IBUY2ZF7QLSE4QLO3VJOETQLJMNENX2MC5ZQIKBYRRVRLS7GEMM6OFEI4IDX46C26XL4SH52A33OQEYQ7F7UHWWN34XHZWQ3SPOC6LV5XUXA4YXGP7472NI7VAEUJSWXKRWVYO5MLKC6FA47UHOIHOEEKVCC7HEJ6B2UOZIDBUL4TFA747YBQNXQDBDW2RWCL2H4LYSLOD5CGRRT7J6HXXAFI67VPNFBCFNI7SNIGL7UDKIQ3VHHM3K4PWMFD53P4PWZ4NCKIACT7PGJYQAXCAR3ZEQJ3TIT2VKJVAHREY5RIRQL3MQD3R5LRKSU5FFKNFYJQ62IHC33GFEWKBF6AEI7WZDXVYN3IBQ2D4XWL23NWXCE5BBTSVQNE5YDMUDI3TOCHJQY4ZDLPGE6XUCSA3BCX6J4NDKM5UHSWJPC23Q2OECRRPBD636VTZB7QUTLWI5HYWGDHDI5DDLYLFBXES24R4BPA73KSEKVALEA3P6NEMFHCWWLKYKEXWMJDHR3M2HIACWQSNQIT3PHJTRJOZT7JOGYCGDOPFVAHOOYGLBD4F25TSIAKA6GRTQA5VZLRBJAR5NVH7EMSWEHEUW3JC2YDZEKMLHVTM2FP37G3O3YKX6HS53UNXUAGQKMJZRFINPGJE5XBV5ZEQSA6Q6FZVEK4FRXUVPZY2QI6N76YB5BTH3KK74GYGJY7DCMYOFGMPB4WMR555PCST3MS73AW6TTQVG4LLXOFFRCJKGUGIDENPNI2C223M4WODB3O4FCWQSM4OTASBRY2VQH4SCDWQTHDJYOH72QQVLXXM4D2ZEEXZGZTQXW52N4UB6EGJTWIG6PDAH3XLPYLKSP5T7AR3T3SCJGY7MSLNE7KVEP4TQMHF3IJ3VHO7AA2WSDZKG2I7G3FGLRQMEIIDCC3XKOU63672ATN376V4VDIS4PGL5M3YZMEIGPBUU7CFY35X2TRB3PX4RTTS35DBOZZ2LXW7T67J3KHY4BNZZE3RNYZXDXVWAUDFTJPMXA6RD7HGV5QHMDB74NXZ7OM7PCGA7ANIVZXFGVS3DXVRO6ZYC3O3PTERXIQL3L5HAELBM3RZJEASRP6REQJESISS6MO7KCKZBKS3AN5XKVPQLO63UCNSMBQJS5HFC337QPR3NQBZT4FYBZCIIZGHH4BLZEYQ3KH6GGNUZ53TA3CNUOMCTHDPG77EI347KKJYF7HKSPETC2PWDX4SY4MBLFIMVG5P43JSWFRYX66BUMMXKF3MDGRP44JJLOFQUOIWQVORVQQIIOZBVHVATOGBP4U7ZMHLDQDUNCN5G6VCK3UXSSTX6QK5NAEDZHVAMYZRCOWHBI7ALZSHSUSWVJRVQNV4ZBSRUIG6YD5VI3Y2XJ3OZA5L7FZVXWNOIFUHHRY6SXS6WVO277X4EXS4B3AHPPEXNPNSFJM7K7WCN727OTXEWUHZ7J6XBWHT57A2GRPWJMDUUQGCUWIWPRN4RH2KAOQLFVUVPZUQG3WNZSWAQXYFLMB7FG3MHWVWFIT6VF2LMCZOLEB3HL7IJMB6ODQU3DTW3AMWW5XWLCBELY7Z7TKWRUMQSS4JBN6AZDH6SPZF5ZDXBFODPELJZRHFS4PAVQTEKNWKOR3RAYYCIQHIFA4UNVM7JUQW54KJDIY3EEZIIHSB6VGSXF4MOURB5NPPDK54Q7ADW2SEIWI5O36QUQXV226RHF7BOKXRHSRPFBG4ADNQBVKHUDNQ2FT3O5CA325IYCC2G3TMNFNDWDBLRZL2B5HLRTWZIZMJVRGCUMAVRKJ4D3O4HLMHCVSBBXIT2NYNDABTOSZ5TGFUH4EVG7ZCXWWI3X7H5FLM3R7F3OGJIK5AHMJYCKUCAIHIFLWBGGW5REMV4WVK3AVXICSBD5ACEGUPFVMPSDHNOCPYRDQPYTOWF4N5IIC7UNSDHX6BTSERVGROSOD6J77N3GODTSLTZT7UDBSEPSL7FJZZ5FPBJNEEYMAAQHN6OCKUX7GNDYNC5SDG4LNK65CRHL7HEKKR6TAGQGCKMOBQ56SLGU5CSDIAJR7J72XRY3M4BPAZO2YAM4OZ66D5XZYHIUBZG4UZJV55JDXCNLTHYQKMHDF/SMTNEIVHSJ6FP5P4QGXGEV54OH.<unknown>(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-08-23 13:14:25.511
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ASUS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-08-23 13:48:49.316 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-08-23 13:49:00.815
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-08-23 13:49:14.253
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ASUS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-08-23 14:36:20.505 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-08-23 14:38:34.349
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-08-23 14:38:58.315
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ASUS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-08-23 18:14:30.779 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-08-23 18:14:39.871
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-08-23 18:14:51.841
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ASUS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-08-23 18:16:10.821 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\ASUS\drawpic -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-08-23 18:16:14.867
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-08-23 18:16:25.553
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ASUS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-08-23 18:18:49.914 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-08-23 18:18:56.529
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-08-23 18:19:07.864
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ASUS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-08-23 19:07:22.345 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-08-23 19:07:30.080
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-08-23 19:07:43.694
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ASUS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

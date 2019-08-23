@@ -1,0 +1,25 @@
+
+
+import java.awt.event.*;
+
+public class CutListener implements ActionListener {
+	MyFrame frame;
+	CanPaintLabel a;
+	AllMenu b;
+	public CutListener(MyFrame frame,CanPaintLabel a,AllMenu b) {
+		this.frame = frame;
+		this.a = a;
+		this.b = b;
+	}
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		// TODO Auto-generated method stub
+		frame.cutboard = a.teImage;
+		a.teImage = null;
+		a.gg = null;
+		a.updateUI();
+		b.allMenuItem[7].setEnabled(false);
+		b.allMenuItem[8].setEnabled(false);
+		b.allMenuItem[9].setEnabled(true);
+	}
+}
